@@ -1,0 +1,45 @@
+{
+  "name": "un-pas-pour-maman",
+  "version": "1.0.0",
+  "description": "Un pas pour maman — 556 km pour la SEP. Film documentaire cartographique.",
+  "repository": {},
+  "license": "UNLICENSED",
+  "engines": {
+    "node": "^20.19.0 || ^22.13.0 || >=24"
+  },
+  "private": true,
+  "dependencies": {
+    "@remotion/cli": "4.0.541",
+    "@remotion/fonts": "^4.0.541",
+    "@remotion/media": "^4.0.541",
+    "@remotion/media-utils": "^4.0.541",
+    "@turf/turf": "^7.4.0",
+    "fast-xml-parser": "^5.12.0",
+    "maplibre-gl": "^6.16.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.541"
+  },
+  "devDependencies": {
+    "@maplibre/maplibre-gl-native": "^6.4.1",
+    "@remotion/bundler": "^4.0.541",
+    "@remotion/eslint-config-flat": "4.0.541",
+    "@remotion/renderer": "^4.0.541",
+    "@types/react": "19.3.0",
+    "@types/web": "0.0.166",
+    "eslint": "10.12.0",
+    "prettier": "3.8.1",
+    "sharp": "^0.35.5",
+    "tsx": "^4.23.15",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "dev": "remotion studio",
+    "build": "remotion bundle",
+    "upgrade": "remotion upgrade",
+    "lint": "eslint src && tsc"
+  },
+  "allowScripts": {
+    "esbuild": false
+  }
+}

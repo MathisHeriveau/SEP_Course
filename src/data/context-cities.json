@@ -1,0 +1,202 @@
+[
+  {
+    "code": "75056",
+    "nom": "Paris",
+    "tier": 1,
+    "lonlat": [
+      2.3524859,
+      48.8563798
+    ],
+    "onRoute": false
+  },
+  {
+    "code": "33063",
+    "nom": "Bordeaux",
+    "tier": 1,
+    "lonlat": [
+      -0.5793789,
+      44.8378966
+    ],
+    "onRoute": false
+  },
+  {
+    "code": "44109",
+    "nom": "Nantes",
+    "tier": 1,
+    "lonlat": [
+      -1.5544993,
+      47.2183754
+    ],
+    "onRoute": false
+  },
+  {
+    "code": "35238",
+    "nom": "Rennes",
+    "tier": 2,
+    "lonlat": [
+      -1.6800502,
+      48.1113564
+    ],
+    "onRoute": false
+  },
+  {
+    "code": "31555",
+    "nom": "Toulouse",
+    "tier": 1,
+    "lonlat": [
+      1.4442199,
+      43.604597
+    ],
+    "onRoute": false
+  },
+  {
+    "code": "69123",
+    "nom": "Lyon",
+    "tier": 1,
+    "lonlat": [
+      4.8350347,
+      45.7676285
+    ],
+    "onRoute": false
+  },
+  {
+    "code": "17300",
+    "nom": "La Rochelle",
+    "tier": 2,
+    "lonlat": [
+      -1.1512975,
+      46.1596201
+    ],
+    "onRoute": false
+  },
+  {
+    "code": "79191",
+    "nom": "Niort",
+    "tier": 2,
+    "lonlat": [
+      -0.4648039,
+      46.323724
+    ],
+    "onRoute": false
+  },
+  {
+    "code": "86194",
+    "nom": "Poitiers",
+    "tier": 2,
+    "lonlat": [
+      0.3411515,
+      46.580132
+    ],
+    "onRoute": false
+  },
+  {
+    "code": "53130",
+    "nom": "Laval",
+    "tier": 2,
+    "lonlat": [
+      -0.7737339,
+      48.0706365
+    ],
+    "onRoute": false
+  },
+  {
+    "code": "72181",
+    "nom": "Le Mans",
+    "tier": 2,
+    "lonlat": [
+      0.1973509,
+      48.0074899
+    ],
+    "onRoute": false
+  },
+  {
+    "code": "37261",
+    "nom": "Tours",
+    "tier": 2,
+    "lonlat": [
+      0.6894457,
+      47.3908445
+    ],
+    "onRoute": false
+  },
+  {
+    "code": "49099",
+    "nom": "Cholet",
+    "tier": 3,
+    "lonlat": [
+      -0.8793293,
+      47.0591933
+    ],
+    "onRoute": false
+  },
+  {
+    "code": "16015",
+    "nom": "Angoulême",
+    "tier": 2,
+    "lonlat": [
+      0.1561239,
+      45.6484535
+    ],
+    "onRoute": false
+  },
+  {
+    "code": "85191",
+    "nom": "La Roche-sur-Yon",
+    "tier": 2,
+    "lonlat": [
+      -1.4290571,
+      46.6703514
+    ],
+    "onRoute": false
+  },
+  {
+    "code": "17299",
+    "nom": "Rochefort",
+    "tier": 3,
+    "lonlat": [
+      -0.9626936,
+      45.936763
+    ],
+    "onRoute": false
+  },
+  {
+    "code": "17306",
+    "nom": "Royan",
+    "tier": 3,
+    "lonlat": [
+      -1.0431849,
+      45.6229049
+    ],
+    "onRoute": false
+  },
+  {
+    "code": "33243",
+    "nom": "Libourne",
+    "tier": 3,
+    "lonlat": [
+      -0.2453464,
+      44.9144463
+    ],
+    "onRoute": false
+  },
+  {
+    "code": "33227",
+    "nom": "Langon",
+    "tier": 3,
+    "lonlat": [
+      -0.2448531,
+      44.5530105
+    ],
+    "onRoute": false
+  },
+  {
+    "code": "79049",
+    "nom": "Bressuire",
+    "tier": 3,
+    "lonlat": [
+      -0.493043,
+      46.8423614
+    ],
+    "onRoute": false
+  }
+]

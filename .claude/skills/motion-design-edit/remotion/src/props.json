@@ -1,0 +1,26 @@
+{
+  "videoSrc": "",
+  "broll": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 2.5,
+      "kind": "pr_card",
+      "prompt": "",
+      "reason": "Placeholder default props for Remotion Studio preview — render.sh overwrites this file on every real render.",
+      "source": "",
+      "headline": "Your headline here",
+      "eyebrow": "PLACEHOLDER"
+    }
+  ],
+  "zoom": [],
+  "captions": [],
+  "styles": {
+    "kenBurnsIntensity": 1.15,
+    "zoomEaseFrames": 8
+  },
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationInFrames": 75,
+  "prStyle": "paper"
+}

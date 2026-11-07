@@ -1,0 +1,25 @@
+{
+  "videoSrc": "",
+  "broll": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 2.5,
+      "kind": "hf_title",
+      "prompt": "",
+      "reason": "Placeholder default props for Remotion Studio preview — render.sh overwrites this file on every real render.",
+      "source": "",
+      "headline": "Your headline here",
+      "subhead": "Run render.sh against a real project to replace this"
+    }
+  ],
+  "zoom": [],
+  "captions": [],
+  "styles": {
+    "kenBurnsIntensity": 1.15,
+    "zoomEaseFrames": 8
+  },
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationInFrames": 75
+}

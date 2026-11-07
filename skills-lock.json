@@ -1,0 +1,236 @@
+{
+  "version": 1,
+  "skills": {
+    "acestep": {
+      "source": "digitalsamba/claude-code-video-toolkit",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/acestep/SKILL.md",
+      "computedHash": "e2ca199ef90d514cc20ec1a60ee5e3243a3682b38e24b7849a0f8196a9857c40",
+      "installMode": "copy"
+    },
+    "elevenlabs": {
+      "source": "digitalsamba/claude-code-video-toolkit",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/elevenlabs/SKILL.md",
+      "computedHash": "9d15dc0d0bc598ad186bae8e78fcca8c5d0b6be646aeaacedde708da42027bee",
+      "installMode": "copy"
+    },
+    "ffmpeg": {
+      "source": "digitalsamba/claude-code-video-toolkit",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/ffmpeg/SKILL.md",
+      "computedHash": "51fa05bc18bb2691e622aefd1d8ec6d4d96a9e9c44cdf599003c9d6003d11a07",
+      "installMode": "copy"
+    },
+    "ideogram4": {
+      "source": "digitalsamba/claude-code-video-toolkit",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/ideogram4/SKILL.md",
+      "computedHash": "d5818e8c2e59fe23bca681bfc380462770ee4c5d8804ba543e67160e55db9719",
+      "installMode": "copy"
+    },
+    "ltx2": {
+      "source": "digitalsamba/claude-code-video-toolkit",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/ltx2/SKILL.md",
+      "computedHash": "1e1e9a92a92ee4be484e2b4a8e5a4cfa306b2e471c21e0e0e1763e2e9f6ced6b",
+      "installMode": "copy"
+    },
+    "make-video": {
+      "source": "imtamiliniyan/claude-video-skills",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/make-video/SKILL.md",
+      "computedHash": "ca591d7c2086dfa51b6896df41394ea3acd50b01615b2a1daf60fab16b142ea4",
+      "installMode": "copy"
+    },
+    "motion-design-edit": {
+      "source": "imtamiliniyan/claude-video-skills",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/motion-design-edit/SKILL.md",
+      "computedHash": "5c185667cca4a9b1aa9e3e2cdedc2e63645441748dcac2d1d99648a36fc40538",
+      "installMode": "copy"
+    },
+    "moviepy": {
+      "source": "digitalsamba/claude-code-video-toolkit",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/moviepy/SKILL.md",
+      "computedHash": "c12930bd1e0b75e04e5595267ad24603dac7349c3ae933b759de068d77de96ef",
+      "installMode": "copy"
+    },
+    "playwright-recording": {
+      "source": "digitalsamba/claude-code-video-toolkit",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/playwright-recording/SKILL.md",
+      "computedHash": "65dd7d4d2097a5ee137ee9a9ab9ced260d98d8728611fa70c6d8ba7d3c21f1e1",
+      "installMode": "copy"
+    },
+    "qwen-edit": {
+      "source": "digitalsamba/claude-code-video-toolkit",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/qwen-edit/SKILL.md",
+      "computedHash": "1d7a11b710516a7440471fff434246d749f5fc6be8f16fe54c8b332e655683ec",
+      "installMode": "copy"
+    },
+    "reel-script": {
+      "source": "imtamiliniyan/claude-video-skills",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/reel-script/SKILL.md",
+      "computedHash": "ea6b5e67a145ef0840b3f442980ead563404917934a8f85bbf487dae7cb59894",
+      "installMode": "copy"
+    },
+    "remotion": {
+      "source": "digitalsamba/claude-code-video-toolkit",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/remotion/SKILL.md",
+      "computedHash": "0bf2946c95cb84ed570420ecadd99b60f0791e4ad7dc3869f5c2774706bf146d",
+      "installMode": "copy"
+    },
+    "remotion-best-practices": {
+      "source": "remotion-dev/skills",
+      "sourceType": "github",
+      "skillPath": "skills/remotion-best-practices/SKILL.md",
+      "computedHash": "9a4c0a0f9e3cc4613cbe351bb6be48568eb1cca0b06995aeae9e91292102aa16",
+      "installMode": "copy"
+    },
+    "remotion-captions": {
+      "source": "remotion-dev/skills",
+      "sourceType": "github",
+      "skillPath": "skills/remotion-captions/SKILL.md",
+      "computedHash": "83e853f96f4f10526c166944f2bdb1752ee28d6bf1ddd9532b899c4d05228c2a",
+      "installMode": "copy"
+    },
+    "remotion-create": {
+      "source": "remotion-dev/skills",
+      "sourceType": "github",
+      "skillPath": "skills/remotion-create/SKILL.md",
+      "computedHash": "83db7daec2165d1e1801e7e279a815baf84da5705302952b6b4af6c6887f9c56",
+      "installMode": "copy"
+    },
+    "remotion-docs": {
+      "source": "remotion-dev/skills",
+      "sourceType": "github",
+      "skillPath": "skills/remotion-docs/SKILL.md",
+      "computedHash": "4ded99e054724106ef15d64051f9b2d6d52d1afb7b31cd48f39e75624036051c",
+      "installMode": "copy"
+    },
+    "remotion-interactivity": {
+      "source": "remotion-dev/skills",
+      "sourceType": "github",
+      "skillPath": "skills/remotion-interactivity/SKILL.md",
+      "computedHash": "f595a3fd64971123a776e77690a723599ca2f48f7f96539835bab352d058066c",
+      "installMode": "copy"
+    },
+    "remotion-license": {
+      "source": "remotion-dev/skills",
+      "sourceType": "github",
+      "skillPath": "skills/remotion-license/SKILL.md",
+      "computedHash": "1a38caa7aa9c6e12956b415ccc0ecd445672ce72a769e29d0cf6557289dad5e7",
+      "installMode": "copy"
+    },
+    "remotion-maps": {
+      "source": "remotion-dev/skills",
+      "sourceType": "github",
+      "skillPath": "skills/remotion-maps/SKILL.md",
+      "computedHash": "cd5c20dc2d35fa5c52bcfa04d1d67b343f1ddc9f5561aa5b2a10884db8f4bcd4",
+      "installMode": "copy"
+    },
+    "remotion-markup": {
+      "source": "remotion-dev/skills",
+      "sourceType": "github",
+      "skillPath": "skills/remotion-markup/SKILL.md",
+      "computedHash": "387d42cfbfe5acd1a2a85c3a2f0fe79b67272bc33ff98edf10c75634e87492c8",
+      "installMode": "copy"
+    },
+    "remotion-motion-graphics": {
+      "source": "JulianVolodia/claudestory_claude-remotion-skill",
+      "sourceType": "github",
+      "skillPath": "remotion-motion-graphics/SKILL.md",
+      "computedHash": "f3557d026c87e290d2c10376e49e043086f657ac8d5eb261ac07e9c8cf423e21",
+      "installMode": "copy"
+    },
+    "remotion-multimedia": {
+      "source": "remotion-dev/skills",
+      "sourceType": "github",
+      "skillPath": "skills/remotion-multimedia/SKILL.md",
+      "computedHash": "7ec158220d479a68b11b7fb593c8f0b777c0da44c6bf4a4d45a87abbdc31926d",
+      "installMode": "copy"
+    },
+    "remotion-render": {
+      "source": "remotion-dev/skills",
+      "sourceType": "github",
+      "skillPath": "skills/remotion-render/SKILL.md",
+      "computedHash": "1f82f35a2fd50b597d4f77cf87b0268b0e8047277a123b680e046991070b4126",
+      "installMode": "copy"
+    },
+    "remotion-saas": {
+      "source": "remotion-dev/skills",
+      "sourceType": "github",
+      "skillPath": "skills/remotion-saas/SKILL.md",
+      "computedHash": "4dcc6bb72f2b5eab548640b5188295221796053148ce87defc9e480e7498b916",
+      "installMode": "copy"
+    },
+    "remotion-studio": {
+      "source": "remotion-dev/skills",
+      "sourceType": "github",
+      "skillPath": "skills/remotion-studio/SKILL.md",
+      "computedHash": "d65d0933b789017f33aea95d1f450e4b0873a7102a09e104729862fb1146b775",
+      "installMode": "copy"
+    },
+    "remotion-upgrade": {
+      "source": "remotion-dev/skills",
+      "sourceType": "github",
+      "skillPath": "skills/remotion-upgrade/SKILL.md",
+      "computedHash": "461016a20e42475c18319365c8b1dc50efbb86da31e5d3dddd7b150c493e8ff7",
+      "installMode": "copy"
+    },
+    "runpod": {
+      "source": "digitalsamba/claude-code-video-toolkit",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/runpod/SKILL.md",
+      "computedHash": "03f9cbd8a2656ead4ac8e02be812f57aff63c2a804a8790f19b7716e621ae9af",
+      "installMode": "copy"
+    },
+    "synthetic-ui-demo": {
+      "source": "digitalsamba/claude-code-video-toolkit",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/synthetic-ui-demo/SKILL.md",
+      "computedHash": "8f37235d31fa297e60ad409b76d9fc09e3d04417c9d2e89ead8af8974d14a9c6",
+      "installMode": "copy"
+    },
+    "video-design": {
+      "source": "digitalsamba/claude-code-video-toolkit",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/video-design/SKILL.md",
+      "computedHash": "94ca0d94af11df68a6d3832fea4c871109f2659117e8a26ba8391bf4e38098db",
+      "installMode": "copy"
+    },
+    "video-edit": {
+      "source": "imtamiliniyan/claude-video-skills",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/video-edit/SKILL.md",
+      "computedHash": "9c392f4ea9410d2a6d1f3fbf47b5b607483c5d44ad60b1dbf4a6afba9ac178d4",
+      "installMode": "copy"
+    },
+    "video-edit-longform": {
+      "source": "imtamiliniyan/claude-video-skills",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/video-edit-longform/SKILL.md",
+      "computedHash": "6eba8c6c6364886070b742f51119cf2aa02e3d6d6062479d5b427ba30df9a0fc",
+      "installMode": "copy"
+    },
+    "video-shotcraft": {
+      "source": "Vincentwei1021/video-shotcraft",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "6cfdaf39a61de80067414e3225c7ac31bcc784ef7dfe2e2042ea03caeca81622",
+      "installMode": "copy"
+    },
+    "video_toolkit": {
+      "source": "digitalsamba/claude-code-video-toolkit",
+      "sourceType": "github",
+      "skillPath": "skills/video-toolkit/SKILL.md",
+      "computedHash": "d7d871c7792a5e8ec0b1f856c8e2aaf22a8cf72fc6ca08e41c1dedfc2caba867",
+      "installMode": "copy"
+    }
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "generatedAt": "2026-11-07T09:57:53.533Z",
+  "source": "cadastre.data.gouv.fr — etalab-cadastre latest (limites communales DGFiP)",
+  "thresholdM": 50,
+  "results": [
+    {
+      "code": "33205",
+      "nom": "Illats",
+      "adminExpress": {
+        "insideLengthM": 211.2,
+        "maxDepthM": 2.8,
+        "passages": 3,
+        "entryKm": 16.404
+      },
+      "cadastre": {
+        "insideLengthM": 121.3,
+        "maxDepthM": 1.7,
+        "passages": 2
+      }
+    },
+    {
+      "code": "33483",
+      "nom": "Saint-Sulpice-et-Cameyrac",
+      "adminExpress": {
+        "insideLengthM": 210.5,
+        "maxDepthM": 2.4,
+        "passages": 4,
+        "entryKm": 62.736
+      },
+      "cadastre": {
+        "insideLengthM": 189.7,
+        "maxDepthM": 5.8,
+        "passages": 3
+      }
+    },
+    {
+      "code": "33425",
+      "nom": "Saint-Laurent-d'Arce",
+      "adminExpress": {
+        "insideLengthM": 173.4,
+        "maxDepthM": 8.5,
+        "passages": 2,
+        "entryKm": 86.349
+      },
+      "cadastre": {
+        "insideLengthM": 207,
+        "maxDepthM": 14.3,
+        "passages": 2
+      }
+    },
+    {
+      "code": "17199",
+      "nom": "Jussas",
+      "adminExpress": {
+        "insideLengthM": 960.4,
+        "maxDepthM": 3.4,
+        "passages": 5,
+        "entryKm": 118.022
+      },
+      "cadastre": {
+        "insideLengthM": 926.2,
+        "maxDepthM": 6,
+        "passages": 6
+      }
+    },
+    {
+      "code": "17081",
+      "nom": "Chamouillac",
+      "adminExpress": {
+        "insideLengthM": 39.6,
+        "maxDepthM": 1.1,
+        "passages": 1,
+        "entryKm": 127.25
+      },
+      "cadastre": {
+        "insideLengthM": 46.2,
+        "maxDepthM": 3,
+        "passages": 1
+      }
+    },
+    {
+      "code": "17345",
+      "nom": "Saint-Hilaire-du-Bois",
+      "adminExpress": {
+        "insideLengthM": 8.6,
+        "maxDepthM": 0.5,
+        "passages": 1,
+        "entryKm": 142.086
+      },
+      "cadastre": {
+        "insideLengthM": 0,
+        "maxDepthM": 0,
+        "passages": 0
+      }
+    },
+    {
+      "code": "17220",
+      "nom": "Marignac",
+      "adminExpress": {
+        "insideLengthM": 1913,
+        "maxDepthM": 22.6,
+        "passages": 6,
+        "entryKm": 157.089
+      },
+      "cadastre": {
+        "insideLengthM": 1923.3,
+        "maxDepthM": 9.8,
+        "passages": 6
+      }
+    },
+    {
+      "code": "17159",
+      "nom": "Fléac-sur-Seugne",
+      "adminExpress": {
+        "insideLengthM": 544.7,
+        "maxDepthM": 4.2,
+        "passages": 10,
+        "entryKm": 159.263
+      },
+      "cadastre": {
+        "insideLengthM": 788.4,
+        "maxDepthM": 9.5,
+        "passages": 6
+      }
+    },
+    {
+      "code": "17053",
+      "nom": "Bords",
+      "adminExpress": {
+        "insideLengthM": 428.6,
+        "maxDepthM": 2,
+        "passages": 4,
+        "entryKm": 222.728
+      },
+      "cadastre": {
+        "insideLengthM": 233.3,
+        "maxDepthM": 1.5,
+        "passages": 5
+      }
+    },
+    {
+      "code": "17482",
+      "nom": "Vouhé",
+      "adminExpress": {
+        "insideLengthM": 359,
+        "maxDepthM": 1.6,
+        "passages": 5,
+        "entryKm": 262.304
+      },
+      "cadastre": {
+        "insideLengthM": 294.5,
+        "maxDepthM": 1.1,
+        "passages": 6
+      }
+    },
+    {
+      "code": "17396",
+      "nom": "Saint-Sauveur-d'Aunis",
+      "adminExpress": {
+        "insideLengthM": 925.7,
+        "maxDepthM": 6.1,
+        "passages": 16,
+        "entryKm": 270.635
+      },
+      "cadastre": {
+        "insideLengthM": 943.9,
+        "maxDepthM": 6.6,
+        "passages": 14
+      }
+    },
+    {
+      "code": "17322",
+      "nom": "Saint-Cyr-du-Doret",
+      "adminExpress": {
+        "insideLengthM": 213.3,
+        "maxDepthM": 2.4,
+        "passages": 2,
+        "entryKm": 276.256
+      },
+      "cadastre": {
+        "insideLengthM": 319.4,
+        "maxDepthM": 2.9,
+        "passages": 3
+      }
+    },
+    {
+      "code": "85303",
+      "nom": "Vix",
+      "adminExpress": {
+        "insideLengthM": 26.6,
+        "maxDepthM": 0.6,
+        "passages": 3,
+        "entryKm": 291.208
+      },
+      "cadastre": {
+        "insideLengthM": 0,
+        "maxDepthM": 0,
+        "passages": 0
+      }
+    },
+    {
+      "code": "49195",
+      "nom": "Mazières-en-Mauges",
+      "adminExpress": {
+        "insideLengthM": 722.9,
+        "maxDepthM": 49.3,
+        "passages": 3,
+        "entryKm": 404.96
+      },
+      "cadastre": {
+        "insideLengthM": 646.5,
+        "maxDepthM": 38.6,
+        "passages": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,909 @@
+{
+  "fps": 30,
+  "durationSec": 190,
+  "timeline": {
+    "line1": [
+      1.6,
+      7.4
+    ],
+    "line2a": [
+      8,
+      14.6
+    ],
+    "line2b": [
+      9.6,
+      14.6
+    ],
+    "title": [
+      15.2,
+      21.6
+    ],
+    "mapIn": [
+      19.6,
+      23
+    ],
+    "overview": [
+      19.6,
+      26.5
+    ],
+    "ghostRoute": [
+      21.4,
+      24.6
+    ],
+    "overviewTitle": [
+      22.4,
+      27.4
+    ],
+    "flyToStart": [
+      26.5,
+      34
+    ],
+    "departCard": [
+      32.6,
+      41
+    ],
+    "journey": [
+      40,
+      136
+    ],
+    "arrivalCard": [
+      136,
+      147
+    ],
+    "pullBack": [
+      146,
+      153.5
+    ],
+    "statsCard": [
+      152,
+      160.5
+    ],
+    "credits": [
+      160,
+      171.5
+    ],
+    "finalText": [
+      171,
+      182.5
+    ],
+    "titleEnd": [
+      182,
+      189.5
+    ],
+    "end": 190
+  },
+  "communes": [
+    {
+      "t": 40,
+      "code": "33307",
+      "nom": "Noaillan",
+      "waypoint": false
+    },
+    {
+      "t": 47.016,
+      "code": "33237",
+      "nom": "Léogeats",
+      "waypoint": false
+    },
+    {
+      "t": 49.013,
+      "code": "33504",
+      "nom": "Sauternes",
+      "waypoint": false
+    },
+    {
+      "t": 49.606,
+      "code": "33060",
+      "nom": "Bommes",
+      "waypoint": false
+    },
+    {
+      "t": 50.105,
+      "code": "33343",
+      "nom": "Pujols-sur-Ciron",
+      "waypoint": false
+    },
+    {
+      "t": 51.25,
+      "code": "33030",
+      "nom": "Barsac",
+      "waypoint": false
+    },
+    {
+      "t": 51.676,
+      "code": "33120",
+      "nom": "Cérons",
+      "waypoint": false
+    },
+    {
+      "t": 51.899,
+      "code": "33081",
+      "nom": "Cadillac-sur-Garonne",
+      "waypoint": false
+    },
+    {
+      "t": 52.001,
+      "code": "33040",
+      "nom": "Béguey",
+      "waypoint": false
+    },
+    {
+      "t": 52.496,
+      "code": "33355",
+      "nom": "Rions",
+      "waypoint": false
+    },
+    {
+      "t": 52.939,
+      "code": "33311",
+      "nom": "Paillet",
+      "waypoint": false
+    },
+    {
+      "t": 53.155,
+      "code": "33241",
+      "nom": "Lestiac-sur-Garonne",
+      "waypoint": false
+    },
+    {
+      "t": 53.253,
+      "code": "33226",
+      "nom": "Langoiran",
+      "waypoint": false
+    },
+    {
+      "t": 53.788,
+      "code": "33201",
+      "nom": "Haux",
+      "waypoint": false
+    },
+    {
+      "t": 54.495,
+      "code": "33140",
+      "nom": "Créon",
+      "waypoint": false
+    },
+    {
+      "t": 54.718,
+      "code": "33363",
+      "nom": "Sadirac",
+      "waypoint": false
+    },
+    {
+      "t": 54.888,
+      "code": "33335",
+      "nom": "Le Pout",
+      "waypoint": false
+    },
+    {
+      "t": 55.131,
+      "code": "33145",
+      "nom": "Cursan",
+      "waypoint": false
+    },
+    {
+      "t": 55.395,
+      "code": "33141",
+      "nom": "Croignon",
+      "waypoint": false
+    },
+    {
+      "t": 56.164,
+      "code": "33413",
+      "nom": "Saint-Germain-du-Puch",
+      "waypoint": false
+    },
+    {
+      "t": 57.335,
+      "code": "33049",
+      "nom": "Beychac-et-Caillau",
+      "waypoint": true
+    },
+    {
+      "t": 58.937,
+      "code": "33293",
+      "nom": "Montussan",
+      "waypoint": false
+    },
+    {
+      "t": 59.581,
+      "code": "33433",
+      "nom": "Saint-Loubès",
+      "waypoint": false
+    },
+    {
+      "t": 60.364,
+      "code": "33487",
+      "nom": "Saint-Vincent-de-Paul",
+      "waypoint": false
+    },
+    {
+      "t": 60.539,
+      "code": "33143",
+      "nom": "Cubzac-les-Ponts",
+      "waypoint": false
+    },
+    {
+      "t": 60.945,
+      "code": "33366",
+      "nom": "Saint-André-de-Cubzac",
+      "waypoint": false
+    },
+    {
+      "t": 61.242,
+      "code": "33415",
+      "nom": "Saint-Gervais",
+      "waypoint": false
+    },
+    {
+      "t": 61.408,
+      "code": "33553",
+      "nom": "Virsac",
+      "waypoint": false
+    },
+    {
+      "t": 61.62,
+      "code": "33321",
+      "nom": "Peujard",
+      "waypoint": false
+    },
+    {
+      "t": 61.999,
+      "code": "33142",
+      "nom": "Cubnezais",
+      "waypoint": false
+    },
+    {
+      "t": 62.203,
+      "code": "33123",
+      "nom": "Cézac",
+      "waypoint": false
+    },
+    {
+      "t": 62.543,
+      "code": "33439",
+      "nom": "Saint-Mariens",
+      "waypoint": false
+    },
+    {
+      "t": 62.774,
+      "code": "33492",
+      "nom": "Saint-Yzan-de-Soudiac",
+      "waypoint": false
+    },
+    {
+      "t": 62.465,
+      "code": "33473",
+      "nom": "Saint-Savin",
+      "waypoint": false
+    },
+    {
+      "t": 63.481,
+      "code": "17074",
+      "nom": "Bussac-Forêt",
+      "waypoint": false
+    },
+    {
+      "t": 64.07,
+      "code": "17118",
+      "nom": "Corignac",
+      "waypoint": false
+    },
+    {
+      "t": 65.303,
+      "code": "17240",
+      "nom": "Montendre",
+      "waypoint": true
+    },
+    {
+      "t": 65.963,
+      "code": "17432",
+      "nom": "Souméras",
+      "waypoint": false
+    },
+    {
+      "t": 65.826,
+      "code": "17130",
+      "nom": "Coux",
+      "waypoint": false
+    },
+    {
+      "t": 66.858,
+      "code": "17305",
+      "nom": "Rouffignac",
+      "waypoint": false
+    },
+    {
+      "t": 67.24,
+      "code": "17476",
+      "nom": "Villexavier",
+      "waypoint": false
+    },
+    {
+      "t": 67.42,
+      "code": "17002",
+      "nom": "Agudelle",
+      "waypoint": false
+    },
+    {
+      "t": 67.557,
+      "code": "17403",
+      "nom": "Saint-Simon-de-Bordes",
+      "waypoint": false
+    },
+    {
+      "t": 68.113,
+      "code": "17339",
+      "nom": "Saint-Germain-de-Lusignan",
+      "waypoint": false
+    },
+    {
+      "t": 68.51,
+      "code": "17111",
+      "nom": "Clion",
+      "waypoint": false
+    },
+    {
+      "t": 68.677,
+      "code": "17332",
+      "nom": "Saint-Georges-Antignac",
+      "waypoint": false
+    },
+    {
+      "t": 68.851,
+      "code": "17343",
+      "nom": "Saint-Grégoire-d'Ardennes",
+      "waypoint": false
+    },
+    {
+      "t": 69.333,
+      "code": "17027",
+      "nom": "Avy",
+      "waypoint": false
+    },
+    {
+      "t": 69.781,
+      "code": "17283",
+      "nom": "Pons",
+      "waypoint": false
+    },
+    {
+      "t": 70.33,
+      "code": "17354",
+      "nom": "Saint-Léger",
+      "waypoint": false
+    },
+    {
+      "t": 70.607,
+      "code": "17044",
+      "nom": "Berneuil",
+      "waypoint": false
+    },
+    {
+      "t": 70.906,
+      "code": "17289",
+      "nom": "Préguillac",
+      "waypoint": false
+    },
+    {
+      "t": 70.944,
+      "code": "17444",
+      "nom": "Thénac",
+      "waypoint": false
+    },
+    {
+      "t": 71.421,
+      "code": "17179",
+      "nom": "Les Gonds",
+      "waypoint": false
+    },
+    {
+      "t": 72.093,
+      "code": "17415",
+      "nom": "Saintes",
+      "waypoint": true
+    },
+    {
+      "t": 73.553,
+      "code": "17148",
+      "nom": "Écurat",
+      "waypoint": false
+    },
+    {
+      "t": 74.115,
+      "code": "17285",
+      "nom": "Port-d'Envaux",
+      "waypoint": false
+    },
+    {
+      "t": 74.453,
+      "code": "17134",
+      "nom": "Crazannes",
+      "waypoint": false
+    },
+    {
+      "t": 74.618,
+      "code": "17252",
+      "nom": "Le Mung",
+      "waypoint": false
+    },
+    {
+      "t": 74.825,
+      "code": "17397",
+      "nom": "Saint-Savinien",
+      "waypoint": false
+    },
+    {
+      "t": 75.66,
+      "code": "17085",
+      "nom": "Champdolent",
+      "waypoint": false
+    },
+    {
+      "t": 75.923,
+      "code": "17292",
+      "nom": "Puy-du-Lac",
+      "waypoint": false
+    },
+    {
+      "t": 75.973,
+      "code": "17320",
+      "nom": "Saint-Coutant-le-Grand",
+      "waypoint": false
+    },
+    {
+      "t": 76.147,
+      "code": "17448",
+      "nom": "Tonnay-Boutonne",
+      "waypoint": false
+    },
+    {
+      "t": 76.45,
+      "code": "17321",
+      "nom": "Saint-Crépin",
+      "waypoint": false
+    },
+    {
+      "t": 76.575,
+      "code": "17012",
+      "nom": "Annezay",
+      "waypoint": false
+    },
+    {
+      "t": 77.825,
+      "code": "17457",
+      "nom": "La Devise",
+      "waypoint": false
+    },
+    {
+      "t": 76.989,
+      "code": "17063",
+      "nom": "Breuil-la-Réorte",
+      "waypoint": false
+    },
+    {
+      "t": 77.368,
+      "code": "17359",
+      "nom": "Saint-Mard",
+      "waypoint": false
+    },
+    {
+      "t": 78.246,
+      "code": "17434",
+      "nom": "Surgères",
+      "waypoint": true
+    },
+    {
+      "t": 79.541,
+      "code": "17293",
+      "nom": "Puyravault",
+      "waypoint": false
+    },
+    {
+      "t": 79.988,
+      "code": "17057",
+      "nom": "Bouhet",
+      "waypoint": false
+    },
+    {
+      "t": 80.197,
+      "code": "17186",
+      "nom": "Le Gué-d'Alleré",
+      "waypoint": false
+    },
+    {
+      "t": 80.405,
+      "code": "17041",
+      "nom": "Benon",
+      "waypoint": false
+    },
+    {
+      "t": 80.617,
+      "code": "17158",
+      "nom": "Ferrières",
+      "waypoint": false
+    },
+    {
+      "t": 80.965,
+      "code": "17349",
+      "nom": "Saint-Jean-de-Liversay",
+      "waypoint": false
+    },
+    {
+      "t": 81.413,
+      "code": "17439",
+      "nom": "Taugon",
+      "waypoint": false
+    },
+    {
+      "t": 82.101,
+      "code": "85132",
+      "nom": "Maillé",
+      "waypoint": false
+    },
+    {
+      "t": 82.632,
+      "code": "85133",
+      "nom": "Maillezais",
+      "waypoint": false
+    },
+    {
+      "t": 82.783,
+      "code": "85265",
+      "nom": "Saint-Pierre-le-Vieux",
+      "waypoint": false
+    },
+    {
+      "t": 83.304,
+      "code": "85244",
+      "nom": "Saint-Martin-de-Fraigneau",
+      "waypoint": false
+    },
+    {
+      "t": 84.349,
+      "code": "85092",
+      "nom": "Fontenay-le-Comte",
+      "waypoint": true
+    },
+    {
+      "t": 85.422,
+      "code": "85176",
+      "nom": "Pissotte",
+      "waypoint": false
+    },
+    {
+      "t": 85.857,
+      "code": "85143",
+      "nom": "Mervent",
+      "waypoint": false
+    },
+    {
+      "t": 86.354,
+      "code": "85305",
+      "nom": "Vouvant",
+      "waypoint": false
+    },
+    {
+      "t": 87.001,
+      "code": "85292",
+      "nom": "Rives-du-Fougerais",
+      "waypoint": false
+    },
+    {
+      "t": 87.164,
+      "code": "85252",
+      "nom": "Saint-Maurice-le-Girard",
+      "waypoint": false
+    },
+    {
+      "t": 87.405,
+      "code": "85067",
+      "nom": "Cheffois",
+      "waypoint": false
+    },
+    {
+      "t": 87.562,
+      "code": "85154",
+      "nom": "Mouilleron-Saint-Germain",
+      "waypoint": false
+    },
+    {
+      "t": 88.035,
+      "code": "85187",
+      "nom": "Réaumur",
+      "waypoint": false
+    },
+    {
+      "t": 88.262,
+      "code": "85140",
+      "nom": "La Meilleraie-Tillay",
+      "waypoint": false
+    },
+    {
+      "t": 88.69,
+      "code": "85182",
+      "nom": "Pouzauges",
+      "waypoint": false
+    },
+    {
+      "t": 88.701,
+      "code": "85090",
+      "nom": "Sèvremont",
+      "waypoint": false
+    },
+    {
+      "t": 89.476,
+      "code": "79183",
+      "nom": "Montravers",
+      "waypoint": false
+    },
+    {
+      "t": 89.772,
+      "code": "79235",
+      "nom": "Saint-Amand-sur-Sèvre",
+      "waypoint": false
+    },
+    {
+      "t": 90.003,
+      "code": "79207",
+      "nom": "La Petite-Boissière",
+      "waypoint": false
+    },
+    {
+      "t": 91.268,
+      "code": "79079",
+      "nom": "Mauléon",
+      "waypoint": true
+    },
+    {
+      "t": 92.813,
+      "code": "79289",
+      "nom": "Saint-Pierre-des-Échaubrognes",
+      "waypoint": false
+    },
+    {
+      "t": 92.994,
+      "code": "49192",
+      "nom": "Maulévrier",
+      "waypoint": false
+    },
+    {
+      "t": 93.593,
+      "code": "49352",
+      "nom": "Toutlemonde",
+      "waypoint": false
+    },
+    {
+      "t": 94.119,
+      "code": "49231",
+      "nom": "Nuaillé",
+      "waypoint": false
+    },
+    {
+      "t": 93.584,
+      "code": "49195",
+      "nom": "Mazières-en-Mauges",
+      "waypoint": false
+    },
+    {
+      "t": 94.385,
+      "code": "49355",
+      "nom": "Trémentines",
+      "waypoint": false
+    },
+    {
+      "t": 95.626,
+      "code": "49092",
+      "nom": "Chemillé-en-Anjou",
+      "waypoint": false
+    },
+    {
+      "t": 97.505,
+      "code": "49244",
+      "nom": "Mauges-sur-Loire",
+      "waypoint": false
+    },
+    {
+      "t": 98.372,
+      "code": "49063",
+      "nom": "Chalonnes-sur-Loire",
+      "waypoint": true
+    },
+    {
+      "t": 99.402,
+      "code": "49283",
+      "nom": "Saint-Georges-sur-Loire",
+      "waypoint": false
+    },
+    {
+      "t": 100.155,
+      "code": "49247",
+      "nom": "La Possonnière",
+      "waypoint": false
+    },
+    {
+      "t": 100.415,
+      "code": "49329",
+      "nom": "Savennières",
+      "waypoint": false
+    },
+    {
+      "t": 101.124,
+      "code": "49035",
+      "nom": "Bouchemaine",
+      "waypoint": false
+    },
+    {
+      "t": 101.73,
+      "code": "49007",
+      "nom": "Angers",
+      "waypoint": false
+    },
+    {
+      "t": 102.313,
+      "code": "49015",
+      "nom": "Avrillé",
+      "waypoint": false
+    },
+    {
+      "t": 102.652,
+      "code": "49214",
+      "nom": "Montreuil-Juigné",
+      "waypoint": false
+    },
+    {
+      "t": 103.073,
+      "code": "49135",
+      "nom": "Feneu",
+      "waypoint": false
+    },
+    {
+      "t": 103.524,
+      "code": "49200",
+      "nom": "Longuenée-en-Anjou",
+      "waypoint": false
+    },
+    {
+      "t": 104.079,
+      "code": "49155",
+      "nom": "Grez-Neuville",
+      "waypoint": false
+    },
+    {
+      "t": 105.585,
+      "code": "49176",
+      "nom": "Le Lion-d'Angers",
+      "waypoint": true
+    },
+    {
+      "t": 106.596,
+      "code": "49217",
+      "nom": "Montreuil-sur-Maine",
+      "waypoint": false
+    },
+    {
+      "t": 107.518,
+      "code": "49064",
+      "nom": "Chambellay",
+      "waypoint": false
+    },
+    {
+      "t": 108.06,
+      "code": "49161",
+      "nom": "La Jaille-Yvon",
+      "waypoint": false
+    },
+    {
+      "t": 109.287,
+      "code": "53150",
+      "nom": "Ménil",
+      "waypoint": false
+    },
+    {
+      "t": 111.445,
+      "code": "53062",
+      "nom": "Château-Gontier-sur-Mayenne",
+      "waypoint": true
+    },
+    {
+      "t": 113.703,
+      "code": "53136",
+      "nom": "La Roche-Neuville",
+      "waypoint": false
+    },
+    {
+      "t": 114.829,
+      "code": "53117",
+      "nom": "Houssay",
+      "waypoint": false
+    },
+    {
+      "t": 116.401,
+      "code": "53186",
+      "nom": "Quelaines-Saint-Gault",
+      "waypoint": false
+    },
+    {
+      "t": 119.662,
+      "code": "53011",
+      "nom": "Astillé",
+      "waypoint": false
+    },
+    {
+      "t": 121.679,
+      "code": "53082",
+      "nom": "Courbeveille",
+      "waypoint": false
+    },
+    {
+      "t": 133.787,
+      "code": "53077",
+      "nom": "Cossé-le-Vivien",
+      "waypoint": false
+    }
+  ],
+  "waypoints": [
+    {
+      "t": 57.78,
+      "nom": "Beychac-et-Caillau"
+    },
+    {
+      "t": 65.415,
+      "nom": "Montendre"
+    },
+    {
+      "t": 72.528,
+      "nom": "Saintes"
+    },
+    {
+      "t": 78.42,
+      "nom": "Surgères"
+    },
+    {
+      "t": 84.448,
+      "nom": "Fontenay-le-Comte"
+    },
+    {
+      "t": 91.303,
+      "nom": "Mauléon"
+    },
+    {
+      "t": 98.299,
+      "nom": "Chalonnes-sur-Loire"
+    },
+    {
+      "t": 105.417,
+      "nom": "Le Lion-d'Angers"
+    },
+    {
+      "t": 111.529,
+      "nom": "Château-Gontier-sur-Mayenne"
+    }
+  ],
+  "departements": [
+    {
+      "t": 40,
+      "nom": "Gironde"
+    },
+    {
+      "t": 63.277,
+      "nom": "Charente-Maritime"
+    },
+    {
+      "t": 81.833,
+      "nom": "Vendée"
+    },
+    {
+      "t": 89.481,
+      "nom": "Deux-Sèvres"
+    },
+    {
+      "t": 92.85,
+      "nom": "Maine-et-Loire"
+    },
+    {
+      "t": 108.273,
+      "nom": "Mayenne"
+    }
+  ]
+}

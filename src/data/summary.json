@@ -1,0 +1,47 @@
+{
+  "totalKmGpx": 561.304,
+  "totalKmGpxHaversine": 560.828,
+  "totalKmCommunication": 556,
+  "communesTraversees": 128,
+  "communesLimite": 13,
+  "departements": [
+    {
+      "code": "33",
+      "nom": "Gironde"
+    },
+    {
+      "code": "17",
+      "nom": "Charente-Maritime"
+    },
+    {
+      "code": "85",
+      "nom": "Vendée"
+    },
+    {
+      "code": "79",
+      "nom": "Deux-Sèvres"
+    },
+    {
+      "code": "49",
+      "nom": "Maine-et-Loire"
+    },
+    {
+      "code": "53",
+      "nom": "Mayenne"
+    }
+  ],
+  "start": {
+    "lonlat": [
+      -0.366451945155859,
+      44.49051699601114
+    ],
+    "commune": "Noaillan"
+  },
+  "end": {
+    "lonlat": [
+      -0.9111517667770386,
+      47.94355667196214
+    ],
+    "commune": "Cossé-le-Vivien"
+  }
+}

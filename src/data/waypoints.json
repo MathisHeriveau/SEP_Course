@@ -1,0 +1,92 @@
+[
+  {
+    "gpxName": "Beychac",
+    "gpxComment": null,
+    "lon": -0.37850252352655,
+    "lat": 44.87681862898171,
+    "km": 59.747,
+    "communeCode": "33049",
+    "communeNom": "Beychac-et-Caillau",
+    "departement": "33"
+  },
+  {
+    "gpxName": "Montendre",
+    "gpxComment": null,
+    "lon": -0.40879723615944,
+    "lat": 45.28692436404526,
+    "km": 123.626,
+    "communeCode": "17240",
+    "communeNom": "Montendre",
+    "departement": "17"
+  },
+  {
+    "gpxName": "Saintes",
+    "gpxComment": null,
+    "lon": -0.63912372789168,
+    "lat": 45.74808791824164,
+    "km": 194.77,
+    "communeCode": "17415",
+    "communeNom": "Saintes",
+    "departement": "17"
+  },
+  {
+    "gpxName": "Surgères",
+    "gpxComment": null,
+    "lon": -0.75494527816772,
+    "lat": 46.10901832580566,
+    "km": 254.632,
+    "communeCode": "17434",
+    "communeNom": "Surgères",
+    "departement": "17"
+  },
+  {
+    "gpxName": "Fontenay-le-C",
+    "gpxComment": null,
+    "lon": -0.80889975652099,
+    "lat": 46.46744803525507,
+    "km": 316.164,
+    "communeCode": "85092",
+    "communeNom": "Fontenay-le-Comte",
+    "departement": "85"
+  },
+  {
+    "gpxName": "Mauléon",
+    "gpxComment": "Etape 1",
+    "lon": -0.75086001268899,
+    "lat": 46.92311616199881,
+    "km": 384.371,
+    "communeCode": "79079",
+    "communeNom": "Mauléon",
+    "departement": "79"
+  },
+  {
+    "gpxName": "Chalonnes",
+    "gpxComment": null,
+    "lon": -0.75855008326471,
+    "lat": 47.35274791717529,
+    "km": 445.808,
+    "communeCode": "49063",
+    "communeNom": "Chalonnes-sur-Loire",
+    "departement": "49"
+  },
+  {
+    "gpxName": "Lion d'Angers",
+    "gpxComment": null,
+    "lon": -0.7120374776423,
+    "lat": 47.62889441102743,
+    "km": 496.889,
+    "communeCode": "49176",
+    "communeNom": "Le Lion-d'Angers",
+    "departement": "49"
+  },
+  {
+    "gpxName": "Château-Gontier",
+    "gpxComment": null,
+    "lon": -0.70261001586914,
+    "lat": 47.826311532408,
+    "km": 527.133,
+    "communeCode": "53062",
+    "communeNom": "Château-Gontier-sur-Mayenne",
+    "departement": "53"
+  }
+]

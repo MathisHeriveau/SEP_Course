@@ -1,0 +1,4846 @@
+{
+  "generatedAt": "2026-11-07T09:56:42.775Z",
+  "method": {
+    "boundaries": "Etalab contours-administratifs (latest, 2026-05) — IGN ADMIN EXPRESS COG, simplification 5 m",
+    "trackSource": "assets/data/Tracé détaillé Noaillan Cossé.gpx (21 034 points, ordre conservé)",
+    "densificationStepM": 5,
+    "depthSamplingM": 25,
+    "nearThresholdM": 1000,
+    "distance": "géodésique WGS84 (Vincenty) le long du tracé GPX"
+  },
+  "unlocatedPoints": 0,
+  "unlocatedSamples": [],
+  "communes": [
+    {
+      "code": "33307",
+      "nom": "Noaillan",
+      "departement": "33",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 0,
+          "toKm": 0.951,
+          "lengthM": 950.8
+        }
+      ],
+      "insideLengthM": 950.8,
+      "passages": 1,
+      "entryKm": 0,
+      "exitKm": 0.951,
+      "maxDepthM": 732.9,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 0
+    },
+    {
+      "code": "33237",
+      "nom": "Léogeats",
+      "departement": "33",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 0.951,
+          "toKm": 3.822,
+          "lengthM": 2871.2
+        }
+      ],
+      "insideLengthM": 2871.2,
+      "passages": 1,
+      "entryKm": 0.951,
+      "exitKm": 3.822,
+      "maxDepthM": 304.6,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 1.359
+    },
+    {
+      "code": "33504",
+      "nom": "Sauternes",
+      "departement": "33",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 3.822,
+          "toKm": 6.121,
+          "lengthM": 2299
+        },
+        {
+          "fromKm": 6.145,
+          "toKm": 6.314,
+          "lengthM": 168.3
+        }
+      ],
+      "insideLengthM": 2467.3,
+      "passages": 2,
+      "entryKm": 3.822,
+      "exitKm": 6.314,
+      "maxDepthM": 317.5,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 4.167
+    },
+    {
+      "code": "33060",
+      "nom": "Bommes",
+      "departement": "33",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 6.121,
+          "toKm": 6.145,
+          "lengthM": 24.4
+        },
+        {
+          "fromKm": 6.314,
+          "toKm": 8.542,
+          "lengthM": 2228
+        }
+      ],
+      "insideLengthM": 2252.4,
+      "passages": 2,
+      "entryKm": 6.121,
+      "exitKm": 8.542,
+      "maxDepthM": 207.6,
+      "maxDepthCapped": false,
+      "maxDepthAtKm": 7.539
+    },
+    {
+      "code": "33343",
+      "nom": "Pujols-sur-Ciron",
+      "departement": "33",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 8.542,
+          "toKm": 12.283,
+          "lengthM": 3741.1
+        }
+      ],
+      "insideLengthM": 3741.1,
+      "passages": 1,
+      "entryKm": 8.542,
+      "exitKm": 12.283,
+      "maxDepthM": 306.5,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 9.786
+    },
+    {
+      "code": "33030",
+      "nom": "Barsac",
+      "departement": "33",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 12.283,
+          "toKm": 16.404,
+          "lengthM": 4121.3
+        },
+        {
+          "fromKm": 16.444,
+          "toKm": 16.504,
+          "lengthM": 59.7
+        },
+        {
+          "fromKm": 16.587,
+          "toKm": 16.652,
+          "lengthM": 65.3
+        },
+        {
+          "fromKm": 16.758,
+          "toKm": 16.79,
+          "lengthM": 32.4
+        },
+        {
+          "fromKm": 16.869,
+          "toKm": 16.874,
+          "lengthM": 4.9
+        }
+      ],
+      "insideLengthM": 4283.6,
+      "passages": 5,
+      "entryKm": 12.283,
+      "exitKm": 16.874,
+      "maxDepthM": 319.8,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 12.601
+    },
+    {
+      "code": "33205",
+      "nom": "Illats",
+      "departement": "33",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 16.404,
+          "toKm": 16.444,
+          "lengthM": 40.2
+        },
+        {
+          "fromKm": 16.504,
+          "toKm": 16.587,
+          "lengthM": 83
+        },
+        {
+          "fromKm": 16.652,
+          "toKm": 16.74,
+          "lengthM": 88
+        }
+      ],
+      "insideLengthM": 211.2,
+      "passages": 3,
+      "entryKm": 16.404,
+      "exitKm": 16.74,
+      "maxDepthM": 2.8,
+      "maxDepthCapped": false,
+      "maxDepthAtKm": 16.426
+    },
+    {
+      "code": "33120",
+      "nom": "Cérons",
+      "departement": "33",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 16.74,
+          "toKm": 16.758,
+          "lengthM": 17.5
+        },
+        {
+          "fromKm": 16.79,
+          "toKm": 16.869,
+          "lengthM": 78.6
+        },
+        {
+          "fromKm": 16.874,
+          "toKm": 20.273,
+          "lengthM": 3399.2
+        }
+      ],
+      "insideLengthM": 3495.3,
+      "passages": 3,
+      "entryKm": 16.74,
+      "exitKm": 20.273,
+      "maxDepthM": 313,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 17.541
+    },
+    {
+      "code": "33081",
+      "nom": "Cadillac-sur-Garonne",
+      "departement": "33",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 20.273,
+          "toKm": 20.854,
+          "lengthM": 580.7
+        }
+      ],
+      "insideLengthM": 580.7,
+      "passages": 1,
+      "entryKm": 20.273,
+      "exitKm": 20.854,
+      "maxDepthM": 212.2,
+      "maxDepthCapped": false,
+      "maxDepthAtKm": 20.499
+    },
+    {
+      "code": "33040",
+      "nom": "Béguey",
+      "departement": "33",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 20.854,
+          "toKm": 23.017,
+          "lengthM": 2163.2
+        }
+      ],
+      "insideLengthM": 2163.2,
+      "passages": 1,
+      "entryKm": 20.854,
+      "exitKm": 23.017,
+      "maxDepthM": 301.4,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 21.285
+    },
+    {
+      "code": "33355",
+      "nom": "Rions",
+      "departement": "33",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 23.017,
+          "toKm": 26.372,
+          "lengthM": 3355.5
+        }
+      ],
+      "insideLengthM": 3355.5,
+      "passages": 1,
+      "entryKm": 23.017,
+      "exitKm": 26.372,
+      "maxDepthM": 303.3,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 23.833
+    },
+    {
+      "code": "33311",
+      "nom": "Paillet",
+      "departement": "33",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 26.372,
+          "toKm": 27.705,
+          "lengthM": 1333.1
+        },
+        {
+          "fromKm": 27.718,
+          "toKm": 28.079,
+          "lengthM": 361
+        }
+      ],
+      "insideLengthM": 1694.1,
+      "passages": 2,
+      "entryKm": 26.372,
+      "exitKm": 28.079,
+      "maxDepthM": 301.3,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 26.776
+    },
+    {
+      "code": "33241",
+      "nom": "Lestiac-sur-Garonne",
+      "departement": "33",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 27.705,
+          "toKm": 27.718,
+          "lengthM": 13
+        },
+        {
+          "fromKm": 28.079,
+          "toKm": 29.979,
+          "lengthM": 1899.7
+        }
+      ],
+      "insideLengthM": 1912.7,
+      "passages": 2,
+      "entryKm": 27.705,
+      "exitKm": 29.979,
+      "maxDepthM": 314.6,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 29.134
+    },
+    {
+      "code": "33226",
+      "nom": "Langoiran",
+      "departement": "33",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 29.979,
+          "toKm": 32.873,
+          "lengthM": 2894.2
+        }
+      ],
+      "insideLengthM": 2894.2,
+      "passages": 1,
+      "entryKm": 29.979,
+      "exitKm": 32.873,
+      "maxDepthM": 312.5,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 30.331
+    },
+    {
+      "code": "33201",
+      "nom": "Haux",
+      "departement": "33",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 32.873,
+          "toKm": 37.976,
+          "lengthM": 5102.3
+        }
+      ],
+      "insideLengthM": 5102.3,
+      "passages": 1,
+      "entryKm": 32.873,
+      "exitKm": 37.976,
+      "maxDepthM": 306.9,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 33.197
+    },
+    {
+      "code": "33140",
+      "nom": "Créon",
+      "departement": "33",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 37.976,
+          "toKm": 41.403,
+          "lengthM": 3427.8
+        }
+      ],
+      "insideLengthM": 3427.8,
+      "passages": 1,
+      "entryKm": 37.976,
+      "exitKm": 41.403,
+      "maxDepthM": 308.5,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 38.692
+    },
+    {
+      "code": "33363",
+      "nom": "Sadirac",
+      "departement": "33",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 41.403,
+          "toKm": 42.383,
+          "lengthM": 979.9
+        }
+      ],
+      "insideLengthM": 979.9,
+      "passages": 1,
+      "entryKm": 41.403,
+      "exitKm": 42.383,
+      "maxDepthM": 316.6,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 41.721
+    },
+    {
+      "code": "33335",
+      "nom": "Le Pout",
+      "departement": "33",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 42.383,
+          "toKm": 44.793,
+          "lengthM": 2409.8
+        }
+      ],
+      "insideLengthM": 2409.8,
+      "passages": 1,
+      "entryKm": 42.383,
+      "exitKm": 44.793,
+      "maxDepthM": 313.6,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 42.705
+    },
+    {
+      "code": "33145",
+      "nom": "Cursan",
+      "departement": "33",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 44.793,
+          "toKm": 46.097,
+          "lengthM": 1304.1
+        }
+      ],
+      "insideLengthM": 1304.1,
+      "passages": 1,
+      "entryKm": 44.793,
+      "exitKm": 46.097,
+      "maxDepthM": 304.3,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 45.373
+    },
+    {
+      "code": "33141",
+      "nom": "Croignon",
+      "departement": "33",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 46.097,
+          "toKm": 49.997,
+          "lengthM": 3899.5
+        }
+      ],
+      "insideLengthM": 3899.5,
+      "passages": 1,
+      "entryKm": 46.097,
+      "exitKm": 49.997,
+      "maxDepthM": 246.1,
+      "maxDepthCapped": false,
+      "maxDepthAtKm": 47.808
+    },
+    {
+      "code": "33413",
+      "nom": "Saint-Germain-du-Puch",
+      "departement": "33",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 49.997,
+          "toKm": 55.512,
+          "lengthM": 5515.5
+        }
+      ],
+      "insideLengthM": 5515.5,
+      "passages": 1,
+      "entryKm": 49.997,
+      "exitKm": 55.512,
+      "maxDepthM": 301.4,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 50.348
+    },
+    {
+      "code": "33049",
+      "nom": "Beychac-et-Caillau",
+      "departement": "33",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 55.512,
+          "toKm": 62.736,
+          "lengthM": 7224.1
+        },
+        {
+          "fromKm": 62.802,
+          "toKm": 62.847,
+          "lengthM": 45
+        },
+        {
+          "fromKm": 62.852,
+          "toKm": 62.932,
+          "lengthM": 80.6
+        },
+        {
+          "fromKm": 62.969,
+          "toKm": 63.001,
+          "lengthM": 32.9
+        },
+        {
+          "fromKm": 63.105,
+          "toKm": 63.215,
+          "lengthM": 109.9
+        }
+      ],
+      "insideLengthM": 7492.5,
+      "passages": 5,
+      "entryKm": 55.512,
+      "exitKm": 63.215,
+      "maxDepthM": 302.3,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 55.825
+    },
+    {
+      "code": "33483",
+      "nom": "Saint-Sulpice-et-Cameyrac",
+      "departement": "33",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 62.736,
+          "toKm": 62.802,
+          "lengthM": 66.3
+        },
+        {
+          "fromKm": 62.847,
+          "toKm": 62.852,
+          "lengthM": 4.4
+        },
+        {
+          "fromKm": 62.932,
+          "toKm": 62.969,
+          "lengthM": 36.1
+        },
+        {
+          "fromKm": 63.001,
+          "toKm": 63.105,
+          "lengthM": 103.7
+        }
+      ],
+      "insideLengthM": 210.5,
+      "passages": 4,
+      "entryKm": 62.736,
+      "exitKm": 63.105,
+      "maxDepthM": 2.4,
+      "maxDepthCapped": false,
+      "maxDepthAtKm": 62.758
+    },
+    {
+      "code": "33293",
+      "nom": "Montussan",
+      "departement": "33",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 63.215,
+          "toKm": 65.487,
+          "lengthM": 2271.6
+        }
+      ],
+      "insideLengthM": 2271.6,
+      "passages": 1,
+      "entryKm": 63.215,
+      "exitKm": 65.487,
+      "maxDepthM": 310.4,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 64.35
+    },
+    {
+      "code": "33433",
+      "nom": "Saint-Loubès",
+      "departement": "33",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 65.487,
+          "toKm": 74.869,
+          "lengthM": 9381.8
+        },
+        {
+          "fromKm": 74.952,
+          "toKm": 75.082,
+          "lengthM": 130.6
+        }
+      ],
+      "insideLengthM": 9512.4,
+      "passages": 2,
+      "entryKm": 65.487,
+      "exitKm": 75.082,
+      "maxDepthM": 315.8,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 65.974
+    },
+    {
+      "code": "33487",
+      "nom": "Saint-Vincent-de-Paul",
+      "departement": "33",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 74.869,
+          "toKm": 74.952,
+          "lengthM": 83.3
+        },
+        {
+          "fromKm": 75.082,
+          "toKm": 77.029,
+          "lengthM": 1946.5
+        }
+      ],
+      "insideLengthM": 2029.8,
+      "passages": 2,
+      "entryKm": 74.869,
+      "exitKm": 77.029,
+      "maxDepthM": 310.7,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 75.438
+    },
+    {
+      "code": "33143",
+      "nom": "Cubzac-les-Ponts",
+      "departement": "33",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 77.029,
+          "toKm": 80.382,
+          "lengthM": 3353.5
+        }
+      ],
+      "insideLengthM": 3353.5,
+      "passages": 1,
+      "entryKm": 77.029,
+      "exitKm": 80.382,
+      "maxDepthM": 304.8,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 77.331
+    },
+    {
+      "code": "33366",
+      "nom": "Saint-André-de-Cubzac",
+      "departement": "33",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 80.382,
+          "toKm": 84.348,
+          "lengthM": 3965.2
+        }
+      ],
+      "insideLengthM": 3965.2,
+      "passages": 1,
+      "entryKm": 80.382,
+      "exitKm": 84.348,
+      "maxDepthM": 309.7,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 80.715
+    },
+    {
+      "code": "33415",
+      "nom": "Saint-Gervais",
+      "departement": "33",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 84.348,
+          "toKm": 86.349,
+          "lengthM": 2000.9
+        },
+        {
+          "fromKm": 86.373,
+          "toKm": 86.448,
+          "lengthM": 74.5
+        },
+        {
+          "fromKm": 86.857,
+          "toKm": 86.867,
+          "lengthM": 9.8
+        }
+      ],
+      "insideLengthM": 2085.2,
+      "passages": 3,
+      "entryKm": 84.348,
+      "exitKm": 86.867,
+      "maxDepthM": 316.4,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 84.857
+    },
+    {
+      "code": "33425",
+      "nom": "Saint-Laurent-d'Arce",
+      "departement": "33",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 86.349,
+          "toKm": 86.373,
+          "lengthM": 24.9
+        },
+        {
+          "fromKm": 86.448,
+          "toKm": 86.596,
+          "lengthM": 148.5
+        }
+      ],
+      "insideLengthM": 173.4,
+      "passages": 2,
+      "entryKm": 86.349,
+      "exitKm": 86.596,
+      "maxDepthM": 8.5,
+      "maxDepthCapped": false,
+      "maxDepthAtKm": 86.51
+    },
+    {
+      "code": "33553",
+      "nom": "Virsac",
+      "departement": "33",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 86.596,
+          "toKm": 86.857,
+          "lengthM": 260.3
+        },
+        {
+          "fromKm": 86.867,
+          "toKm": 87.677,
+          "lengthM": 810.5
+        },
+        {
+          "fromKm": 87.785,
+          "toKm": 87.789,
+          "lengthM": 4.5
+        }
+      ],
+      "insideLengthM": 1075.3,
+      "passages": 3,
+      "entryKm": 86.596,
+      "exitKm": 87.789,
+      "maxDepthM": 286.5,
+      "maxDepthCapped": false,
+      "maxDepthAtKm": 87.282
+    },
+    {
+      "code": "33321",
+      "nom": "Peujard",
+      "departement": "33",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 87.677,
+          "toKm": 87.785,
+          "lengthM": 107.9
+        },
+        {
+          "fromKm": 87.789,
+          "toKm": 92.069,
+          "lengthM": 4279.5
+        }
+      ],
+      "insideLengthM": 4387.4,
+      "passages": 2,
+      "entryKm": 87.677,
+      "exitKm": 92.069,
+      "maxDepthM": 317.1,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 88.143
+    },
+    {
+      "code": "33142",
+      "nom": "Cubnezais",
+      "departement": "33",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 92.069,
+          "toKm": 95.732,
+          "lengthM": 3663.3
+        }
+      ],
+      "insideLengthM": 3663.3,
+      "passages": 1,
+      "entryKm": 92.069,
+      "exitKm": 95.732,
+      "maxDepthM": 312.9,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 92.388
+    },
+    {
+      "code": "33123",
+      "nom": "Cézac",
+      "departement": "33",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 95.732,
+          "toKm": 98.25,
+          "lengthM": 2517.8
+        },
+        {
+          "fromKm": 98.264,
+          "toKm": 98.273,
+          "lengthM": 9.3
+        },
+        {
+          "fromKm": 98.278,
+          "toKm": 98.287,
+          "lengthM": 9.2
+        }
+      ],
+      "insideLengthM": 2536.3,
+      "passages": 3,
+      "entryKm": 95.732,
+      "exitKm": 98.287,
+      "maxDepthM": 316.2,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 96.062
+    },
+    {
+      "code": "33439",
+      "nom": "Saint-Mariens",
+      "departement": "33",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 98.25,
+          "toKm": 98.264,
+          "lengthM": 13.9
+        },
+        {
+          "fromKm": 98.273,
+          "toKm": 98.278,
+          "lengthM": 5.1
+        },
+        {
+          "fromKm": 98.287,
+          "toKm": 102.312,
+          "lengthM": 4024.6
+        }
+      ],
+      "insideLengthM": 4043.6,
+      "passages": 3,
+      "entryKm": 98.25,
+      "exitKm": 102.312,
+      "maxDepthM": 309.3,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 98.663
+    },
+    {
+      "code": "33492",
+      "nom": "Saint-Yzan-de-Soudiac",
+      "departement": "33",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 102.312,
+          "toKm": 107.345,
+          "lengthM": 5033.3
+        }
+      ],
+      "insideLengthM": 5033.3,
+      "passages": 1,
+      "entryKm": 102.312,
+      "exitKm": 107.345,
+      "maxDepthM": 302,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 102.64
+    },
+    {
+      "code": "33473",
+      "nom": "Saint-Savin",
+      "departement": "33",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 107.345,
+          "toKm": 108.13,
+          "lengthM": 784.8
+        }
+      ],
+      "insideLengthM": 784.8,
+      "passages": 1,
+      "entryKm": 107.345,
+      "exitKm": 108.13,
+      "maxDepthM": 187.1,
+      "maxDepthCapped": false,
+      "maxDepthAtKm": 107.555
+    },
+    {
+      "code": "17074",
+      "nom": "Bussac-Forêt",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 108.13,
+          "toKm": 114.137,
+          "lengthM": 6007
+        },
+        {
+          "fromKm": 114.526,
+          "toKm": 114.536,
+          "lengthM": 9.2
+        }
+      ],
+      "insideLengthM": 6016.2,
+      "passages": 2,
+      "entryKm": 108.13,
+      "exitKm": 114.536,
+      "maxDepthM": 307,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 108.496
+    },
+    {
+      "code": "17118",
+      "nom": "Corignac",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 114.137,
+          "toKm": 114.526,
+          "lengthM": 389.2
+        },
+        {
+          "fromKm": 114.536,
+          "toKm": 118.022,
+          "lengthM": 3486.8
+        },
+        {
+          "fromKm": 118.027,
+          "toKm": 118.042,
+          "lengthM": 14.5
+        },
+        {
+          "fromKm": 118.17,
+          "toKm": 118.207,
+          "lengthM": 37.1
+        },
+        {
+          "fromKm": 118.588,
+          "toKm": 118.674,
+          "lengthM": 85.9
+        },
+        {
+          "fromKm": 118.767,
+          "toKm": 118.777,
+          "lengthM": 9.6
+        }
+      ],
+      "insideLengthM": 4023.1,
+      "passages": 6,
+      "entryKm": 114.137,
+      "exitKm": 118.777,
+      "maxDepthM": 304.5,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 114.992
+    },
+    {
+      "code": "17199",
+      "nom": "Jussas",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 118.022,
+          "toKm": 118.027,
+          "lengthM": 4.8
+        },
+        {
+          "fromKm": 118.042,
+          "toKm": 118.17,
+          "lengthM": 128
+        },
+        {
+          "fromKm": 118.207,
+          "toKm": 118.588,
+          "lengthM": 381.4
+        },
+        {
+          "fromKm": 118.674,
+          "toKm": 118.767,
+          "lengthM": 93.4
+        },
+        {
+          "fromKm": 118.777,
+          "toKm": 119.13,
+          "lengthM": 352.8
+        }
+      ],
+      "insideLengthM": 960.4,
+      "passages": 5,
+      "entryKm": 118.022,
+      "exitKm": 119.13,
+      "maxDepthM": 3.4,
+      "maxDepthCapped": false,
+      "maxDepthAtKm": 118.09
+    },
+    {
+      "code": "17240",
+      "nom": "Montendre",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 119.13,
+          "toKm": 124.684,
+          "lengthM": 5553.8
+        },
+        {
+          "fromKm": 124.688,
+          "toKm": 124.754,
+          "lengthM": 65.9
+        },
+        {
+          "fromKm": 124.852,
+          "toKm": 125.079,
+          "lengthM": 227.8
+        }
+      ],
+      "insideLengthM": 5847.5,
+      "passages": 3,
+      "entryKm": 119.13,
+      "exitKm": 125.079,
+      "maxDepthM": 307.4,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 119.45
+    },
+    {
+      "code": "17432",
+      "nom": "Souméras",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 124.684,
+          "toKm": 124.688,
+          "lengthM": 4.2
+        },
+        {
+          "fromKm": 124.754,
+          "toKm": 124.852,
+          "lengthM": 97.8
+        },
+        {
+          "fromKm": 125.079,
+          "toKm": 125.869,
+          "lengthM": 789.8
+        },
+        {
+          "fromKm": 126.488,
+          "toKm": 126.619,
+          "lengthM": 131
+        },
+        {
+          "fromKm": 126.678,
+          "toKm": 126.871,
+          "lengthM": 193.5
+        },
+        {
+          "fromKm": 127.234,
+          "toKm": 127.25,
+          "lengthM": 15.6
+        }
+      ],
+      "insideLengthM": 1231.9,
+      "passages": 6,
+      "entryKm": 124.684,
+      "exitKm": 127.25,
+      "maxDepthM": 165.8,
+      "maxDepthCapped": false,
+      "maxDepthAtKm": 125.646
+    },
+    {
+      "code": "17130",
+      "nom": "Coux",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 125.869,
+          "toKm": 126.488,
+          "lengthM": 618.6
+        },
+        {
+          "fromKm": 126.619,
+          "toKm": 126.678,
+          "lengthM": 59
+        },
+        {
+          "fromKm": 126.871,
+          "toKm": 127.234,
+          "lengthM": 362.7
+        },
+        {
+          "fromKm": 127.289,
+          "toKm": 127.508,
+          "lengthM": 218.3
+        },
+        {
+          "fromKm": 127.558,
+          "toKm": 127.583,
+          "lengthM": 25
+        }
+      ],
+      "insideLengthM": 1283.6,
+      "passages": 5,
+      "entryKm": 125.869,
+      "exitKm": 127.583,
+      "maxDepthM": 172,
+      "maxDepthCapped": false,
+      "maxDepthAtKm": 126.19
+    },
+    {
+      "code": "17081",
+      "nom": "Chamouillac",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 127.25,
+          "toKm": 127.289,
+          "lengthM": 39.6
+        }
+      ],
+      "insideLengthM": 39.6,
+      "passages": 1,
+      "entryKm": 127.25,
+      "exitKm": 127.289,
+      "maxDepthM": 1.1,
+      "maxDepthCapped": false,
+      "maxDepthAtKm": 127.272
+    },
+    {
+      "code": "17305",
+      "nom": "Rouffignac",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 127.508,
+          "toKm": 127.558,
+          "lengthM": 50
+        },
+        {
+          "fromKm": 127.583,
+          "toKm": 135.532,
+          "lengthM": 7948.8
+        }
+      ],
+      "insideLengthM": 7998.8,
+      "passages": 2,
+      "entryKm": 127.508,
+      "exitKm": 135.532,
+      "maxDepthM": 300.5,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 128.026
+    },
+    {
+      "code": "17476",
+      "nom": "Villexavier",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 135.532,
+          "toKm": 136.575,
+          "lengthM": 1043.2
+        }
+      ],
+      "insideLengthM": 1043.2,
+      "passages": 1,
+      "entryKm": 135.532,
+      "exitKm": 136.575,
+      "maxDepthM": 161.9,
+      "maxDepthCapped": false,
+      "maxDepthAtKm": 135.886
+    },
+    {
+      "code": "17002",
+      "nom": "Agudelle",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 136.575,
+          "toKm": 140.64,
+          "lengthM": 4065.5
+        }
+      ],
+      "insideLengthM": 4065.5,
+      "passages": 1,
+      "entryKm": 136.575,
+      "exitKm": 140.64,
+      "maxDepthM": 319.3,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 137.377
+    },
+    {
+      "code": "17403",
+      "nom": "Saint-Simon-de-Bordes",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 140.64,
+          "toKm": 142.086,
+          "lengthM": 1445.7
+        },
+        {
+          "fromKm": 142.095,
+          "toKm": 145.114,
+          "lengthM": 3019.6
+        }
+      ],
+      "insideLengthM": 4465.3,
+      "passages": 2,
+      "entryKm": 140.64,
+      "exitKm": 145.114,
+      "maxDepthM": 302.7,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 141.46
+    },
+    {
+      "code": "17345",
+      "nom": "Saint-Hilaire-du-Bois",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 142.086,
+          "toKm": 142.095,
+          "lengthM": 8.6
+        }
+      ],
+      "insideLengthM": 8.6,
+      "passages": 1,
+      "entryKm": 142.086,
+      "exitKm": 142.095,
+      "maxDepthM": 0.5,
+      "maxDepthCapped": false,
+      "maxDepthAtKm": 142.086
+    },
+    {
+      "code": "17339",
+      "nom": "Saint-Germain-de-Lusignan",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 145.114,
+          "toKm": 149.126,
+          "lengthM": 4012.1
+        }
+      ],
+      "insideLengthM": 4012.1,
+      "passages": 1,
+      "entryKm": 145.114,
+      "exitKm": 149.126,
+      "maxDepthM": 300.7,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 145.476
+    },
+    {
+      "code": "17111",
+      "nom": "Clion",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 149.126,
+          "toKm": 153.426,
+          "lengthM": 4300.1
+        }
+      ],
+      "insideLengthM": 4300.1,
+      "passages": 1,
+      "entryKm": 149.126,
+      "exitKm": 153.426,
+      "maxDepthM": 302.3,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 149.631
+    },
+    {
+      "code": "17332",
+      "nom": "Saint-Georges-Antignac",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 153.426,
+          "toKm": 155.926,
+          "lengthM": 2499.9
+        }
+      ],
+      "insideLengthM": 2499.9,
+      "passages": 1,
+      "entryKm": 153.426,
+      "exitKm": 155.926,
+      "maxDepthM": 312.1,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 154.451
+    },
+    {
+      "code": "17343",
+      "nom": "Saint-Grégoire-d'Ardennes",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 155.926,
+          "toKm": 157.089,
+          "lengthM": 1162.7
+        },
+        {
+          "fromKm": 157.18,
+          "toKm": 157.235,
+          "lengthM": 55.5
+        },
+        {
+          "fromKm": 157.33,
+          "toKm": 157.334,
+          "lengthM": 4.5
+        },
+        {
+          "fromKm": 157.437,
+          "toKm": 157.533,
+          "lengthM": 96
+        },
+        {
+          "fromKm": 157.869,
+          "toKm": 157.979,
+          "lengthM": 109.5
+        }
+      ],
+      "insideLengthM": 1428.2,
+      "passages": 5,
+      "entryKm": 155.926,
+      "exitKm": 157.979,
+      "maxDepthM": 306.2,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 156.562
+    },
+    {
+      "code": "17220",
+      "nom": "Marignac",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 157.089,
+          "toKm": 157.18,
+          "lengthM": 90.6
+        },
+        {
+          "fromKm": 157.235,
+          "toKm": 157.33,
+          "lengthM": 94.7
+        },
+        {
+          "fromKm": 157.334,
+          "toKm": 157.437,
+          "lengthM": 102.9
+        },
+        {
+          "fromKm": 157.533,
+          "toKm": 157.869,
+          "lengthM": 336
+        },
+        {
+          "fromKm": 157.979,
+          "toKm": 159.263,
+          "lengthM": 1284.2
+        },
+        {
+          "fromKm": 159.29,
+          "toKm": 159.295,
+          "lengthM": 4.6
+        }
+      ],
+      "insideLengthM": 1913,
+      "passages": 6,
+      "entryKm": 157.089,
+      "exitKm": 159.295,
+      "maxDepthM": 22.6,
+      "maxDepthCapped": false,
+      "maxDepthAtKm": 158.393
+    },
+    {
+      "code": "17159",
+      "nom": "Fléac-sur-Seugne",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 159.263,
+          "toKm": 159.29,
+          "lengthM": 27.5
+        },
+        {
+          "fromKm": 159.295,
+          "toKm": 159.304,
+          "lengthM": 9.2
+        },
+        {
+          "fromKm": 159.361,
+          "toKm": 159.375,
+          "lengthM": 14.4
+        },
+        {
+          "fromKm": 159.457,
+          "toKm": 159.511,
+          "lengthM": 54
+        },
+        {
+          "fromKm": 159.612,
+          "toKm": 159.696,
+          "lengthM": 84.4
+        },
+        {
+          "fromKm": 159.72,
+          "toKm": 159.817,
+          "lengthM": 96.4
+        },
+        {
+          "fromKm": 159.826,
+          "toKm": 159.836,
+          "lengthM": 9.6
+        },
+        {
+          "fromKm": 159.853,
+          "toKm": 159.948,
+          "lengthM": 94.5
+        },
+        {
+          "fromKm": 160.002,
+          "toKm": 160.075,
+          "lengthM": 72.6
+        },
+        {
+          "fromKm": 160.236,
+          "toKm": 160.318,
+          "lengthM": 82.1
+        }
+      ],
+      "insideLengthM": 544.7,
+      "passages": 10,
+      "entryKm": 159.263,
+      "exitKm": 160.318,
+      "maxDepthM": 4.2,
+      "maxDepthCapped": false,
+      "maxDepthAtKm": 160.283
+    },
+    {
+      "code": "17027",
+      "nom": "Avy",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 159.304,
+          "toKm": 159.361,
+          "lengthM": 56.6
+        },
+        {
+          "fromKm": 159.375,
+          "toKm": 159.457,
+          "lengthM": 81.4
+        },
+        {
+          "fromKm": 159.511,
+          "toKm": 159.612,
+          "lengthM": 100.9
+        },
+        {
+          "fromKm": 159.696,
+          "toKm": 159.72,
+          "lengthM": 24.5
+        },
+        {
+          "fromKm": 159.817,
+          "toKm": 159.826,
+          "lengthM": 9.6
+        },
+        {
+          "fromKm": 159.836,
+          "toKm": 159.853,
+          "lengthM": 17.5
+        },
+        {
+          "fromKm": 159.948,
+          "toKm": 160.002,
+          "lengthM": 53.9
+        },
+        {
+          "fromKm": 160.075,
+          "toKm": 160.236,
+          "lengthM": 161.4
+        },
+        {
+          "fromKm": 160.318,
+          "toKm": 165.851,
+          "lengthM": 5532.7
+        }
+      ],
+      "insideLengthM": 6038.5,
+      "passages": 9,
+      "entryKm": 159.304,
+      "exitKm": 165.851,
+      "maxDepthM": 302.1,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 160.666
+    },
+    {
+      "code": "17283",
+      "nom": "Pons",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 165.851,
+          "toKm": 171.459,
+          "lengthM": 5608
+        },
+        {
+          "fromKm": 171.463,
+          "toKm": 173.907,
+          "lengthM": 2444.2
+        }
+      ],
+      "insideLengthM": 8052.2,
+      "passages": 2,
+      "entryKm": 165.851,
+      "exitKm": 173.907,
+      "maxDepthM": 307.2,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 166.457
+    },
+    {
+      "code": "17354",
+      "nom": "Saint-Léger",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 171.459,
+          "toKm": 171.463,
+          "lengthM": 4.6
+        },
+        {
+          "fromKm": 173.907,
+          "toKm": 176.608,
+          "lengthM": 2700.5
+        },
+        {
+          "fromKm": 176.63,
+          "toKm": 176.643,
+          "lengthM": 13.6
+        }
+      ],
+      "insideLengthM": 2718.7,
+      "passages": 3,
+      "entryKm": 171.459,
+      "exitKm": 176.643,
+      "maxDepthM": 323.5,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 174.286
+    },
+    {
+      "code": "17044",
+      "nom": "Berneuil",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 176.608,
+          "toKm": 176.63,
+          "lengthM": 21.7
+        },
+        {
+          "fromKm": 176.643,
+          "toKm": 182.183,
+          "lengthM": 5539.6
+        },
+        {
+          "fromKm": 182.187,
+          "toKm": 182.202,
+          "lengthM": 14.7
+        }
+      ],
+      "insideLengthM": 5576,
+      "passages": 3,
+      "entryKm": 176.608,
+      "exitKm": 182.202,
+      "maxDepthM": 321.1,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 176.987
+    },
+    {
+      "code": "17289",
+      "nom": "Préguillac",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 182.183,
+          "toKm": 182.187,
+          "lengthM": 4.3
+        },
+        {
+          "fromKm": 182.202,
+          "toKm": 184.738,
+          "lengthM": 2536.1
+        }
+      ],
+      "insideLengthM": 2540.4,
+      "passages": 2,
+      "entryKm": 182.183,
+      "exitKm": 184.738,
+      "maxDepthM": 314,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 182.587
+    },
+    {
+      "code": "17444",
+      "nom": "Thénac",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 184.738,
+          "toKm": 186.403,
+          "lengthM": 1664.7
+        },
+        {
+          "fromKm": 186.65,
+          "toKm": 186.729,
+          "lengthM": 79.3
+        },
+        {
+          "fromKm": 187.016,
+          "toKm": 187.075,
+          "lengthM": 59.6
+        }
+      ],
+      "insideLengthM": 1803.6,
+      "passages": 3,
+      "entryKm": 184.738,
+      "exitKm": 187.075,
+      "maxDepthM": 313,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 185.11
+    },
+    {
+      "code": "17179",
+      "nom": "Les Gonds",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 186.403,
+          "toKm": 186.65,
+          "lengthM": 246.9
+        },
+        {
+          "fromKm": 186.729,
+          "toKm": 187.016,
+          "lengthM": 286.9
+        },
+        {
+          "fromKm": 187.075,
+          "toKm": 190.045,
+          "lengthM": 2969.2
+        }
+      ],
+      "insideLengthM": 3503,
+      "passages": 3,
+      "entryKm": 186.403,
+      "exitKm": 190.045,
+      "maxDepthM": 312.2,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 187.767
+    },
+    {
+      "code": "17415",
+      "nom": "Saintes",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 190.045,
+          "toKm": 199.321,
+          "lengthM": 9276.2
+        },
+        {
+          "fromKm": 199.363,
+          "toKm": 199.457,
+          "lengthM": 94.4
+        },
+        {
+          "fromKm": 199.479,
+          "toKm": 199.484,
+          "lengthM": 4.9
+        },
+        {
+          "fromKm": 199.532,
+          "toKm": 199.56,
+          "lengthM": 27.6
+        },
+        {
+          "fromKm": 199.647,
+          "toKm": 199.733,
+          "lengthM": 86.4
+        },
+        {
+          "fromKm": 199.762,
+          "toKm": 199.793,
+          "lengthM": 31.2
+        }
+      ],
+      "insideLengthM": 9520.7,
+      "passages": 6,
+      "entryKm": 190.045,
+      "exitKm": 199.793,
+      "maxDepthM": 307.5,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 190.37
+    },
+    {
+      "code": "17148",
+      "nom": "Écurat",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 199.321,
+          "toKm": 199.363,
+          "lengthM": 41.9
+        },
+        {
+          "fromKm": 199.457,
+          "toKm": 199.479,
+          "lengthM": 21.6
+        },
+        {
+          "fromKm": 199.484,
+          "toKm": 199.532,
+          "lengthM": 48.6
+        },
+        {
+          "fromKm": 199.56,
+          "toKm": 199.647,
+          "lengthM": 86.7
+        },
+        {
+          "fromKm": 199.733,
+          "toKm": 199.762,
+          "lengthM": 28.9
+        },
+        {
+          "fromKm": 199.793,
+          "toKm": 201.459,
+          "lengthM": 1666
+        },
+        {
+          "fromKm": 201.51,
+          "toKm": 201.574,
+          "lengthM": 64
+        },
+        {
+          "fromKm": 202.172,
+          "toKm": 202.496,
+          "lengthM": 323.7
+        },
+        {
+          "fromKm": 202.566,
+          "toKm": 202.673,
+          "lengthM": 107.6
+        },
+        {
+          "fromKm": 202.695,
+          "toKm": 202.768,
+          "lengthM": 72.7
+        },
+        {
+          "fromKm": 202.773,
+          "toKm": 202.962,
+          "lengthM": 189.5
+        },
+        {
+          "fromKm": 202.979,
+          "toKm": 203.275,
+          "lengthM": 296.1
+        }
+      ],
+      "insideLengthM": 2947.3,
+      "passages": 12,
+      "entryKm": 199.321,
+      "exitKm": 203.275,
+      "maxDepthM": 314.4,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 200.167
+    },
+    {
+      "code": "17285",
+      "nom": "Port-d'Envaux",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 201.459,
+          "toKm": 201.51,
+          "lengthM": 50.5
+        },
+        {
+          "fromKm": 201.574,
+          "toKm": 202.172,
+          "lengthM": 598.7
+        },
+        {
+          "fromKm": 202.496,
+          "toKm": 202.566,
+          "lengthM": 69.6
+        },
+        {
+          "fromKm": 202.673,
+          "toKm": 202.695,
+          "lengthM": 22.3
+        },
+        {
+          "fromKm": 202.768,
+          "toKm": 202.773,
+          "lengthM": 4.6
+        },
+        {
+          "fromKm": 202.962,
+          "toKm": 202.979,
+          "lengthM": 16.3
+        },
+        {
+          "fromKm": 203.275,
+          "toKm": 208.448,
+          "lengthM": 5173.8
+        }
+      ],
+      "insideLengthM": 5935.8,
+      "passages": 7,
+      "entryKm": 201.459,
+      "exitKm": 208.448,
+      "maxDepthM": 308.6,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 203.606
+    },
+    {
+      "code": "17134",
+      "nom": "Crazannes",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 208.448,
+          "toKm": 211.396,
+          "lengthM": 2947.5
+        }
+      ],
+      "insideLengthM": 2947.5,
+      "passages": 1,
+      "entryKm": 208.448,
+      "exitKm": 211.396,
+      "maxDepthM": 301.2,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 208.805
+    },
+    {
+      "code": "17252",
+      "nom": "Le Mung",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 211.396,
+          "toKm": 216.038,
+          "lengthM": 4642.2
+        }
+      ],
+      "insideLengthM": 4642.2,
+      "passages": 1,
+      "entryKm": 211.396,
+      "exitKm": 216.038,
+      "maxDepthM": 300.6,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 212.406
+    },
+    {
+      "code": "17397",
+      "nom": "Saint-Savinien",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 216.038,
+          "toKm": 222.728,
+          "lengthM": 6690
+        },
+        {
+          "fromKm": 222.844,
+          "toKm": 223.04,
+          "lengthM": 196
+        },
+        {
+          "fromKm": 223.062,
+          "toKm": 223.066,
+          "lengthM": 4.3
+        }
+      ],
+      "insideLengthM": 6890.3,
+      "passages": 3,
+      "entryKm": 216.038,
+      "exitKm": 223.066,
+      "maxDepthM": 306.3,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 216.983
+    },
+    {
+      "code": "17053",
+      "nom": "Bords",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 222.728,
+          "toKm": 222.844,
+          "lengthM": 115.9
+        },
+        {
+          "fromKm": 223.066,
+          "toKm": 223.228,
+          "lengthM": 162.2
+        },
+        {
+          "fromKm": 223.508,
+          "toKm": 223.612,
+          "lengthM": 104.2
+        },
+        {
+          "fromKm": 223.651,
+          "toKm": 223.698,
+          "lengthM": 46.3
+        }
+      ],
+      "insideLengthM": 428.6,
+      "passages": 4,
+      "entryKm": 222.728,
+      "exitKm": 223.698,
+      "maxDepthM": 2,
+      "maxDepthCapped": false,
+      "maxDepthAtKm": 223.156
+    },
+    {
+      "code": "17085",
+      "nom": "Champdolent",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 223.04,
+          "toKm": 223.062,
+          "lengthM": 21.6
+        },
+        {
+          "fromKm": 223.228,
+          "toKm": 223.508,
+          "lengthM": 279.9
+        },
+        {
+          "fromKm": 223.612,
+          "toKm": 223.651,
+          "lengthM": 38.9
+        },
+        {
+          "fromKm": 223.698,
+          "toKm": 227.101,
+          "lengthM": 3403.3
+        }
+      ],
+      "insideLengthM": 3743.7,
+      "passages": 4,
+      "entryKm": 223.04,
+      "exitKm": 227.101,
+      "maxDepthM": 304.1,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 224.112
+    },
+    {
+      "code": "17292",
+      "nom": "Puy-du-Lac",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 227.101,
+          "toKm": 231.107,
+          "lengthM": 4005.9
+        },
+        {
+          "fromKm": 231.488,
+          "toKm": 232.746,
+          "lengthM": 1257.8
+        }
+      ],
+      "insideLengthM": 5263.7,
+      "passages": 2,
+      "entryKm": 227.101,
+      "exitKm": 232.746,
+      "maxDepthM": 315.5,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 227.676
+    },
+    {
+      "code": "17320",
+      "nom": "Saint-Coutant-le-Grand",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 231.107,
+          "toKm": 231.488,
+          "lengthM": 381.3
+        }
+      ],
+      "insideLengthM": 381.3,
+      "passages": 1,
+      "entryKm": 231.107,
+      "exitKm": 231.488,
+      "maxDepthM": 69.2,
+      "maxDepthCapped": false,
+      "maxDepthAtKm": 231.243
+    },
+    {
+      "code": "17448",
+      "nom": "Tonnay-Boutonne",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 232.746,
+          "toKm": 235.037,
+          "lengthM": 2290.9
+        }
+      ],
+      "insideLengthM": 2290.9,
+      "passages": 1,
+      "entryKm": 232.746,
+      "exitKm": 235.037,
+      "maxDepthM": 306.2,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 233.07
+    },
+    {
+      "code": "17321",
+      "nom": "Saint-Crépin",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 235.037,
+          "toKm": 239.077,
+          "lengthM": 4040.3
+        }
+      ],
+      "insideLengthM": 4040.3,
+      "passages": 1,
+      "entryKm": 235.037,
+      "exitKm": 239.077,
+      "maxDepthM": 317,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 235.387
+    },
+    {
+      "code": "17012",
+      "nom": "Annezay",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 239.077,
+          "toKm": 240.656,
+          "lengthM": 1579
+        },
+        {
+          "fromKm": 240.66,
+          "toKm": 240.751,
+          "lengthM": 90.2
+        },
+        {
+          "fromKm": 240.814,
+          "toKm": 240.867,
+          "lengthM": 52.7
+        }
+      ],
+      "insideLengthM": 1721.9,
+      "passages": 3,
+      "entryKm": 239.077,
+      "exitKm": 240.867,
+      "maxDepthM": 301.4,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 239.491
+    },
+    {
+      "code": "17457",
+      "nom": "La Devise",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 240.656,
+          "toKm": 240.66,
+          "lengthM": 4.5
+        },
+        {
+          "fromKm": 240.751,
+          "toKm": 240.814,
+          "lengthM": 63.5
+        },
+        {
+          "fromKm": 240.867,
+          "toKm": 244.339,
+          "lengthM": 3471.9
+        }
+      ],
+      "insideLengthM": 3539.9,
+      "passages": 3,
+      "entryKm": 240.656,
+      "exitKm": 244.339,
+      "maxDepthM": 301.2,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 241.246
+    },
+    {
+      "code": "17063",
+      "nom": "Breuil-la-Réorte",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 244.339,
+          "toKm": 247.845,
+          "lengthM": 3506.3
+        },
+        {
+          "fromKm": 248.012,
+          "toKm": 248.294,
+          "lengthM": 282.8
+        }
+      ],
+      "insideLengthM": 3789.1,
+      "passages": 2,
+      "entryKm": 244.339,
+      "exitKm": 248.294,
+      "maxDepthM": 308.4,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 244.656
+    },
+    {
+      "code": "17359",
+      "nom": "Saint-Mard",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 247.845,
+          "toKm": 248.012,
+          "lengthM": 166.7
+        },
+        {
+          "fromKm": 248.294,
+          "toKm": 251.568,
+          "lengthM": 3273.8
+        }
+      ],
+      "insideLengthM": 3440.5,
+      "passages": 2,
+      "entryKm": 247.845,
+      "exitKm": 251.568,
+      "maxDepthM": 319,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 248.613
+    },
+    {
+      "code": "17434",
+      "nom": "Surgères",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 251.568,
+          "toKm": 257.653,
+          "lengthM": 6085
+        }
+      ],
+      "insideLengthM": 6085,
+      "passages": 1,
+      "entryKm": 251.568,
+      "exitKm": 257.653,
+      "maxDepthM": 320.4,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 252.136
+    },
+    {
+      "code": "17293",
+      "nom": "Puyravault",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 257.653,
+          "toKm": 262.304,
+          "lengthM": 4650.3
+        },
+        {
+          "fromKm": 262.327,
+          "toKm": 262.332,
+          "lengthM": 4.6
+        },
+        {
+          "fromKm": 262.415,
+          "toKm": 262.428,
+          "lengthM": 13.7
+        },
+        {
+          "fromKm": 262.529,
+          "toKm": 262.683,
+          "lengthM": 153.8
+        },
+        {
+          "fromKm": 262.817,
+          "toKm": 262.896,
+          "lengthM": 78.8
+        },
+        {
+          "fromKm": 262.913,
+          "toKm": 264.358,
+          "lengthM": 1444.7
+        }
+      ],
+      "insideLengthM": 6345.9,
+      "passages": 6,
+      "entryKm": 257.653,
+      "exitKm": 264.358,
+      "maxDepthM": 302.4,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 257.975
+    },
+    {
+      "code": "17482",
+      "nom": "Vouhé",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 262.304,
+          "toKm": 262.327,
+          "lengthM": 23.4
+        },
+        {
+          "fromKm": 262.332,
+          "toKm": 262.415,
+          "lengthM": 83.2
+        },
+        {
+          "fromKm": 262.428,
+          "toKm": 262.529,
+          "lengthM": 100.4
+        },
+        {
+          "fromKm": 262.683,
+          "toKm": 262.817,
+          "lengthM": 134.4
+        },
+        {
+          "fromKm": 262.896,
+          "toKm": 262.913,
+          "lengthM": 17.6
+        }
+      ],
+      "insideLengthM": 359,
+      "passages": 5,
+      "entryKm": 262.304,
+      "exitKm": 262.913,
+      "maxDepthM": 1.6,
+      "maxDepthCapped": false,
+      "maxDepthAtKm": 262.355
+    },
+    {
+      "code": "17057",
+      "nom": "Bouhet",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 264.358,
+          "toKm": 268.162,
+          "lengthM": 3803.7
+        }
+      ],
+      "insideLengthM": 3803.7,
+      "passages": 1,
+      "entryKm": 264.358,
+      "exitKm": 268.162,
+      "maxDepthM": 309,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 265.158
+    },
+    {
+      "code": "17186",
+      "nom": "Le Gué-d'Alleré",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 268.162,
+          "toKm": 270.573,
+          "lengthM": 2411
+        }
+      ],
+      "insideLengthM": 2411,
+      "passages": 1,
+      "entryKm": 268.162,
+      "exitKm": 270.573,
+      "maxDepthM": 317.3,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 268.499
+    },
+    {
+      "code": "17041",
+      "nom": "Benon",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 270.573,
+          "toKm": 270.635,
+          "lengthM": 62.4
+        },
+        {
+          "fromKm": 270.68,
+          "toKm": 270.706,
+          "lengthM": 26
+        },
+        {
+          "fromKm": 270.8,
+          "toKm": 270.818,
+          "lengthM": 17.6
+        },
+        {
+          "fromKm": 270.853,
+          "toKm": 270.909,
+          "lengthM": 55.6
+        },
+        {
+          "fromKm": 270.967,
+          "toKm": 271.471,
+          "lengthM": 503.7
+        },
+        {
+          "fromKm": 271.484,
+          "toKm": 272.378,
+          "lengthM": 893.5
+        }
+      ],
+      "insideLengthM": 1558.8,
+      "passages": 6,
+      "entryKm": 270.573,
+      "exitKm": 272.378,
+      "maxDepthM": 305.3,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 271.792
+    },
+    {
+      "code": "17396",
+      "nom": "Saint-Sauveur-d'Aunis",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 270.635,
+          "toKm": 270.68,
+          "lengthM": 45.2
+        },
+        {
+          "fromKm": 270.706,
+          "toKm": 270.8,
+          "lengthM": 93.5
+        },
+        {
+          "fromKm": 270.818,
+          "toKm": 270.853,
+          "lengthM": 35.3
+        },
+        {
+          "fromKm": 270.909,
+          "toKm": 270.967,
+          "lengthM": 58.4
+        },
+        {
+          "fromKm": 271.471,
+          "toKm": 271.484,
+          "lengthM": 13.9
+        },
+        {
+          "fromKm": 272.378,
+          "toKm": 272.383,
+          "lengthM": 4.8
+        },
+        {
+          "fromKm": 272.427,
+          "toKm": 272.465,
+          "lengthM": 38.3
+        },
+        {
+          "fromKm": 272.484,
+          "toKm": 272.823,
+          "lengthM": 338.8
+        },
+        {
+          "fromKm": 272.895,
+          "toKm": 272.99,
+          "lengthM": 94.8
+        },
+        {
+          "fromKm": 273.107,
+          "toKm": 273.145,
+          "lengthM": 38.3
+        },
+        {
+          "fromKm": 273.177,
+          "toKm": 273.195,
+          "lengthM": 17.8
+        },
+        {
+          "fromKm": 273.248,
+          "toKm": 273.287,
+          "lengthM": 38.9
+        },
+        {
+          "fromKm": 273.349,
+          "toKm": 273.364,
+          "lengthM": 14.9
+        },
+        {
+          "fromKm": 273.4,
+          "toKm": 273.415,
+          "lengthM": 14.4
+        },
+        {
+          "fromKm": 274.179,
+          "toKm": 274.196,
+          "lengthM": 16.8
+        },
+        {
+          "fromKm": 274.246,
+          "toKm": 274.308,
+          "lengthM": 61.6
+        }
+      ],
+      "insideLengthM": 925.7,
+      "passages": 16,
+      "entryKm": 270.635,
+      "exitKm": 274.308,
+      "maxDepthM": 6.1,
+      "maxDepthCapped": false,
+      "maxDepthAtKm": 270.745
+    },
+    {
+      "code": "17158",
+      "nom": "Ferrières",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 272.383,
+          "toKm": 272.427,
+          "lengthM": 43.9
+        },
+        {
+          "fromKm": 272.465,
+          "toKm": 272.484,
+          "lengthM": 19.1
+        },
+        {
+          "fromKm": 272.823,
+          "toKm": 272.895,
+          "lengthM": 72.3
+        },
+        {
+          "fromKm": 272.99,
+          "toKm": 273.107,
+          "lengthM": 117.2
+        },
+        {
+          "fromKm": 273.145,
+          "toKm": 273.177,
+          "lengthM": 31.4
+        },
+        {
+          "fromKm": 273.195,
+          "toKm": 273.248,
+          "lengthM": 53.4
+        },
+        {
+          "fromKm": 273.287,
+          "toKm": 273.349,
+          "lengthM": 62.2
+        },
+        {
+          "fromKm": 273.364,
+          "toKm": 273.4,
+          "lengthM": 36.3
+        },
+        {
+          "fromKm": 273.415,
+          "toKm": 274.179,
+          "lengthM": 764.8
+        },
+        {
+          "fromKm": 274.196,
+          "toKm": 274.246,
+          "lengthM": 50.1
+        },
+        {
+          "fromKm": 274.308,
+          "toKm": 276.256,
+          "lengthM": 1947.5
+        }
+      ],
+      "insideLengthM": 3198.2,
+      "passages": 11,
+      "entryKm": 272.383,
+      "exitKm": 276.256,
+      "maxDepthM": 301.5,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 274.682
+    },
+    {
+      "code": "17322",
+      "nom": "Saint-Cyr-du-Doret",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 276.256,
+          "toKm": 276.32,
+          "lengthM": 64.1
+        },
+        {
+          "fromKm": 276.439,
+          "toKm": 276.588,
+          "lengthM": 149.2
+        }
+      ],
+      "insideLengthM": 213.3,
+      "passages": 2,
+      "entryKm": 276.256,
+      "exitKm": 276.588,
+      "maxDepthM": 2.4,
+      "maxDepthCapped": false,
+      "maxDepthAtKm": 276.513
+    },
+    {
+      "code": "17349",
+      "nom": "Saint-Jean-de-Liversay",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 276.32,
+          "toKm": 276.439,
+          "lengthM": 119.6
+        },
+        {
+          "fromKm": 276.588,
+          "toKm": 283.398,
+          "lengthM": 6809.9
+        },
+        {
+          "fromKm": 283.982,
+          "toKm": 284.14,
+          "lengthM": 158.1
+        }
+      ],
+      "insideLengthM": 7087.6,
+      "passages": 3,
+      "entryKm": 276.32,
+      "exitKm": 284.14,
+      "maxDepthM": 301,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 277.474
+    },
+    {
+      "code": "17439",
+      "nom": "Taugon",
+      "departement": "17",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 283.398,
+          "toKm": 283.982,
+          "lengthM": 583.9
+        },
+        {
+          "fromKm": 284.14,
+          "toKm": 290.988,
+          "lengthM": 6847.3
+        }
+      ],
+      "insideLengthM": 7431.2,
+      "passages": 2,
+      "entryKm": 283.398,
+      "exitKm": 290.988,
+      "maxDepthM": 315.4,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 284.479
+    },
+    {
+      "code": "85132",
+      "nom": "Maillé",
+      "departement": "85",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 290.988,
+          "toKm": 291.208,
+          "lengthM": 220.1
+        },
+        {
+          "fromKm": 291.221,
+          "toKm": 291.352,
+          "lengthM": 130.8
+        },
+        {
+          "fromKm": 291.357,
+          "toKm": 291.427,
+          "lengthM": 70.5
+        },
+        {
+          "fromKm": 291.436,
+          "toKm": 296.398,
+          "lengthM": 4962.8
+        }
+      ],
+      "insideLengthM": 5384.2,
+      "passages": 4,
+      "entryKm": 290.988,
+      "exitKm": 296.398,
+      "maxDepthM": 311.1,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 291.749
+    },
+    {
+      "code": "85303",
+      "nom": "Vix",
+      "departement": "85",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 291.208,
+          "toKm": 291.221,
+          "lengthM": 13.5
+        },
+        {
+          "fromKm": 291.352,
+          "toKm": 291.357,
+          "lengthM": 4.6
+        },
+        {
+          "fromKm": 291.427,
+          "toKm": 291.436,
+          "lengthM": 8.5
+        }
+      ],
+      "insideLengthM": 26.6,
+      "passages": 3,
+      "entryKm": 291.208,
+      "exitKm": 291.436,
+      "maxDepthM": 0.6,
+      "maxDepthCapped": false,
+      "maxDepthAtKm": 291.427
+    },
+    {
+      "code": "85133",
+      "nom": "Maillezais",
+      "departement": "85",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 296.398,
+          "toKm": 302.672,
+          "lengthM": 6273.5
+        }
+      ],
+      "insideLengthM": 6273.5,
+      "passages": 1,
+      "entryKm": 296.398,
+      "exitKm": 302.672,
+      "maxDepthM": 310.5,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 296.845
+    },
+    {
+      "code": "85265",
+      "nom": "Saint-Pierre-le-Vieux",
+      "departement": "85",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 302.672,
+          "toKm": 308.422,
+          "lengthM": 5749.8
+        }
+      ],
+      "insideLengthM": 5749.8,
+      "passages": 1,
+      "entryKm": 302.672,
+      "exitKm": 308.422,
+      "maxDepthM": 303.4,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 303.086
+    },
+    {
+      "code": "85244",
+      "nom": "Saint-Martin-de-Fraigneau",
+      "departement": "85",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 308.422,
+          "toKm": 310.84,
+          "lengthM": 2418
+        }
+      ],
+      "insideLengthM": 2418,
+      "passages": 1,
+      "entryKm": 308.422,
+      "exitKm": 310.84,
+      "maxDepthM": 312,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 308.79
+    },
+    {
+      "code": "85092",
+      "nom": "Fontenay-le-Comte",
+      "departement": "85",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 310.84,
+          "toKm": 319.173,
+          "lengthM": 8332.9
+        }
+      ],
+      "insideLengthM": 8332.9,
+      "passages": 1,
+      "entryKm": 310.84,
+      "exitKm": 319.173,
+      "maxDepthM": 312.7,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 311.183
+    },
+    {
+      "code": "85176",
+      "nom": "Pissotte",
+      "departement": "85",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 319.173,
+          "toKm": 323.041,
+          "lengthM": 3868.1
+        },
+        {
+          "fromKm": 323.049,
+          "toKm": 323.272,
+          "lengthM": 222.9
+        },
+        {
+          "fromKm": 323.475,
+          "toKm": 323.917,
+          "lengthM": 442.9
+        },
+        {
+          "fromKm": 323.932,
+          "toKm": 324.749,
+          "lengthM": 817
+        }
+      ],
+      "insideLengthM": 5350.9,
+      "passages": 4,
+      "entryKm": 319.173,
+      "exitKm": 324.749,
+      "maxDepthM": 304.2,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 319.787
+    },
+    {
+      "code": "85143",
+      "nom": "Mervent",
+      "departement": "85",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 323.041,
+          "toKm": 323.049,
+          "lengthM": 8.7
+        },
+        {
+          "fromKm": 323.272,
+          "toKm": 323.475,
+          "lengthM": 202.2
+        },
+        {
+          "fromKm": 323.917,
+          "toKm": 323.932,
+          "lengthM": 14.1
+        },
+        {
+          "fromKm": 324.749,
+          "toKm": 327.223,
+          "lengthM": 2474.3
+        }
+      ],
+      "insideLengthM": 2699.3,
+      "passages": 4,
+      "entryKm": 323.041,
+      "exitKm": 327.223,
+      "maxDepthM": 306.2,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 325.337
+    },
+    {
+      "code": "85305",
+      "nom": "Vouvant",
+      "departement": "85",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 327.223,
+          "toKm": 333.405,
+          "lengthM": 6181.6
+        }
+      ],
+      "insideLengthM": 6181.6,
+      "passages": 1,
+      "entryKm": 327.223,
+      "exitKm": 333.405,
+      "maxDepthM": 305.8,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 328.7
+    },
+    {
+      "code": "85292",
+      "nom": "Rives-du-Fougerais",
+      "departement": "85",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 333.405,
+          "toKm": 339.632,
+          "lengthM": 6227.4
+        }
+      ],
+      "insideLengthM": 6227.4,
+      "passages": 1,
+      "entryKm": 333.405,
+      "exitKm": 339.632,
+      "maxDepthM": 314.7,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 333.852
+    },
+    {
+      "code": "85252",
+      "nom": "Saint-Maurice-le-Girard",
+      "departement": "85",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 339.632,
+          "toKm": 343.444,
+          "lengthM": 3811.6
+        }
+      ],
+      "insideLengthM": 3811.6,
+      "passages": 1,
+      "entryKm": 339.632,
+      "exitKm": 343.444,
+      "maxDepthM": 310,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 340.087
+    },
+    {
+      "code": "85067",
+      "nom": "Cheffois",
+      "departement": "85",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 343.444,
+          "toKm": 345.681,
+          "lengthM": 2237.5
+        },
+        {
+          "fromKm": 345.75,
+          "toKm": 346.166,
+          "lengthM": 415.9
+        }
+      ],
+      "insideLengthM": 2653.4,
+      "passages": 2,
+      "entryKm": 343.444,
+      "exitKm": 346.166,
+      "maxDepthM": 310.3,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 343.883
+    },
+    {
+      "code": "85154",
+      "nom": "Mouilleron-Saint-Germain",
+      "departement": "85",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 345.681,
+          "toKm": 345.75,
+          "lengthM": 69.4
+        },
+        {
+          "fromKm": 346.166,
+          "toKm": 349.431,
+          "lengthM": 3264.5
+        }
+      ],
+      "insideLengthM": 3333.9,
+      "passages": 2,
+      "entryKm": 345.681,
+      "exitKm": 349.431,
+      "maxDepthM": 312.4,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 346.835
+    },
+    {
+      "code": "85187",
+      "nom": "Réaumur",
+      "departement": "85",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 349.431,
+          "toKm": 355.782,
+          "lengthM": 6351.3
+        }
+      ],
+      "insideLengthM": 6351.3,
+      "passages": 1,
+      "entryKm": 349.431,
+      "exitKm": 355.782,
+      "maxDepthM": 309.3,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 349.751
+    },
+    {
+      "code": "85140",
+      "nom": "La Meilleraie-Tillay",
+      "departement": "85",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 355.782,
+          "toKm": 357.948,
+          "lengthM": 2165.6
+        }
+      ],
+      "insideLengthM": 2165.6,
+      "passages": 1,
+      "entryKm": 355.782,
+      "exitKm": 357.948,
+      "maxDepthM": 318.4,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 356.437
+    },
+    {
+      "code": "85182",
+      "nom": "Pouzauges",
+      "departement": "85",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 357.948,
+          "toKm": 367.143,
+          "lengthM": 9194.9
+        }
+      ],
+      "insideLengthM": 9194.9,
+      "passages": 1,
+      "entryKm": 357.948,
+      "exitKm": 367.143,
+      "maxDepthM": 309.8,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 358.645
+    },
+    {
+      "code": "85090",
+      "nom": "Sèvremont",
+      "departement": "85",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 367.143,
+          "toKm": 371.392,
+          "lengthM": 4249.6
+        }
+      ],
+      "insideLengthM": 4249.6,
+      "passages": 1,
+      "entryKm": 367.143,
+      "exitKm": 371.392,
+      "maxDepthM": 304.6,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 367.501
+    },
+    {
+      "code": "79183",
+      "nom": "Montravers",
+      "departement": "79",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 371.392,
+          "toKm": 371.711,
+          "lengthM": 318.3
+        }
+      ],
+      "insideLengthM": 318.3,
+      "passages": 1,
+      "entryKm": 371.392,
+      "exitKm": 371.711,
+      "maxDepthM": 88.4,
+      "maxDepthCapped": false,
+      "maxDepthAtKm": 371.526
+    },
+    {
+      "code": "79235",
+      "nom": "Saint-Amand-sur-Sèvre",
+      "departement": "79",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 371.711,
+          "toKm": 376.963,
+          "lengthM": 5252.9
+        },
+        {
+          "fromKm": 377.047,
+          "toKm": 377.076,
+          "lengthM": 29.4
+        },
+        {
+          "fromKm": 377.517,
+          "toKm": 377.579,
+          "lengthM": 62.4
+        },
+        {
+          "fromKm": 377.706,
+          "toKm": 377.731,
+          "lengthM": 24.9
+        }
+      ],
+      "insideLengthM": 5369.6,
+      "passages": 4,
+      "entryKm": 371.711,
+      "exitKm": 377.731,
+      "maxDepthM": 304.7,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 372.038
+    },
+    {
+      "code": "79207",
+      "nom": "La Petite-Boissière",
+      "departement": "79",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 376.963,
+          "toKm": 377.047,
+          "lengthM": 83.4
+        },
+        {
+          "fromKm": 377.076,
+          "toKm": 377.517,
+          "lengthM": 440.7
+        },
+        {
+          "fromKm": 377.579,
+          "toKm": 377.706,
+          "lengthM": 126.7
+        },
+        {
+          "fromKm": 377.731,
+          "toKm": 382.631,
+          "lengthM": 4900.4
+        }
+      ],
+      "insideLengthM": 5551.2,
+      "passages": 4,
+      "entryKm": 376.963,
+      "exitKm": 382.631,
+      "maxDepthM": 320,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 378.106
+    },
+    {
+      "code": "79079",
+      "nom": "Mauléon",
+      "departement": "79",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 382.631,
+          "toKm": 389.558,
+          "lengthM": 6927
+        }
+      ],
+      "insideLengthM": 6927,
+      "passages": 1,
+      "entryKm": 382.631,
+      "exitKm": 389.558,
+      "maxDepthM": 310.6,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 382.969
+    },
+    {
+      "code": "79289",
+      "nom": "Saint-Pierre-des-Échaubrognes",
+      "departement": "79",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 389.558,
+          "toKm": 393.515,
+          "lengthM": 3956.7
+        },
+        {
+          "fromKm": 393.52,
+          "toKm": 393.573,
+          "lengthM": 53.4
+        },
+        {
+          "fromKm": 393.689,
+          "toKm": 393.697,
+          "lengthM": 8.1
+        },
+        {
+          "fromKm": 393.748,
+          "toKm": 393.757,
+          "lengthM": 9.5
+        },
+        {
+          "fromKm": 393.983,
+          "toKm": 394.054,
+          "lengthM": 71.5
+        }
+      ],
+      "insideLengthM": 4099.2,
+      "passages": 5,
+      "entryKm": 389.558,
+      "exitKm": 394.054,
+      "maxDepthM": 317.5,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 389.878
+    },
+    {
+      "code": "49192",
+      "nom": "Maulévrier",
+      "departement": "49",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 393.515,
+          "toKm": 393.52,
+          "lengthM": 4.6
+        },
+        {
+          "fromKm": 393.573,
+          "toKm": 393.689,
+          "lengthM": 115.7
+        },
+        {
+          "fromKm": 393.697,
+          "toKm": 393.748,
+          "lengthM": 50.6
+        },
+        {
+          "fromKm": 393.757,
+          "toKm": 393.983,
+          "lengthM": 225.8
+        },
+        {
+          "fromKm": 394.054,
+          "toKm": 399.634,
+          "lengthM": 5579.8
+        },
+        {
+          "fromKm": 399.639,
+          "toKm": 399.854,
+          "lengthM": 215.3
+        },
+        {
+          "fromKm": 399.889,
+          "toKm": 399.979,
+          "lengthM": 89.8
+        },
+        {
+          "fromKm": 399.984,
+          "toKm": 400.003,
+          "lengthM": 19.5
+        },
+        {
+          "fromKm": 400.026,
+          "toKm": 400.121,
+          "lengthM": 95.2
+        },
+        {
+          "fromKm": 400.139,
+          "toKm": 400.156,
+          "lengthM": 17.8
+        },
+        {
+          "fromKm": 400.178,
+          "toKm": 400.183,
+          "lengthM": 4.3
+        },
+        {
+          "fromKm": 400.256,
+          "toKm": 400.294,
+          "lengthM": 38.6
+        }
+      ],
+      "insideLengthM": 6457,
+      "passages": 12,
+      "entryKm": 393.515,
+      "exitKm": 400.294,
+      "maxDepthM": 306.1,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 394.429
+    },
+    {
+      "code": "49352",
+      "nom": "Toutlemonde",
+      "departement": "49",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 399.634,
+          "toKm": 399.639,
+          "lengthM": 4.8
+        },
+        {
+          "fromKm": 399.854,
+          "toKm": 399.889,
+          "lengthM": 34.7
+        },
+        {
+          "fromKm": 399.979,
+          "toKm": 399.984,
+          "lengthM": 4.9
+        },
+        {
+          "fromKm": 400.003,
+          "toKm": 400.026,
+          "lengthM": 22.8
+        },
+        {
+          "fromKm": 400.121,
+          "toKm": 400.139,
+          "lengthM": 17.4
+        },
+        {
+          "fromKm": 400.156,
+          "toKm": 400.178,
+          "lengthM": 22
+        },
+        {
+          "fromKm": 400.183,
+          "toKm": 400.256,
+          "lengthM": 72.9
+        },
+        {
+          "fromKm": 400.294,
+          "toKm": 404.592,
+          "lengthM": 4297.4
+        }
+      ],
+      "insideLengthM": 4476.9,
+      "passages": 8,
+      "entryKm": 399.634,
+      "exitKm": 404.592,
+      "maxDepthM": 314.3,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 400.685
+    },
+    {
+      "code": "49231",
+      "nom": "Nuaillé",
+      "departement": "49",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 404.592,
+          "toKm": 404.96,
+          "lengthM": 368.4
+        },
+        {
+          "fromKm": 405.104,
+          "toKm": 405.156,
+          "lengthM": 52.7
+        },
+        {
+          "fromKm": 405.384,
+          "toKm": 405.881,
+          "lengthM": 497
+        },
+        {
+          "fromKm": 406.233,
+          "toKm": 408.736,
+          "lengthM": 2503.6
+        }
+      ],
+      "insideLengthM": 3421.7,
+      "passages": 4,
+      "entryKm": 404.592,
+      "exitKm": 408.736,
+      "maxDepthM": 303.7,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 406.538
+    },
+    {
+      "code": "49195",
+      "nom": "Mazières-en-Mauges",
+      "departement": "49",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 404.96,
+          "toKm": 405.104,
+          "lengthM": 143.7
+        },
+        {
+          "fromKm": 405.156,
+          "toKm": 405.384,
+          "lengthM": 228
+        },
+        {
+          "fromKm": 405.881,
+          "toKm": 406.233,
+          "lengthM": 351.2
+        }
+      ],
+      "insideLengthM": 722.9,
+      "passages": 3,
+      "entryKm": 404.96,
+      "exitKm": 406.233,
+      "maxDepthM": 49.3,
+      "maxDepthCapped": false,
+      "maxDepthAtKm": 406.026
+    },
+    {
+      "code": "49355",
+      "nom": "Trémentines",
+      "departement": "49",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 408.736,
+          "toKm": 414.573,
+          "lengthM": 5836.7
+        },
+        {
+          "fromKm": 415.187,
+          "toKm": 415.196,
+          "lengthM": 8.9
+        }
+      ],
+      "insideLengthM": 5845.6,
+      "passages": 2,
+      "entryKm": 408.736,
+      "exitKm": 415.196,
+      "maxDepthM": 311,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 409.094
+    },
+    {
+      "code": "49092",
+      "nom": "Chemillé-en-Anjou",
+      "departement": "49",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 414.573,
+          "toKm": 415.187,
+          "lengthM": 614.1
+        },
+        {
+          "fromKm": 415.196,
+          "toKm": 436.384,
+          "lengthM": 21188.4
+        }
+      ],
+      "insideLengthM": 21802.5,
+      "passages": 2,
+      "entryKm": 414.573,
+      "exitKm": 436.384,
+      "maxDepthM": 302.7,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 415.5
+    },
+    {
+      "code": "49244",
+      "nom": "Mauges-sur-Loire",
+      "departement": "49",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 436.384,
+          "toKm": 440.325,
+          "lengthM": 3940.5
+        },
+        {
+          "fromKm": 440.368,
+          "toKm": 440.373,
+          "lengthM": 4.8
+        }
+      ],
+      "insideLengthM": 3945.3,
+      "passages": 2,
+      "entryKm": 436.384,
+      "exitKm": 440.373,
+      "maxDepthM": 300.6,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 436.994
+    },
+    {
+      "code": "49063",
+      "nom": "Chalonnes-sur-Loire",
+      "departement": "49",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 440.325,
+          "toKm": 440.368,
+          "lengthM": 43
+        },
+        {
+          "fromKm": 440.373,
+          "toKm": 449.62,
+          "lengthM": 9247
+        }
+      ],
+      "insideLengthM": 9290,
+      "passages": 2,
+      "entryKm": 440.325,
+      "exitKm": 449.62,
+      "maxDepthM": 314.4,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 440.733
+    },
+    {
+      "code": "49283",
+      "nom": "Saint-Georges-sur-Loire",
+      "departement": "49",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 449.62,
+          "toKm": 450.769,
+          "lengthM": 1149
+        }
+      ],
+      "insideLengthM": 1149,
+      "passages": 1,
+      "entryKm": 449.62,
+      "exitKm": 450.769,
+      "maxDepthM": 257.6,
+      "maxDepthCapped": false,
+      "maxDepthAtKm": 449.89
+    },
+    {
+      "code": "49247",
+      "nom": "La Possonnière",
+      "departement": "49",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 450.769,
+          "toKm": 457.149,
+          "lengthM": 6380
+        }
+      ],
+      "insideLengthM": 6380,
+      "passages": 1,
+      "entryKm": 450.769,
+      "exitKm": 457.149,
+      "maxDepthM": 300.4,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 451.195
+    },
+    {
+      "code": "49329",
+      "nom": "Savennières",
+      "departement": "49",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 457.149,
+          "toKm": 462.51,
+          "lengthM": 5361.6
+        },
+        {
+          "fromKm": 462.62,
+          "toKm": 462.706,
+          "lengthM": 86.6
+        }
+      ],
+      "insideLengthM": 5448.2,
+      "passages": 2,
+      "entryKm": 457.149,
+      "exitKm": 462.706,
+      "maxDepthM": 305.1,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 457.464
+    },
+    {
+      "code": "49035",
+      "nom": "Bouchemaine",
+      "departement": "49",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 462.51,
+          "toKm": 462.62,
+          "lengthM": 109.5
+        },
+        {
+          "fromKm": 462.706,
+          "toKm": 469.706,
+          "lengthM": 6999.1
+        }
+      ],
+      "insideLengthM": 7108.6,
+      "passages": 2,
+      "entryKm": 462.51,
+      "exitKm": 469.706,
+      "maxDepthM": 176.2,
+      "maxDepthCapped": false,
+      "maxDepthAtKm": 464.13
+    },
+    {
+      "code": "49007",
+      "nom": "Angers",
+      "departement": "49",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 469.706,
+          "toKm": 475.68,
+          "lengthM": 5974.2
+        }
+      ],
+      "insideLengthM": 5974.2,
+      "passages": 1,
+      "entryKm": 469.706,
+      "exitKm": 475.68,
+      "maxDepthM": 303.5,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 470.065
+    },
+    {
+      "code": "49015",
+      "nom": "Avrillé",
+      "departement": "49",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 475.68,
+          "toKm": 479.728,
+          "lengthM": 4048.4
+        }
+      ],
+      "insideLengthM": 4048.4,
+      "passages": 1,
+      "entryKm": 475.68,
+      "exitKm": 479.728,
+      "maxDepthM": 317.8,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 476.246
+    },
+    {
+      "code": "49214",
+      "nom": "Montreuil-Juigné",
+      "departement": "49",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 479.728,
+          "toKm": 485.805,
+          "lengthM": 6076.6
+        }
+      ],
+      "insideLengthM": 6076.6,
+      "passages": 1,
+      "entryKm": 479.728,
+      "exitKm": 485.805,
+      "maxDepthM": 315.9,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 480.216
+    },
+    {
+      "code": "49135",
+      "nom": "Feneu",
+      "departement": "49",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 485.805,
+          "toKm": 486.072,
+          "lengthM": 266.9
+        }
+      ],
+      "insideLengthM": 266.9,
+      "passages": 1,
+      "entryKm": 485.805,
+      "exitKm": 486.072,
+      "maxDepthM": 61.1,
+      "maxDepthCapped": false,
+      "maxDepthAtKm": 485.875
+    },
+    {
+      "code": "49200",
+      "nom": "Longuenée-en-Anjou",
+      "departement": "49",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 486.072,
+          "toKm": 491.658,
+          "lengthM": 5586.1
+        }
+      ],
+      "insideLengthM": 5586.1,
+      "passages": 1,
+      "entryKm": 486.072,
+      "exitKm": 491.658,
+      "maxDepthM": 307.8,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 487.574
+    },
+    {
+      "code": "49155",
+      "nom": "Grez-Neuville",
+      "departement": "49",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 491.658,
+          "toKm": 494.601,
+          "lengthM": 2943.5
+        }
+      ],
+      "insideLengthM": 2943.5,
+      "passages": 1,
+      "entryKm": 491.658,
+      "exitKm": 494.601,
+      "maxDepthM": 300.2,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 491.965
+    },
+    {
+      "code": "49176",
+      "nom": "Le Lion-d'Angers",
+      "departement": "49",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 494.601,
+          "toKm": 499.408,
+          "lengthM": 4806.6
+        }
+      ],
+      "insideLengthM": 4806.6,
+      "passages": 1,
+      "entryKm": 494.601,
+      "exitKm": 499.408,
+      "maxDepthM": 322,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 495.345
+    },
+    {
+      "code": "49217",
+      "nom": "Montreuil-sur-Maine",
+      "departement": "49",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 499.408,
+          "toKm": 502.376,
+          "lengthM": 2968
+        }
+      ],
+      "insideLengthM": 2968,
+      "passages": 1,
+      "entryKm": 499.408,
+      "exitKm": 502.376,
+      "maxDepthM": 300.5,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 499.741
+    },
+    {
+      "code": "49064",
+      "nom": "Chambellay",
+      "departement": "49",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 502.376,
+          "toKm": 507.238,
+          "lengthM": 4862.6
+        }
+      ],
+      "insideLengthM": 4862.6,
+      "passages": 1,
+      "entryKm": 502.376,
+      "exitKm": 507.238,
+      "maxDepthM": 319.9,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 502.707
+    },
+    {
+      "code": "49161",
+      "nom": "La Jaille-Yvon",
+      "departement": "49",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 507.238,
+          "toKm": 511.71,
+          "lengthM": 4472
+        }
+      ],
+      "insideLengthM": 4472,
+      "passages": 1,
+      "entryKm": 507.238,
+      "exitKm": 511.71,
+      "maxDepthM": 102,
+      "maxDepthCapped": false,
+      "maxDepthAtKm": 507.489
+    },
+    {
+      "code": "53150",
+      "nom": "Ménil",
+      "departement": "53",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 511.71,
+          "toKm": 523.568,
+          "lengthM": 11858.1
+        }
+      ],
+      "insideLengthM": 11858.1,
+      "passages": 1,
+      "entryKm": 511.71,
+      "exitKm": 523.568,
+      "maxDepthM": 318.7,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 520.238
+    },
+    {
+      "code": "53062",
+      "nom": "Château-Gontier-sur-Mayenne",
+      "departement": "53",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 523.568,
+          "toKm": 529.21,
+          "lengthM": 5641.8
+        }
+      ],
+      "insideLengthM": 5641.8,
+      "passages": 1,
+      "entryKm": 523.568,
+      "exitKm": 529.21,
+      "maxDepthM": 309.3,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 523.931
+    },
+    {
+      "code": "53136",
+      "nom": "La Roche-Neuville",
+      "departement": "53",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 529.21,
+          "toKm": 538.732,
+          "lengthM": 9522.2
+        }
+      ],
+      "insideLengthM": 9522.2,
+      "passages": 1,
+      "entryKm": 529.21,
+      "exitKm": 538.732,
+      "maxDepthM": 99.7,
+      "maxDepthCapped": false,
+      "maxDepthAtKm": 531.469
+    },
+    {
+      "code": "53117",
+      "nom": "Houssay",
+      "departement": "53",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 538.732,
+          "toKm": 543.003,
+          "lengthM": 4270.2
+        },
+        {
+          "fromKm": 543.071,
+          "toKm": 544.28,
+          "lengthM": 1208.8
+        }
+      ],
+      "insideLengthM": 5479,
+      "passages": 2,
+      "entryKm": 538.732,
+      "exitKm": 544.28,
+      "maxDepthM": 306,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 541.886
+    },
+    {
+      "code": "53186",
+      "nom": "Quelaines-Saint-Gault",
+      "departement": "53",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 543.003,
+          "toKm": 543.071,
+          "lengthM": 68.5
+        },
+        {
+          "fromKm": 544.28,
+          "toKm": 552.846,
+          "lengthM": 8566.1
+        }
+      ],
+      "insideLengthM": 8634.6,
+      "passages": 2,
+      "entryKm": 543.003,
+      "exitKm": 552.846,
+      "maxDepthM": 300.6,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 544.607
+    },
+    {
+      "code": "53011",
+      "nom": "Astillé",
+      "departement": "53",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 552.846,
+          "toKm": 555.744,
+          "lengthM": 2898.3
+        },
+        {
+          "fromKm": 558.263,
+          "toKm": 559.352,
+          "lengthM": 1088.3
+        }
+      ],
+      "insideLengthM": 3986.6,
+      "passages": 2,
+      "entryKm": 552.846,
+      "exitKm": 559.352,
+      "maxDepthM": 322.7,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 553.173
+    },
+    {
+      "code": "53082",
+      "nom": "Courbeveille",
+      "departement": "53",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 555.744,
+          "toKm": 558.263,
+          "lengthM": 2519
+        }
+      ],
+      "insideLengthM": 2519,
+      "passages": 1,
+      "entryKm": 555.744,
+      "exitKm": 558.263,
+      "maxDepthM": 315.9,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 556.073
+    },
+    {
+      "code": "53077",
+      "nom": "Cossé-le-Vivien",
+      "departement": "53",
+      "type": "commune",
+      "runs": [
+        {
+          "fromKm": 559.352,
+          "toKm": 561.304,
+          "lengthM": 1952.6
+        }
+      ],
+      "insideLengthM": 1952.6,
+      "passages": 1,
+      "entryKm": 559.352,
+      "exitKm": 561.304,
+      "maxDepthM": 310,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 559.66
+    }
+  ],
+  "communesDelegueesOuAssociees": [
+    {
+      "code": "17001",
+      "nom": "Agonnay",
+      "departement": "17",
+      "type": "commune-associee",
+      "runs": [
+        {
+          "fromKm": 219.248,
+          "toKm": 222.728,
+          "lengthM": 3480.1
+        },
+        {
+          "fromKm": 222.844,
+          "toKm": 223.04,
+          "lengthM": 196
+        },
+        {
+          "fromKm": 223.062,
+          "toKm": 223.066,
+          "lengthM": 4.3
+        }
+      ],
+      "insideLengthM": 3680.4,
+      "passages": 3,
+      "entryKm": 219.248,
+      "exitKm": 223.066,
+      "maxDepthM": 300.8,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 219.609
+    },
+    {
+      "code": "85041",
+      "nom": "Cezais",
+      "departement": "85",
+      "type": "commune-deleguee",
+      "runs": [
+        {
+          "fromKm": 333.405,
+          "toKm": 337.515,
+          "lengthM": 4110.3
+        }
+      ],
+      "insideLengthM": 4110.3,
+      "passages": 1,
+      "entryKm": 333.405,
+      "exitKm": 337.515,
+      "maxDepthM": 314.7,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 333.852
+    },
+    {
+      "code": "85271",
+      "nom": "Saint-Sulpice-en-Pareds",
+      "departement": "85",
+      "type": "commune-deleguee",
+      "runs": [
+        {
+          "fromKm": 337.515,
+          "toKm": 339.632,
+          "lengthM": 2117.1
+        }
+      ],
+      "insideLengthM": 2117.1,
+      "passages": 1,
+      "entryKm": 337.515,
+      "exitKm": 339.632,
+      "maxDepthM": 302.5,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 338.112
+    },
+    {
+      "code": "85219",
+      "nom": "Saint-Germain-l'Aiguiller",
+      "departement": "85",
+      "type": "commune-deleguee",
+      "runs": [
+        {
+          "fromKm": 345.681,
+          "toKm": 345.75,
+          "lengthM": 69.4
+        },
+        {
+          "fromKm": 346.166,
+          "toKm": 349.431,
+          "lengthM": 3264.5
+        }
+      ],
+      "insideLengthM": 3333.9,
+      "passages": 2,
+      "entryKm": 345.681,
+      "exitKm": 349.431,
+      "maxDepthM": 312.4,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 346.835
+    },
+    {
+      "code": "85180",
+      "nom": "La Pommeraie-sur-Sèvre",
+      "departement": "85",
+      "type": "commune-deleguee",
+      "runs": [
+        {
+          "fromKm": 367.143,
+          "toKm": 371.392,
+          "lengthM": 4249.6
+        }
+      ],
+      "insideLengthM": 4249.6,
+      "passages": 1,
+      "entryKm": 367.143,
+      "exitKm": 371.392,
+      "maxDepthM": 304.6,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 367.501
+    },
+    {
+      "code": "79237",
+      "nom": "Saint-Aubin-de-Baubigné",
+      "departement": "79",
+      "type": "commune-associee",
+      "runs": [
+        {
+          "fromKm": 386.698,
+          "toKm": 389.558,
+          "lengthM": 2860
+        }
+      ],
+      "insideLengthM": 2860,
+      "passages": 1,
+      "entryKm": 386.698,
+      "exitKm": 389.558,
+      "maxDepthM": 306.2,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 387.075
+    },
+    {
+      "code": "49351",
+      "nom": "La Tourlandry",
+      "departement": "49",
+      "type": "commune-deleguee",
+      "runs": [
+        {
+          "fromKm": 414.573,
+          "toKm": 415.187,
+          "lengthM": 614.1
+        }
+      ],
+      "insideLengthM": 614.1,
+      "passages": 1,
+      "entryKm": 414.573,
+      "exitKm": 415.187,
+      "maxDepthM": 2.3,
+      "maxDepthCapped": false,
+      "maxDepthAtKm": 415.024
+    },
+    {
+      "code": "49281",
+      "nom": "Saint-Georges-des-Gardes",
+      "departement": "49",
+      "type": "commune-deleguee",
+      "runs": [
+        {
+          "fromKm": 415.196,
+          "toKm": 419.259,
+          "lengthM": 4063.1
+        }
+      ],
+      "insideLengthM": 4063.1,
+      "passages": 1,
+      "entryKm": 415.196,
+      "exitKm": 419.259,
+      "maxDepthM": 307.4,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 416.006
+    },
+    {
+      "code": "49199",
+      "nom": "Melay",
+      "departement": "49",
+      "type": "commune-deleguee",
+      "runs": [
+        {
+          "fromKm": 419.259,
+          "toKm": 424.384,
+          "lengthM": 5125.3
+        }
+      ],
+      "insideLengthM": 5125.3,
+      "passages": 1,
+      "entryKm": 419.259,
+      "exitKm": 424.384,
+      "maxDepthM": 321.4,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 419.757
+    },
+    {
+      "code": "49092",
+      "nom": "Chemillé",
+      "departement": "49",
+      "type": "commune-deleguee",
+      "runs": [
+        {
+          "fromKm": 424.384,
+          "toKm": 429.952,
+          "lengthM": 5567.9
+        }
+      ],
+      "insideLengthM": 5567.9,
+      "passages": 1,
+      "entryKm": 424.384,
+      "exitKm": 429.952,
+      "maxDepthM": 310.9,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 424.932
+    },
+    {
+      "code": "49300",
+      "nom": "Saint-Lézin",
+      "departement": "49",
+      "type": "commune-deleguee",
+      "runs": [
+        {
+          "fromKm": 429.952,
+          "toKm": 432.916,
+          "lengthM": 2963.5
+        },
+        {
+          "fromKm": 433.261,
+          "toKm": 433.291,
+          "lengthM": 29.9
+        },
+        {
+          "fromKm": 433.326,
+          "toKm": 433.486,
+          "lengthM": 159.4
+        }
+      ],
+      "insideLengthM": 3152.8,
+      "passages": 3,
+      "entryKm": 429.952,
+      "exitKm": 433.486,
+      "maxDepthM": 307,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 430.294
+    },
+    {
+      "code": "49225",
+      "nom": "Neuvy-en-Mauges",
+      "departement": "49",
+      "type": "commune-deleguee",
+      "runs": [
+        {
+          "fromKm": 432.916,
+          "toKm": 433.261,
+          "lengthM": 344.9
+        },
+        {
+          "fromKm": 433.291,
+          "toKm": 433.326,
+          "lengthM": 35.9
+        },
+        {
+          "fromKm": 433.486,
+          "toKm": 436.384,
+          "lengthM": 2898.6
+        }
+      ],
+      "insideLengthM": 3279.4,
+      "passages": 3,
+      "entryKm": 432.916,
+      "exitKm": 436.384,
+      "maxDepthM": 301.5,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 433.815
+    },
+    {
+      "code": "49295",
+      "nom": "Saint-Laurent-de-la-Plaine",
+      "departement": "49",
+      "type": "commune-deleguee",
+      "runs": [
+        {
+          "fromKm": 436.384,
+          "toKm": 440.325,
+          "lengthM": 3940.5
+        },
+        {
+          "fromKm": 440.368,
+          "toKm": 440.373,
+          "lengthM": 4.8
+        }
+      ],
+      "insideLengthM": 3945.3,
+      "passages": 2,
+      "entryKm": 436.384,
+      "exitKm": 440.373,
+      "maxDepthM": 300.6,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 436.994
+    },
+    {
+      "code": "49200",
+      "nom": "La Membrolle-sur-Longuenée",
+      "departement": "49",
+      "type": "commune-deleguee",
+      "runs": [
+        {
+          "fromKm": 486.072,
+          "toKm": 488.137,
+          "lengthM": 2065
+        }
+      ],
+      "insideLengthM": 2065,
+      "passages": 1,
+      "entryKm": 486.072,
+      "exitKm": 488.137,
+      "maxDepthM": 96,
+      "maxDepthCapped": false,
+      "maxDepthAtKm": 486.367
+    },
+    {
+      "code": "49251",
+      "nom": "Pruillé",
+      "departement": "49",
+      "type": "commune-deleguee",
+      "runs": [
+        {
+          "fromKm": 488.137,
+          "toKm": 491.658,
+          "lengthM": 3521.1
+        }
+      ],
+      "insideLengthM": 3521.1,
+      "passages": 1,
+      "entryKm": 488.137,
+      "exitKm": 491.658,
+      "maxDepthM": 317,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 488.454
+    },
+    {
+      "code": "53215",
+      "nom": "Saint-Fort",
+      "departement": "53",
+      "type": "commune-deleguee",
+      "runs": [
+        {
+          "fromKm": 523.568,
+          "toKm": 526.159,
+          "lengthM": 2590.5
+        }
+      ],
+      "insideLengthM": 2590.5,
+      "passages": 1,
+      "entryKm": 523.568,
+      "exitKm": 526.159,
+      "maxDepthM": 85.4,
+      "maxDepthCapped": false,
+      "maxDepthAtKm": 525.98
+    },
+    {
+      "code": "53062",
+      "nom": "Château-Gontier",
+      "departement": "53",
+      "type": "commune-deleguee",
+      "runs": [
+        {
+          "fromKm": 526.159,
+          "toKm": 529.21,
+          "lengthM": 3051.3
+        }
+      ],
+      "insideLengthM": 3051.3,
+      "passages": 1,
+      "entryKm": 526.159,
+      "exitKm": 529.21,
+      "maxDepthM": 306.9,
+      "maxDepthCapped": true,
+      "maxDepthAtKm": 527.064
+    },
+    {
+      "code": "53136",
+      "nom": "Loigné-sur-Mayenne",
+      "departement": "53",
+      "type": "commune-deleguee",
+      "runs": [
+        {
+          "fromKm": 529.21,
+          "toKm": 534.027,
+          "lengthM": 4817.2
+        }
+      ],
+      "insideLengthM": 4817.2,
+      "passages": 1,
+      "entryKm": 529.21,
+      "exitKm": 534.027,
+      "maxDepthM": 99.7,
+      "maxDepthCapped": false,
+      "maxDepthAtKm": 531.469
+    },
+    {
+      "code": "53254",
+      "nom": "Saint-Sulpice",
+      "departement": "53",
+      "type": "commune-deleguee",
+      "runs": [
+        {
+          "fromKm": 534.027,
+          "toKm": 538.732,
+          "lengthM": 4705
+        }
+      ],
+      "insideLengthM": 4705,
+      "passages": 1,
+      "entryKm": 534.027,
+      "exitKm": 538.732,
+      "maxDepthM": 73.9,
+      "maxDepthCapped": false,
+      "maxDepthAtKm": 538.022
+    }
+  ],
+  "communesProchesNonTraversees": [
+    {
+      "code": "33076",
+      "nom": "Budos",
+      "departement": "33",
+      "minDistanceM": 27.7,
+      "atKm": 6.425
+    },
+    {
+      "code": "33225",
+      "nom": "Landiras",
+      "departement": "33",
+      "minDistanceM": 942.1,
+      "atKm": 8.796
+    },
+    {
+      "code": "33337",
+      "nom": "Preignac",
+      "departement": "33",
+      "minDistanceM": 265.1,
+      "atKm": 11.06
+    },
+    {
+      "code": "33327",
+      "nom": "Podensac",
+      "departement": "33",
+      "minDistanceM": 92.1,
+      "atKm": 22.471
+    },
+    {
+      "code": "33552",
+      "nom": "Virelade",
+      "departement": "33",
+      "minDistanceM": 211.5,
+      "atKm": 27.655
+    },
+    {
+      "code": "33007",
+      "nom": "Arbanats",
+      "departement": "33",
+      "minDistanceM": 197.3,
+      "atKm": 27.679
+    },
+    {
+      "code": "33549",
+      "nom": "Villenave-de-Rions",
+      "departement": "33",
+      "minDistanceM": 595,
+      "atKm": 28.737
+    },
+    {
+      "code": "33093",
+      "nom": "Capian",
+      "departement": "33",
+      "minDistanceM": 530.7,
+      "atKm": 29.002
+    },
+    {
+      "code": "33505",
+      "nom": "La Sauve",
+      "departement": "33",
+      "minDistanceM": 231.5,
+      "atKm": 37.366
+    },
+    {
+      "code": "33408",
+      "nom": "Saint-Genès-de-Lombaud",
+      "departement": "33",
+      "minDistanceM": 45.4,
+      "atKm": 37.945
+    },
+    {
+      "code": "33028",
+      "nom": "Baron",
+      "departement": "33",
+      "minDistanceM": 897.4,
+      "atKm": 45.586
+    },
+    {
+      "code": "33083",
+      "nom": "Camarsac",
+      "departement": "33",
+      "minDistanceM": 63.6,
+      "atKm": 49.527
+    },
+    {
+      "code": "33496",
+      "nom": "Sallebœuf",
+      "departement": "33",
+      "minDistanceM": 632.6,
+      "atKm": 50.304
+    },
+    {
+      "code": "33539",
+      "nom": "Vayres",
+      "departement": "33",
+      "minDistanceM": 647,
+      "atKm": 55.675
+    },
+    {
+      "code": "33330",
+      "nom": "Pompignac",
+      "departement": "33",
+      "minDistanceM": 832.1,
+      "atKm": 62.242
+    },
+    {
+      "code": "33016",
+      "nom": "Asques",
+      "departement": "33",
+      "minDistanceM": 375.3,
+      "atKm": 73.548
+    },
+    {
+      "code": "33470",
+      "nom": "Saint-Romain-la-Virvée",
+      "departement": "33",
+      "minDistanceM": 396.2,
+      "atKm": 75.066
+    },
+    {
+      "code": "33003",
+      "nom": "Ambarès-et-Lagrave",
+      "departement": "33",
+      "minDistanceM": 758.4,
+      "atKm": 76.125
+    },
+    {
+      "code": "33183",
+      "nom": "Gauriaguet",
+      "departement": "33",
+      "minDistanceM": 235,
+      "atKm": 92.019
+    },
+    {
+      "code": "33272",
+      "nom": "Marsas",
+      "departement": "33",
+      "minDistanceM": 794.5,
+      "atKm": 92.34
+    },
+    {
+      "code": "33114",
+      "nom": "Cavignac",
+      "departement": "33",
+      "minDistanceM": 966.3,
+      "atKm": 98.273
+    },
+    {
+      "code": "33233",
+      "nom": "Laruscade",
+      "departement": "33",
+      "minDistanceM": 548.3,
+      "atKm": 103.699
+    },
+    {
+      "code": "17099",
+      "nom": "Chepniers",
+      "departement": "17",
+      "minDistanceM": 508,
+      "atKm": 118.313
+    },
+    {
+      "code": "17417",
+      "nom": "Salignac-de-Mirambeau",
+      "departement": "17",
+      "minDistanceM": 84.5,
+      "atKm": 135.536
+    },
+    {
+      "code": "17005",
+      "nom": "Allas-Bocage",
+      "departement": "17",
+      "minDistanceM": 136.4,
+      "atKm": 141.043
+    },
+    {
+      "code": "17263",
+      "nom": "Nieul-le-Virouil",
+      "departement": "17",
+      "minDistanceM": 570,
+      "atKm": 141.465
+    },
+    {
+      "code": "17197",
+      "nom": "Jonzac",
+      "departement": "17",
+      "minDistanceM": 422.1,
+      "atKm": 146.451
+    },
+    {
+      "code": "17215",
+      "nom": "Lussac",
+      "departement": "17",
+      "minDistanceM": 168.2,
+      "atKm": 149.191
+    },
+    {
+      "code": "17250",
+      "nom": "Mosnac",
+      "departement": "17",
+      "minDistanceM": 715.1,
+      "atKm": 155.107
+    },
+    {
+      "code": "17056",
+      "nom": "Bougneau",
+      "departement": "17",
+      "minDistanceM": 260.4,
+      "atKm": 170.723
+    },
+    {
+      "code": "17191",
+      "nom": "La Jard",
+      "departement": "17",
+      "minDistanceM": 964.2,
+      "atKm": 179.601
+    },
+    {
+      "code": "17336",
+      "nom": "Saint-Georges-des-Coteaux",
+      "departement": "17",
+      "minDistanceM": 55.4,
+      "atKm": 197.381
+    },
+    {
+      "code": "17280",
+      "nom": "Plassay",
+      "departement": "17",
+      "minDistanceM": 471.9,
+      "atKm": 203.229
+    },
+    {
+      "code": "17436",
+      "nom": "Taillebourg",
+      "departement": "17",
+      "minDistanceM": 979.8,
+      "atKm": 208.431
+    },
+    {
+      "code": "17171",
+      "nom": "Geay",
+      "departement": "17",
+      "minDistanceM": 614.3,
+      "atKm": 220.722
+    },
+    {
+      "code": "17017",
+      "nom": "Archingeay",
+      "departement": "17",
+      "minDistanceM": 468,
+      "atKm": 223.035
+    },
+    {
+      "code": "17246",
+      "nom": "Moragne",
+      "departement": "17",
+      "minDistanceM": 580.3,
+      "atKm": 234.21
+    },
+    {
+      "code": "17174",
+      "nom": "Genouillé",
+      "departement": "17",
+      "minDistanceM": 427.6,
+      "atKm": 240.998
+    },
+    {
+      "code": "17338",
+      "nom": "Saint-Georges-du-Bois",
+      "departement": "17",
+      "minDistanceM": 515.9,
+      "atKm": 256.571
+    },
+    {
+      "code": "17080",
+      "nom": "Chambon",
+      "departement": "17",
+      "minDistanceM": 887.6,
+      "atKm": 262.068
+    },
+    {
+      "code": "85080",
+      "nom": "Doix lès Fontaines",
+      "departement": "85",
+      "minDistanceM": 687.5,
+      "atKm": 308.738
+    },
+    {
+      "code": "85256",
+      "nom": "Saint-Michel-le-Cloucq",
+      "departement": "85",
+      "minDistanceM": 751,
+      "atKm": 318.21
+    },
+    {
+      "code": "85167",
+      "nom": "L'Orbrie",
+      "departement": "85",
+      "minDistanceM": 24.2,
+      "atKm": 320.463
+    },
+    {
+      "code": "85281",
+      "nom": "Sérigné",
+      "departement": "85",
+      "minDistanceM": 984,
+      "atKm": 324.183
+    },
+    {
+      "code": "85033",
+      "nom": "Bourneau",
+      "departement": "85",
+      "minDistanceM": 8.5,
+      "atKm": 326.049
+    },
+    {
+      "code": "85005",
+      "nom": "Antigny",
+      "departement": "85",
+      "minDistanceM": 59.3,
+      "atKm": 331.957
+    },
+    {
+      "code": "85287",
+      "nom": "Tallud-Sainte-Gemme",
+      "departement": "85",
+      "minDistanceM": 974.9,
+      "atKm": 351.753
+    },
+    {
+      "code": "85147",
+      "nom": "Montournais",
+      "departement": "85",
+      "minDistanceM": 407.5,
+      "atKm": 354.389
+    },
+    {
+      "code": "85254",
+      "nom": "Saint-Mesmin",
+      "departement": "85",
+      "minDistanceM": 256.2,
+      "atKm": 369.04
+    },
+    {
+      "code": "79096",
+      "nom": "Combrand",
+      "departement": "79",
+      "minDistanceM": 218.4,
+      "atKm": 378.791
+    },
+    {
+      "code": "49381",
+      "nom": "Yzernay",
+      "departement": "49",
+      "minDistanceM": 459.1,
+      "atKm": 400.013
+    },
+    {
+      "code": "49099",
+      "nom": "Cholet",
+      "departement": "49",
+      "minDistanceM": 852.1,
+      "atKm": 407.665
+    },
+    {
+      "code": "49082",
+      "nom": "Chaudefonds-sur-Layon",
+      "departement": "49",
+      "minDistanceM": 595,
+      "atKm": 439.998
+    },
+    {
+      "code": "49259",
+      "nom": "Rochefort-sur-Loire",
+      "departement": "49",
+      "minDistanceM": 217.6,
+      "atKm": 454.442
+    },
+    {
+      "code": "49028",
+      "nom": "Béhuard",
+      "departement": "49",
+      "minDistanceM": 450.6,
+      "atKm": 455.474
+    },
+    {
+      "code": "49120",
+      "nom": "Denée",
+      "departement": "49",
+      "minDistanceM": 112.2,
+      "atKm": 463.108
+    },
+    {
+      "code": "49288",
+      "nom": "Saint-Jean-de-la-Croix",
+      "departement": "49",
+      "minDistanceM": 802.1,
+      "atKm": 465.267
+    },
+    {
+      "code": "49278",
+      "nom": "Sainte-Gemmes-sur-Loire",
+      "departement": "49",
+      "minDistanceM": 59,
+      "atKm": 466.506
+    },
+    {
+      "code": "49344",
+      "nom": "Thorigné-d'Anjou",
+      "departement": "49",
+      "minDistanceM": 27.9,
+      "atKm": 494.915
+    },
+    {
+      "code": "49067",
+      "nom": "Chenillé-Champteussé",
+      "departement": "49",
+      "minDistanceM": 31.3,
+      "atKm": 508.178
+    },
+    {
+      "code": "49080",
+      "nom": "Les Hauts-d'Anjou",
+      "departement": "49",
+      "minDistanceM": 32.1,
+      "atKm": 508.178
+    },
+    {
+      "code": "53089",
+      "nom": "Daon",
+      "departement": "53",
+      "minDistanceM": 29.8,
+      "atKm": 517.485
+    },
+    {
+      "code": "53078",
+      "nom": "Coudray",
+      "departement": "53",
+      "minDistanceM": 298.6,
+      "atKm": 520.651
+    },
+    {
+      "code": "53101",
+      "nom": "Fromentières",
+      "departement": "53",
+      "minDistanceM": 11.7,
+      "atKm": 535.131
+    },
+    {
+      "code": "53273",
+      "nom": "Villiers-Charlemagne",
+      "departement": "53",
+      "minDistanceM": 28.4,
+      "atKm": 539.192
+    },
+    {
+      "code": "53172",
+      "nom": "Origné",
+      "departement": "53",
+      "minDistanceM": 216.3,
+      "atKm": 543.095
+    }
+  ]
+}

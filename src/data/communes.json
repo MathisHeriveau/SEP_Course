@@ -1,0 +1,2681 @@
+[
+  {
+    "code": "33307",
+    "nom": "Noaillan",
+    "departement": "33",
+    "departementNom": "Gironde",
+    "statut": "traversee",
+    "entreeKm": 0,
+    "sortieKm": 0.951,
+    "longueurM": 950.8,
+    "mairie": [
+      -0.3675958,
+      44.4791252
+    ],
+    "mairieKm": 0,
+    "mairieDistanceTraceM": 1270,
+    "population": 1717,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "33237",
+    "nom": "Léogeats",
+    "departement": "33",
+    "departementNom": "Gironde",
+    "statut": "traversee",
+    "entreeKm": 0.951,
+    "sortieKm": 3.822,
+    "longueurM": 2871.2,
+    "mairie": [
+      -0.365822,
+      44.5114373
+    ],
+    "mairieKm": 2.768,
+    "mairieDistanceTraceM": 308,
+    "population": 902,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "33504",
+    "nom": "Sauternes",
+    "departement": "33",
+    "departementNom": "Gironde",
+    "statut": "traversee",
+    "entreeKm": 3.822,
+    "sortieKm": 6.314,
+    "longueurM": 2467.3,
+    "mairie": [
+      -0.343287,
+      44.5311922
+    ],
+    "mairieKm": 5.496,
+    "mairieDistanceTraceM": 1240,
+    "population": 788,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "33060",
+    "nom": "Bommes",
+    "departement": "33",
+    "departementNom": "Gironde",
+    "statut": "traversee",
+    "entreeKm": 6.121,
+    "sortieKm": 8.542,
+    "longueurM": 2252.4,
+    "mairie": [
+      -0.3563195,
+      44.5459403
+    ],
+    "mairieKm": 7.113,
+    "mairieDistanceTraceM": 243,
+    "population": 459,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "33343",
+    "nom": "Pujols-sur-Ciron",
+    "departement": "33",
+    "departementNom": "Gironde",
+    "statut": "traversee",
+    "entreeKm": 8.542,
+    "sortieKm": 12.283,
+    "longueurM": 3741.1,
+    "mairie": [
+      -0.3541691,
+      44.5624192
+    ],
+    "mairieKm": 9.251,
+    "mairieDistanceTraceM": 16,
+    "population": 945,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "33030",
+    "nom": "Barsac",
+    "departement": "33",
+    "departementNom": "Gironde",
+    "statut": "traversee",
+    "entreeKm": 12.283,
+    "sortieKm": 16.874,
+    "longueurM": 4283.6,
+    "mairie": [
+      -0.3172845,
+      44.6078678
+    ],
+    "mairieKm": 16.245,
+    "mairieDistanceTraceM": 1401,
+    "population": 2058,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "33205",
+    "nom": "Illats",
+    "departement": "33",
+    "departementNom": "Gironde",
+    "statut": "limite",
+    "entreeKm": 16.404,
+    "sortieKm": 16.74,
+    "longueurM": 211.2,
+    "mairie": [
+      -0.3739447,
+      44.597205
+    ],
+    "mairieKm": 14.163,
+    "mairieDistanceTraceM": 2777,
+    "population": 1413,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "33120",
+    "nom": "Cérons",
+    "departement": "33",
+    "departementNom": "Gironde",
+    "statut": "traversee",
+    "entreeKm": 16.74,
+    "sortieKm": 20.273,
+    "longueurM": 3495.3,
+    "mairie": [
+      -0.337948,
+      44.6314741
+    ],
+    "mairieKm": 19.096,
+    "mairieDistanceTraceM": 59,
+    "population": 2126,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "33081",
+    "nom": "Cadillac-sur-Garonne",
+    "departement": "33",
+    "departementNom": "Gironde",
+    "statut": "traversee",
+    "entreeKm": 20.273,
+    "sortieKm": 20.854,
+    "longueurM": 580.7,
+    "mairie": [
+      -0.3203966,
+      44.6370424
+    ],
+    "mairieKm": 20.62,
+    "mairieDistanceTraceM": 87,
+    "population": 2670,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "33040",
+    "nom": "Béguey",
+    "departement": "33",
+    "departementNom": "Gironde",
+    "statut": "traversee",
+    "entreeKm": 20.854,
+    "sortieKm": 23.017,
+    "longueurM": 2163.2,
+    "mairie": [
+      -0.3226059,
+      44.6425563
+    ],
+    "mairieKm": 21.333,
+    "mairieDistanceTraceM": 229,
+    "population": 1308,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "33355",
+    "nom": "Rions",
+    "departement": "33",
+    "departementNom": "Gironde",
+    "statut": "traversee",
+    "entreeKm": 23.017,
+    "sortieKm": 26.372,
+    "longueurM": 3355.5,
+    "mairie": [
+      -0.3526043,
+      44.6649571
+    ],
+    "mairieKm": 24.835,
+    "mairieDistanceTraceM": 17,
+    "population": 1470,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "33311",
+    "nom": "Paillet",
+    "departement": "33",
+    "departementNom": "Gironde",
+    "statut": "traversee",
+    "entreeKm": 26.372,
+    "sortieKm": 28.079,
+    "longueurM": 1694.1,
+    "mairie": [
+      -0.36558,
+      44.6854215
+    ],
+    "mairieKm": 28.073,
+    "mairieDistanceTraceM": 331,
+    "population": 1175,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "33241",
+    "nom": "Lestiac-sur-Garonne",
+    "departement": "33",
+    "departementNom": "Gironde",
+    "statut": "traversee",
+    "entreeKm": 27.705,
+    "sortieKm": 29.979,
+    "longueurM": 1912.7,
+    "mairie": [
+      -0.3743522,
+      44.6940184
+    ],
+    "mairieKm": 29.691,
+    "mairieDistanceTraceM": 561,
+    "population": 585,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "33226",
+    "nom": "Langoiran",
+    "departement": "33",
+    "departementNom": "Gironde",
+    "statut": "traversee",
+    "entreeKm": 29.979,
+    "sortieKm": 32.873,
+    "longueurM": 2894.2,
+    "mairie": [
+      -0.4007113,
+      44.7079465
+    ],
+    "mairieKm": 30.426,
+    "mairieDistanceTraceM": 2378,
+    "population": 2215,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "33201",
+    "nom": "Haux",
+    "departement": "33",
+    "departementNom": "Gironde",
+    "statut": "traversee",
+    "entreeKm": 32.873,
+    "sortieKm": 37.976,
+    "longueurM": 5102.3,
+    "mairie": [
+      -0.360351,
+      44.7333778
+    ],
+    "mairieKm": 34.546,
+    "mairieDistanceTraceM": 13,
+    "population": 840,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "33140",
+    "nom": "Créon",
+    "departement": "33",
+    "departementNom": "Gironde",
+    "statut": "traversee",
+    "entreeKm": 37.976,
+    "sortieKm": 41.403,
+    "longueurM": 3427.8,
+    "mairie": [
+      -0.348525,
+      44.774371
+    ],
+    "mairieKm": 40.189,
+    "mairieDistanceTraceM": 22,
+    "population": 4950,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "33363",
+    "nom": "Sadirac",
+    "departement": "33",
+    "departementNom": "Gironde",
+    "statut": "traversee",
+    "entreeKm": 41.403,
+    "sortieKm": 42.383,
+    "longueurM": 979.9,
+    "mairie": [
+      -0.4056414,
+      44.7825625
+    ],
+    "mairieKm": 42.021,
+    "mairieDistanceTraceM": 3708,
+    "population": 4769,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "33335",
+    "nom": "Le Pout",
+    "departement": "33",
+    "departementNom": "Gironde",
+    "statut": "traversee",
+    "entreeKm": 42.383,
+    "sortieKm": 44.793,
+    "longueurM": 2409.8,
+    "mairie": [
+      -0.360537,
+      44.8021542
+    ],
+    "mairieKm": 43.429,
+    "mairieDistanceTraceM": 321,
+    "population": 616,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "33145",
+    "nom": "Cursan",
+    "departement": "33",
+    "departementNom": "Gironde",
+    "statut": "traversee",
+    "entreeKm": 44.793,
+    "sortieKm": 46.097,
+    "longueurM": 1304.1,
+    "mairie": [
+      -0.339839,
+      44.8026698
+    ],
+    "mairieKm": 45.471,
+    "mairieDistanceTraceM": 32,
+    "population": 663,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "33141",
+    "nom": "Croignon",
+    "departement": "33",
+    "departementNom": "Gironde",
+    "statut": "traversee",
+    "entreeKm": 46.097,
+    "sortieKm": 49.997,
+    "longueurM": 3899.5,
+    "mairie": [
+      -0.3458327,
+      44.8195114
+    ],
+    "mairieKm": 47.707,
+    "mairieDistanceTraceM": 159,
+    "population": 749,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "33413",
+    "nom": "Saint-Germain-du-Puch",
+    "departement": "33",
+    "departementNom": "Gironde",
+    "statut": "traversee",
+    "entreeKm": 49.997,
+    "sortieKm": 55.512,
+    "longueurM": 5515.5,
+    "mairie": [
+      -0.322312,
+      44.8571343
+    ],
+    "mairieKm": 53.819,
+    "mairieDistanceTraceM": 40,
+    "population": 2304,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "33049",
+    "nom": "Beychac-et-Caillau",
+    "departement": "33",
+    "departementNom": "Gironde",
+    "statut": "traversee",
+    "entreeKm": 55.512,
+    "sortieKm": 63.215,
+    "longueurM": 7492.5,
+    "mairie": [
+      -0.3712059,
+      44.8703537
+    ],
+    "mairieKm": 58.486,
+    "mairieDistanceTraceM": 24,
+    "population": 2625,
+    "confiance": "élevée",
+    "isWaypoint": true
+  },
+  {
+    "code": "33483",
+    "nom": "Saint-Sulpice-et-Cameyrac",
+    "departement": "33",
+    "departementNom": "Gironde",
+    "statut": "limite",
+    "entreeKm": 62.736,
+    "sortieKm": 63.105,
+    "longueurM": 210.5,
+    "mairie": [
+      -0.3915391,
+      44.9088479
+    ],
+    "mairieKm": 67.675,
+    "mairieDistanceTraceM": 2340,
+    "population": 4881,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "33293",
+    "nom": "Montussan",
+    "departement": "33",
+    "departementNom": "Gironde",
+    "statut": "traversee",
+    "entreeKm": 63.215,
+    "sortieKm": 65.487,
+    "longueurM": 2271.6,
+    "mairie": [
+      -0.4284485,
+      44.8816438
+    ],
+    "mairieKm": 63.626,
+    "mairieDistanceTraceM": 1262,
+    "population": 3628,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "33433",
+    "nom": "Saint-Loubès",
+    "departement": "33",
+    "departementNom": "Gironde",
+    "statut": "traversee",
+    "entreeKm": 65.487,
+    "sortieKm": 75.082,
+    "longueurM": 9512.4,
+    "mairie": [
+      -0.4271114,
+      44.9167164
+    ],
+    "mairieKm": 68.094,
+    "mairieDistanceTraceM": 306,
+    "population": 10027,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "33487",
+    "nom": "Saint-Vincent-de-Paul",
+    "departement": "33",
+    "departementNom": "Gironde",
+    "statut": "traversee",
+    "entreeKm": 74.869,
+    "sortieKm": 77.029,
+    "longueurM": 2029.8,
+    "mairie": [
+      -0.4695988,
+      44.9560011
+    ],
+    "mairieKm": 76.125,
+    "mairieDistanceTraceM": 101,
+    "population": 1067,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "33143",
+    "nom": "Cubzac-les-Ponts",
+    "departement": "33",
+    "departementNom": "Gironde",
+    "statut": "traversee",
+    "entreeKm": 77.029,
+    "sortieKm": 80.382,
+    "longueurM": 3353.5,
+    "mairie": [
+      -0.4541918,
+      44.9704032
+    ],
+    "mairieKm": 77.973,
+    "mairieDistanceTraceM": 334,
+    "population": 2693,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "33366",
+    "nom": "Saint-André-de-Cubzac",
+    "departement": "33",
+    "departementNom": "Gironde",
+    "statut": "traversee",
+    "entreeKm": 80.382,
+    "sortieKm": 84.348,
+    "longueurM": 3965.2,
+    "mairie": [
+      -0.4457995,
+      44.9946282
+    ],
+    "mairieKm": 82.295,
+    "mairieDistanceTraceM": 251,
+    "population": 12626,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "33415",
+    "nom": "Saint-Gervais",
+    "departement": "33",
+    "departementNom": "Gironde",
+    "statut": "traversee",
+    "entreeKm": 84.348,
+    "sortieKm": 86.867,
+    "longueurM": 2085.2,
+    "mairie": [
+      -0.46445,
+      45.0169187
+    ],
+    "mairieKm": 85.49,
+    "mairieDistanceTraceM": 722,
+    "population": 1983,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "33425",
+    "nom": "Saint-Laurent-d'Arce",
+    "departement": "33",
+    "departementNom": "Gironde",
+    "statut": "limite",
+    "entreeKm": 86.349,
+    "sortieKm": 86.596,
+    "longueurM": 173.4,
+    "mairie": [
+      -0.4695949,
+      45.0343427
+    ],
+    "mairieKm": 86.227,
+    "mairieDistanceTraceM": 1514,
+    "population": 1580,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "33553",
+    "nom": "Virsac",
+    "departement": "33",
+    "departementNom": "Gironde",
+    "statut": "traversee",
+    "entreeKm": 86.596,
+    "sortieKm": 87.789,
+    "longueurM": 1075.3,
+    "mairie": [
+      -0.4412657,
+      45.0272905
+    ],
+    "mairieKm": 87.287,
+    "mairieDistanceTraceM": 389,
+    "population": 1304,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "33321",
+    "nom": "Peujard",
+    "departement": "33",
+    "departementNom": "Gironde",
+    "statut": "traversee",
+    "entreeKm": 87.677,
+    "sortieKm": 92.069,
+    "longueurM": 4387.4,
+    "mairie": [
+      -0.4229726,
+      45.0432432
+    ],
+    "mairieKm": 89.599,
+    "mairieDistanceTraceM": 517,
+    "population": 2195,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "33142",
+    "nom": "Cubnezais",
+    "departement": "33",
+    "departementNom": "Gironde",
+    "statut": "traversee",
+    "entreeKm": 92.069,
+    "sortieKm": 95.732,
+    "longueurM": 3663.3,
+    "mairie": [
+      -0.4083774,
+      45.0737632
+    ],
+    "mairieKm": 93.758,
+    "mairieDistanceTraceM": 16,
+    "population": 1915,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "33123",
+    "nom": "Cézac",
+    "departement": "33",
+    "departementNom": "Gironde",
+    "statut": "traversee",
+    "entreeKm": 95.732,
+    "sortieKm": 98.287,
+    "longueurM": 2536.3,
+    "mairie": [
+      -0.4193905,
+      45.0910007
+    ],
+    "mairieKm": 96.026,
+    "mairieDistanceTraceM": 59,
+    "population": 2727,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "33439",
+    "nom": "Saint-Mariens",
+    "departement": "33",
+    "departementNom": "Gironde",
+    "statut": "traversee",
+    "entreeKm": 98.25,
+    "sortieKm": 102.312,
+    "longueurM": 4043.6,
+    "mairie": [
+      -0.402988,
+      45.1169782
+    ],
+    "mairieKm": 99.814,
+    "mairieDistanceTraceM": 22,
+    "population": 1639,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "33492",
+    "nom": "Saint-Yzan-de-Soudiac",
+    "departement": "33",
+    "departementNom": "Gironde",
+    "statut": "traversee",
+    "entreeKm": 102.312,
+    "sortieKm": 107.345,
+    "longueurM": 5033.3,
+    "mairie": [
+      -0.4037441,
+      45.1404631
+    ],
+    "mairieKm": 102.419,
+    "mairieDistanceTraceM": 762,
+    "population": 2586,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "33473",
+    "nom": "Saint-Savin",
+    "departement": "33",
+    "departementNom": "Gironde",
+    "statut": "traversee",
+    "entreeKm": 107.345,
+    "sortieKm": 108.13,
+    "longueurM": 784.8,
+    "mairie": [
+      -0.4457309,
+      45.1394375
+    ],
+    "mairieKm": 98.943,
+    "mairieDistanceTraceM": 3802,
+    "population": 3582,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17074",
+    "nom": "Bussac-Forêt",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "traversee",
+    "entreeKm": 108.13,
+    "sortieKm": 114.536,
+    "longueurM": 6016.2,
+    "mairie": [
+      -0.3687494,
+      45.2121764
+    ],
+    "mairieKm": 110.466,
+    "mairieDistanceTraceM": 2076,
+    "population": 1074,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17118",
+    "nom": "Corignac",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "traversee",
+    "entreeKm": 114.137,
+    "sortieKm": 118.777,
+    "longueurM": 4023.1,
+    "mairie": [
+      -0.3902416,
+      45.2480943
+    ],
+    "mairieKm": 116.944,
+    "mairieDistanceTraceM": 23,
+    "population": 326,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17199",
+    "nom": "Jussas",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "limite",
+    "entreeKm": 118.022,
+    "sortieKm": 119.13,
+    "longueurM": 960.4,
+    "mairie": [
+      -0.3441203,
+      45.2832178
+    ],
+    "mairieKm": 119.941,
+    "mairieDistanceTraceM": 3615,
+    "population": 155,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17240",
+    "nom": "Montendre",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "traversee",
+    "entreeKm": 119.13,
+    "sortieKm": 125.079,
+    "longueurM": 5847.5,
+    "mairie": [
+      -0.40982,
+      45.2837223
+    ],
+    "mairieKm": 123.23,
+    "mairieDistanceTraceM": 112,
+    "population": 3222,
+    "confiance": "élevée",
+    "isWaypoint": true
+  },
+  {
+    "code": "17432",
+    "nom": "Souméras",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "traversee",
+    "entreeKm": 124.684,
+    "sortieKm": 127.25,
+    "longueurM": 1231.9,
+    "mairie": [
+      -0.4253177,
+      45.2992292
+    ],
+    "mairieKm": 125.662,
+    "mairieDistanceTraceM": 27,
+    "population": 381,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17130",
+    "nom": "Coux",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "traversee",
+    "entreeKm": 125.869,
+    "sortieKm": 127.583,
+    "longueurM": 1283.6,
+    "mairie": [
+      -0.40343,
+      45.3120566
+    ],
+    "mairieKm": 125.119,
+    "mairieDistanceTraceM": 2053,
+    "population": 480,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17081",
+    "nom": "Chamouillac",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "limite",
+    "entreeKm": 127.25,
+    "sortieKm": 127.289,
+    "longueurM": 39.6,
+    "mairie": [
+      -0.4668708,
+      45.3129679
+    ],
+    "mairieKm": 130.18,
+    "mairieDistanceTraceM": 1393,
+    "population": 370,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17305",
+    "nom": "Rouffignac",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "traversee",
+    "entreeKm": 127.508,
+    "sortieKm": 135.532,
+    "longueurM": 7998.8,
+    "mairie": [
+      -0.4506016,
+      45.3359684
+    ],
+    "mairieKm": 131.72,
+    "mairieDistanceTraceM": 544,
+    "population": 437,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17476",
+    "nom": "Villexavier",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "traversee",
+    "entreeKm": 135.532,
+    "sortieKm": 136.575,
+    "longueurM": 1043.2,
+    "mairie": [
+      -0.4378621,
+      45.3713455
+    ],
+    "mairieKm": 136.341,
+    "mairieDistanceTraceM": 1700,
+    "population": 267,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17002",
+    "nom": "Agudelle",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "traversee",
+    "entreeKm": 136.575,
+    "sortieKm": 140.64,
+    "longueurM": 4065.5,
+    "mairie": [
+      -0.4722433,
+      45.3843505
+    ],
+    "mairieKm": 138.576,
+    "mairieDistanceTraceM": 73,
+    "population": 131,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17403",
+    "nom": "Saint-Simon-de-Bordes",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "traversee",
+    "entreeKm": 140.64,
+    "sortieKm": 145.114,
+    "longueurM": 4465.3,
+    "mairie": [
+      -0.4541685,
+      45.3954377
+    ],
+    "mairieKm": 140.28,
+    "mairieDistanceTraceM": 1557,
+    "population": 762,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17345",
+    "nom": "Saint-Hilaire-du-Bois",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "limite",
+    "entreeKm": 142.086,
+    "sortieKm": 142.095,
+    "longueurM": 8.6,
+    "mairie": [
+      -0.4949083,
+      45.4173004
+    ],
+    "mairieKm": 142.038,
+    "mairieDistanceTraceM": 1845,
+    "population": 294,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17339",
+    "nom": "Saint-Germain-de-Lusignan",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "traversee",
+    "entreeKm": 145.114,
+    "sortieKm": 149.126,
+    "longueurM": 4012.1,
+    "mairie": [
+      -0.4621135,
+      45.4505454
+    ],
+    "mairieKm": 147.242,
+    "mairieDistanceTraceM": 121,
+    "population": 1299,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17111",
+    "nom": "Clion",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "traversee",
+    "entreeKm": 149.126,
+    "sortieKm": 153.426,
+    "longueurM": 4300.1,
+    "mairie": [
+      -0.5026011,
+      45.4781959
+    ],
+    "mairieKm": 152.257,
+    "mairieDistanceTraceM": 162,
+    "population": 843,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17332",
+    "nom": "Saint-Georges-Antignac",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "traversee",
+    "entreeKm": 153.426,
+    "sortieKm": 155.926,
+    "longueurM": 2499.9,
+    "mairie": [
+      -0.503693,
+      45.494177
+    ],
+    "mairieKm": 154.374,
+    "mairieDistanceTraceM": 135,
+    "population": 416,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17343",
+    "nom": "Saint-Grégoire-d'Ardennes",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "traversee",
+    "entreeKm": 155.926,
+    "sortieKm": 157.979,
+    "longueurM": 1428.2,
+    "mairie": [
+      -0.4956177,
+      45.5055524
+    ],
+    "mairieKm": 156.579,
+    "mairieDistanceTraceM": 12,
+    "population": 143,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17220",
+    "nom": "Marignac",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "limite",
+    "entreeKm": 157.089,
+    "sortieKm": 159.295,
+    "longueurM": 1913,
+    "mairie": [
+      -0.4754442,
+      45.5219281
+    ],
+    "mairieKm": 159.29,
+    "mairieDistanceTraceM": 2010,
+    "population": 412,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17159",
+    "nom": "Fléac-sur-Seugne",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "limite",
+    "entreeKm": 159.263,
+    "sortieKm": 160.318,
+    "longueurM": 544.7,
+    "mairie": [
+      -0.5397704,
+      45.5342635
+    ],
+    "mairieKm": 160.356,
+    "mairieDistanceTraceM": 2604,
+    "population": 361,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17027",
+    "nom": "Avy",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "traversee",
+    "entreeKm": 159.304,
+    "sortieKm": 165.851,
+    "longueurM": 6038.5,
+    "mairie": [
+      -0.5102858,
+      45.5525368
+    ],
+    "mairieKm": 162.734,
+    "mairieDistanceTraceM": 44,
+    "population": 510,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17283",
+    "nom": "Pons",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "traversee",
+    "entreeKm": 165.851,
+    "sortieKm": 173.907,
+    "longueurM": 8052.2,
+    "mairie": [
+      -0.5476762,
+      45.5778924
+    ],
+    "mairieKm": 168.483,
+    "mairieDistanceTraceM": 41,
+    "population": 4343,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17354",
+    "nom": "Saint-Léger",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "traversee",
+    "entreeKm": 171.459,
+    "sortieKm": 176.643,
+    "longueurM": 2718.7,
+    "mairie": [
+      -0.5822116,
+      45.6193033
+    ],
+    "mairieKm": 175.57,
+    "mairieDistanceTraceM": 185,
+    "population": 679,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17044",
+    "nom": "Berneuil",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "traversee",
+    "entreeKm": 176.608,
+    "sortieKm": 182.202,
+    "longueurM": 5576,
+    "mairie": [
+      -0.6009963,
+      45.6432525
+    ],
+    "mairieKm": 179.161,
+    "mairieDistanceTraceM": 45,
+    "population": 1169,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17289",
+    "nom": "Préguillac",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "traversee",
+    "entreeKm": 182.183,
+    "sortieKm": 184.738,
+    "longueurM": 2540.4,
+    "mairie": [
+      -0.6171224,
+      45.6700403
+    ],
+    "mairieKm": 183.047,
+    "mairieDistanceTraceM": 34,
+    "population": 444,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17444",
+    "nom": "Thénac",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "traversee",
+    "entreeKm": 184.738,
+    "sortieKm": 187.075,
+    "longueurM": 1803.6,
+    "mairie": [
+      -0.6538078,
+      45.667313
+    ],
+    "mairieKm": 183.539,
+    "mairieDistanceTraceM": 2806,
+    "population": 1748,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17179",
+    "nom": "Les Gonds",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "traversee",
+    "entreeKm": 186.403,
+    "sortieKm": 190.045,
+    "longueurM": 3503,
+    "mairie": [
+      -0.6179866,
+      45.7154969
+    ],
+    "mairieKm": 189.077,
+    "mairieDistanceTraceM": 17,
+    "population": 1740,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17415",
+    "nom": "Saintes",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "traversee",
+    "entreeKm": 190.045,
+    "sortieKm": 199.793,
+    "longueurM": 9520.7,
+    "mairie": [
+      -0.6336758,
+      45.7440814
+    ],
+    "mairieKm": 193.022,
+    "mairieDistanceTraceM": 333,
+    "population": 25363,
+    "confiance": "élevée",
+    "isWaypoint": true
+  },
+  {
+    "code": "17148",
+    "nom": "Écurat",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "traversee",
+    "entreeKm": 199.321,
+    "sortieKm": 203.275,
+    "longueurM": 2947.3,
+    "mairie": [
+      -0.6751391,
+      45.7827015
+    ],
+    "mairieKm": 199.851,
+    "mairieDistanceTraceM": 165,
+    "population": 438,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17285",
+    "nom": "Port-d'Envaux",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "traversee",
+    "entreeKm": 201.459,
+    "sortieKm": 208.448,
+    "longueurM": 5935.8,
+    "mairie": [
+      -0.6789754,
+      45.8351645
+    ],
+    "mairieKm": 206.298,
+    "mairieDistanceTraceM": 900,
+    "population": 1188,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17134",
+    "nom": "Crazannes",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "traversee",
+    "entreeKm": 208.448,
+    "sortieKm": 211.396,
+    "longueurM": 2947.5,
+    "mairie": [
+      -0.7042362,
+      45.8481122
+    ],
+    "mairieKm": 210.817,
+    "mairieDistanceTraceM": 654,
+    "population": 442,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17252",
+    "nom": "Le Mung",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "traversee",
+    "entreeKm": 211.396,
+    "sortieKm": 216.038,
+    "longueurM": 4642.2,
+    "mairie": [
+      -0.7128376,
+      45.8746435
+    ],
+    "mairieKm": 213.023,
+    "mairieDistanceTraceM": 742,
+    "population": 317,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17397",
+    "nom": "Saint-Savinien",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "traversee",
+    "entreeKm": 216.038,
+    "sortieKm": 223.066,
+    "longueurM": 6890.3,
+    "mairie": [
+      -0.679424,
+      45.8794139
+    ],
+    "mairieKm": 215.795,
+    "mairieDistanceTraceM": 509,
+    "population": 2460,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17053",
+    "nom": "Bords",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "limite",
+    "entreeKm": 222.728,
+    "sortieKm": 223.698,
+    "longueurM": 428.6,
+    "mairie": [
+      -0.7935106,
+      45.8964279
+    ],
+    "mairieKm": 225.891,
+    "mairieDistanceTraceM": 2511,
+    "population": 1375,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17085",
+    "nom": "Champdolent",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "traversee",
+    "entreeKm": 223.04,
+    "sortieKm": 227.101,
+    "longueurM": 3743.7,
+    "mairie": [
+      -0.7991424,
+      45.9185734
+    ],
+    "mairieKm": 227.002,
+    "mairieDistanceTraceM": 2058,
+    "population": 425,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17292",
+    "nom": "Puy-du-Lac",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "traversee",
+    "entreeKm": 227.101,
+    "sortieKm": 232.746,
+    "longueurM": 5263.7,
+    "mairie": [
+      -0.7533516,
+      45.9512141
+    ],
+    "mairieKm": 230.546,
+    "mairieDistanceTraceM": 914,
+    "population": 523,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17320",
+    "nom": "Saint-Coutant-le-Grand",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "traversee",
+    "entreeKm": 231.107,
+    "sortieKm": 231.488,
+    "longueurM": 381.3,
+    "mairie": [
+      -0.7704733,
+      45.9544716
+    ],
+    "mairieKm": 231.218,
+    "mairieDistanceTraceM": 183,
+    "population": 417,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17448",
+    "nom": "Tonnay-Boutonne",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "traversee",
+    "entreeKm": 232.746,
+    "sortieKm": 235.037,
+    "longueurM": 2290.9,
+    "mairie": [
+      -0.7063704,
+      45.9675881
+    ],
+    "mairieKm": 233.549,
+    "mairieDistanceTraceM": 3653,
+    "population": 1188,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17321",
+    "nom": "Saint-Crépin",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "traversee",
+    "entreeKm": 235.037,
+    "sortieKm": 239.077,
+    "longueurM": 4040.3,
+    "mairie": [
+      -0.7327225,
+      46.0014332
+    ],
+    "mairieKm": 237.641,
+    "mairieDistanceTraceM": 12,
+    "population": 340,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17012",
+    "nom": "Annezay",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "traversee",
+    "entreeKm": 239.077,
+    "sortieKm": 240.867,
+    "longueurM": 1721.9,
+    "mairie": [
+      -0.713598,
+      46.0093984
+    ],
+    "mairieKm": 239.317,
+    "mairieDistanceTraceM": 188,
+    "population": 168,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17457",
+    "nom": "La Devise",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "traversee",
+    "entreeKm": 240.656,
+    "sortieKm": 244.339,
+    "longueurM": 3539.9,
+    "mairie": [
+      -0.7662452,
+      46.0556059
+    ],
+    "mairieKm": 252.099,
+    "mairieDistanceTraceM": 4763,
+    "population": 1183,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17063",
+    "nom": "Breuil-la-Réorte",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "traversee",
+    "entreeKm": 244.339,
+    "sortieKm": 248.294,
+    "longueurM": 3789.1,
+    "mairie": [
+      -0.6895328,
+      46.0522713
+    ],
+    "mairieKm": 244.874,
+    "mairieDistanceTraceM": 95,
+    "population": 470,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17359",
+    "nom": "Saint-Mard",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "traversee",
+    "entreeKm": 247.845,
+    "sortieKm": 251.568,
+    "longueurM": 3440.5,
+    "mairie": [
+      -0.7123912,
+      46.0849321
+    ],
+    "mairieKm": 249.182,
+    "mairieDistanceTraceM": 12,
+    "population": 1261,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17434",
+    "nom": "Surgères",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "traversee",
+    "entreeKm": 251.568,
+    "sortieKm": 257.653,
+    "longueurM": 6085,
+    "mairie": [
+      -0.7513035,
+      46.1048486
+    ],
+    "mairieKm": 253.938,
+    "mairieDistanceTraceM": 13,
+    "population": 6897,
+    "confiance": "élevée",
+    "isWaypoint": true
+  },
+  {
+    "code": "17293",
+    "nom": "Puyravault",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "traversee",
+    "entreeKm": 257.653,
+    "sortieKm": 264.358,
+    "longueurM": 6345.9,
+    "mairie": [
+      -0.8135189,
+      46.1364357
+    ],
+    "mairieKm": 260.722,
+    "mairieDistanceTraceM": 89,
+    "population": 747,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17482",
+    "nom": "Vouhé",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "limite",
+    "entreeKm": 262.304,
+    "sortieKm": 262.913,
+    "longueurM": 359,
+    "mairie": [
+      -0.8008493,
+      46.1472589
+    ],
+    "mairieKm": 261.077,
+    "mairieDistanceTraceM": 1593,
+    "population": 674,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17057",
+    "nom": "Bouhet",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "traversee",
+    "entreeKm": 264.358,
+    "sortieKm": 268.162,
+    "longueurM": 3803.7,
+    "mairie": [
+      -0.8598093,
+      46.1651579
+    ],
+    "mairieKm": 266.215,
+    "mairieDistanceTraceM": 38,
+    "population": 903,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17186",
+    "nom": "Le Gué-d'Alleré",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "traversee",
+    "entreeKm": 268.162,
+    "sortieKm": 270.573,
+    "longueurM": 2411,
+    "mairie": [
+      -0.8614779,
+      46.1870975
+    ],
+    "mairieKm": 269.017,
+    "mairieDistanceTraceM": 31,
+    "population": 1113,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17041",
+    "nom": "Benon",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "traversee",
+    "entreeKm": 270.573,
+    "sortieKm": 272.378,
+    "longueurM": 1558.8,
+    "mairie": [
+      -0.8161238,
+      46.2031043
+    ],
+    "mairieKm": 271.824,
+    "mairieDistanceTraceM": 2996,
+    "population": 1859,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17396",
+    "nom": "Saint-Sauveur-d'Aunis",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "limite",
+    "entreeKm": 270.635,
+    "sortieKm": 274.308,
+    "longueurM": 925.7,
+    "mairie": [
+      -0.8869245,
+      46.2182501
+    ],
+    "mairieKm": 274.188,
+    "mairieDistanceTraceM": 2197,
+    "population": 2026,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17158",
+    "nom": "Ferrières",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "traversee",
+    "entreeKm": 272.383,
+    "sortieKm": 276.256,
+    "longueurM": 3198.2,
+    "mairie": [
+      -0.8644817,
+      46.227041
+    ],
+    "mairieKm": 274.672,
+    "mairieDistanceTraceM": 249,
+    "population": 1573,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17322",
+    "nom": "Saint-Cyr-du-Doret",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "limite",
+    "entreeKm": 276.256,
+    "sortieKm": 276.588,
+    "longueurM": 213.3,
+    "mairie": [
+      -0.8082831,
+      46.2804381
+    ],
+    "mairieKm": 282.328,
+    "mairieDistanceTraceM": 3167,
+    "population": 681,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17349",
+    "nom": "Saint-Jean-de-Liversay",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "traversee",
+    "entreeKm": 276.32,
+    "sortieKm": 284.14,
+    "longueurM": 7087.6,
+    "mairie": [
+      -0.8748262,
+      46.2702606
+    ],
+    "mairieKm": 279.349,
+    "mairieDistanceTraceM": 1078,
+    "population": 3063,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "17439",
+    "nom": "Taugon",
+    "departement": "17",
+    "departementNom": "Charente-Maritime",
+    "statut": "traversee",
+    "entreeKm": 283.398,
+    "sortieKm": 290.988,
+    "longueurM": 7431.2,
+    "mairie": [
+      -0.8349063,
+      46.3091965
+    ],
+    "mairieKm": 285.352,
+    "mairieDistanceTraceM": 596,
+    "population": 772,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "85132",
+    "nom": "Maillé",
+    "departement": "85",
+    "departementNom": "Vendée",
+    "statut": "traversee",
+    "entreeKm": 290.988,
+    "sortieKm": 296.398,
+    "longueurM": 5384.2,
+    "mairie": [
+      -0.7908191,
+      46.3418814
+    ],
+    "mairieKm": 294.568,
+    "mairieDistanceTraceM": 257,
+    "population": 759,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "85303",
+    "nom": "Vix",
+    "departement": "85",
+    "departementNom": "Vendée",
+    "statut": "limite",
+    "entreeKm": 291.208,
+    "sortieKm": 291.436,
+    "longueurM": 26.6,
+    "mairie": [
+      -0.8555421,
+      46.362037
+    ],
+    "mairieKm": 289.527,
+    "mairieDistanceTraceM": 2687,
+    "population": 1835,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "85133",
+    "nom": "Maillezais",
+    "departement": "85",
+    "departementNom": "Vendée",
+    "statut": "traversee",
+    "entreeKm": 296.398,
+    "sortieKm": 302.672,
+    "longueurM": 6273.5,
+    "mairie": [
+      -0.7383708,
+      46.3731181
+    ],
+    "mairieKm": 301.661,
+    "mairieDistanceTraceM": 128,
+    "population": 890,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "85265",
+    "nom": "Saint-Pierre-le-Vieux",
+    "departement": "85",
+    "departementNom": "Vendée",
+    "statut": "traversee",
+    "entreeKm": 302.672,
+    "sortieKm": 308.422,
+    "longueurM": 5749.8,
+    "mairie": [
+      -0.7493369,
+      46.3863595
+    ],
+    "mairieKm": 303.661,
+    "mairieDistanceTraceM": 17,
+    "population": 917,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "85244",
+    "nom": "Saint-Martin-de-Fraigneau",
+    "departement": "85",
+    "departementNom": "Vendée",
+    "statut": "traversee",
+    "entreeKm": 308.422,
+    "sortieKm": 310.84,
+    "longueurM": 2418,
+    "mairie": [
+      -0.7454772,
+      46.4347523
+    ],
+    "mairieKm": 310.07,
+    "mairieDistanceTraceM": 2063,
+    "population": 795,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "85092",
+    "nom": "Fontenay-le-Comte",
+    "departement": "85",
+    "departementNom": "Vendée",
+    "statut": "traversee",
+    "entreeKm": 310.84,
+    "sortieKm": 319.173,
+    "longueurM": 8332.9,
+    "mairie": [
+      -0.80608,
+      46.4656359
+    ],
+    "mairieKm": 315.777,
+    "mairieDistanceTraceM": 33,
+    "population": 14059,
+    "confiance": "élevée",
+    "isWaypoint": true
+  },
+  {
+    "code": "85176",
+    "nom": "Pissotte",
+    "departement": "85",
+    "departementNom": "Vendée",
+    "statut": "traversee",
+    "entreeKm": 319.173,
+    "sortieKm": 324.749,
+    "longueurM": 5350.9,
+    "mairie": [
+      -0.8079579,
+      46.4967805
+    ],
+    "mairieKm": 320.778,
+    "mairieDistanceTraceM": 612,
+    "population": 1132,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "85143",
+    "nom": "Mervent",
+    "departement": "85",
+    "departementNom": "Vendée",
+    "statut": "traversee",
+    "entreeKm": 323.041,
+    "sortieKm": 327.223,
+    "longueurM": 2699.3,
+    "mairie": [
+      -0.7570335,
+      46.5237724
+    ],
+    "mairieKm": 325.098,
+    "mairieDistanceTraceM": 2746,
+    "population": 1063,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "85305",
+    "nom": "Vouvant",
+    "departement": "85",
+    "departementNom": "Vendée",
+    "statut": "traversee",
+    "entreeKm": 327.223,
+    "sortieKm": 333.405,
+    "longueurM": 6181.6,
+    "mairie": [
+      -0.7698901,
+      46.5723602
+    ],
+    "mairieKm": 331.506,
+    "mairieDistanceTraceM": 137,
+    "population": 829,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "85292",
+    "nom": "Rives-du-Fougerais",
+    "departement": "85",
+    "departementNom": "Vendée",
+    "statut": "traversee",
+    "entreeKm": 333.405,
+    "sortieKm": 339.632,
+    "longueurM": 6227.4,
+    "mairie": [
+      -0.8784488,
+      46.6192618
+    ],
+    "mairieKm": 339.874,
+    "mairieDistanceTraceM": 4907,
+    "population": 1500,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "85252",
+    "nom": "Saint-Maurice-le-Girard",
+    "departement": "85",
+    "departementNom": "Vendée",
+    "statut": "traversee",
+    "entreeKm": 339.632,
+    "sortieKm": 343.444,
+    "longueurM": 3811.6,
+    "mairie": [
+      -0.8059729,
+      46.6424663
+    ],
+    "mairieKm": 341.97,
+    "mairieDistanceTraceM": 124,
+    "population": 597,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "85067",
+    "nom": "Cheffois",
+    "departement": "85",
+    "departementNom": "Vendée",
+    "statut": "traversee",
+    "entreeKm": 343.444,
+    "sortieKm": 346.166,
+    "longueurM": 2653.4,
+    "mairie": [
+      -0.7900691,
+      46.6674141
+    ],
+    "mairieKm": 345.069,
+    "mairieDistanceTraceM": 1422,
+    "population": 1009,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "85154",
+    "nom": "Mouilleron-Saint-Germain",
+    "departement": "85",
+    "departementNom": "Vendée",
+    "statut": "traversee",
+    "entreeKm": 345.681,
+    "sortieKm": 349.431,
+    "longueurM": 3333.9,
+    "mairie": [
+      -0.848055,
+      46.6758391
+    ],
+    "mairieKm": 347.082,
+    "mairieDistanceTraceM": 2568,
+    "population": 1744,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "85187",
+    "nom": "Réaumur",
+    "departement": "85",
+    "departementNom": "Vendée",
+    "statut": "traversee",
+    "entreeKm": 349.431,
+    "sortieKm": 355.782,
+    "longueurM": 6351.3,
+    "mairie": [
+      -0.8038706,
+      46.7202107
+    ],
+    "mairieKm": 353.125,
+    "mairieDistanceTraceM": 1792,
+    "population": 857,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "85140",
+    "nom": "La Meilleraie-Tillay",
+    "departement": "85",
+    "departementNom": "Vendée",
+    "statut": "traversee",
+    "entreeKm": 355.782,
+    "sortieKm": 357.948,
+    "longueurM": 2165.6,
+    "mairie": [
+      -0.8449687,
+      46.7419824
+    ],
+    "mairieKm": 356.013,
+    "mairieDistanceTraceM": 194,
+    "population": 1485,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "85182",
+    "nom": "Pouzauges",
+    "departement": "85",
+    "departementNom": "Vendée",
+    "statut": "traversee",
+    "entreeKm": 357.948,
+    "sortieKm": 367.143,
+    "longueurM": 9194.9,
+    "mairie": [
+      -0.8373048,
+      46.7826417
+    ],
+    "mairieKm": 361.441,
+    "mairieDistanceTraceM": 99,
+    "population": 5668,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "85090",
+    "nom": "Sèvremont",
+    "departement": "85",
+    "departementNom": "Vendée",
+    "statut": "traversee",
+    "entreeKm": 367.143,
+    "sortieKm": 371.392,
+    "longueurM": 4249.6,
+    "mairie": [
+      -0.859798,
+      46.8327118
+    ],
+    "mairieKm": 361.572,
+    "mairieDistanceTraceM": 5812,
+    "population": 6385,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "79183",
+    "nom": "Montravers",
+    "departement": "79",
+    "departementNom": "Deux-Sèvres",
+    "statut": "traversee",
+    "entreeKm": 371.392,
+    "sortieKm": 371.711,
+    "longueurM": 318.3,
+    "mairie": [
+      -0.7184236,
+      46.8287699
+    ],
+    "mairieKm": 371.336,
+    "mairieDistanceTraceM": 4181,
+    "population": 365,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "79235",
+    "nom": "Saint-Amand-sur-Sèvre",
+    "departement": "79",
+    "departementNom": "Deux-Sèvres",
+    "statut": "traversee",
+    "entreeKm": 371.711,
+    "sortieKm": 377.731,
+    "longueurM": 5369.6,
+    "mairie": [
+      -0.7951256,
+      46.8686834
+    ],
+    "mairieKm": 374.995,
+    "mairieDistanceTraceM": 2300,
+    "population": 1422,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "79207",
+    "nom": "La Petite-Boissière",
+    "departement": "79",
+    "departementNom": "Deux-Sèvres",
+    "statut": "traversee",
+    "entreeKm": 376.963,
+    "sortieKm": 382.631,
+    "longueurM": 5551.2,
+    "mairie": [
+      -0.7414581,
+      46.8826234
+    ],
+    "mairieKm": 377.593,
+    "mairieDistanceTraceM": 175,
+    "population": 616,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "79079",
+    "nom": "Mauléon",
+    "departement": "79",
+    "departementNom": "Deux-Sèvres",
+    "statut": "traversee",
+    "entreeKm": 382.631,
+    "sortieKm": 389.558,
+    "longueurM": 6927,
+    "mairie": [
+      -0.7507561,
+      46.9225125
+    ],
+    "mairieKm": 384.245,
+    "mairieDistanceTraceM": 36,
+    "population": 8573,
+    "confiance": "élevée",
+    "isWaypoint": true
+  },
+  {
+    "code": "79289",
+    "nom": "Saint-Pierre-des-Échaubrognes",
+    "departement": "79",
+    "departementNom": "Deux-Sèvres",
+    "statut": "traversee",
+    "entreeKm": 389.558,
+    "sortieKm": 394.054,
+    "longueurM": 4099.2,
+    "mairie": [
+      -0.7425896,
+      46.9911069
+    ],
+    "mairieKm": 393.094,
+    "mairieDistanceTraceM": 122,
+    "population": 1384,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "49192",
+    "nom": "Maulévrier",
+    "departement": "49",
+    "departementNom": "Maine-et-Loire",
+    "statut": "traversee",
+    "entreeKm": 393.515,
+    "sortieKm": 400.294,
+    "longueurM": 6457,
+    "mairie": [
+      -0.7451878,
+      47.00699
+    ],
+    "mairieKm": 395.195,
+    "mairieDistanceTraceM": 842,
+    "population": 3172,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "49352",
+    "nom": "Toutlemonde",
+    "departement": "49",
+    "departementNom": "Maine-et-Loire",
+    "statut": "traversee",
+    "entreeKm": 399.634,
+    "sortieKm": 404.592,
+    "longueurM": 4476.9,
+    "mairie": [
+      -0.7664723,
+      47.0561212
+    ],
+    "mairieKm": 402.289,
+    "mairieDistanceTraceM": 15,
+    "population": 1305,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "49231",
+    "nom": "Nuaillé",
+    "departement": "49",
+    "departementNom": "Maine-et-Loire",
+    "statut": "traversee",
+    "entreeKm": 404.592,
+    "sortieKm": 408.736,
+    "longueurM": 3421.7,
+    "mairie": [
+      -0.796694,
+      47.0957609
+    ],
+    "mairieKm": 408.461,
+    "mairieDistanceTraceM": 11,
+    "population": 1459,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "49195",
+    "nom": "Mazières-en-Mauges",
+    "departement": "49",
+    "departementNom": "Maine-et-Loire",
+    "statut": "traversee",
+    "entreeKm": 404.96,
+    "sortieKm": 406.233,
+    "longueurM": 722.9,
+    "mairie": [
+      -0.8164706,
+      47.0473016
+    ],
+    "mairieKm": 402.181,
+    "mairieDistanceTraceM": 3903,
+    "population": 1240,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "49355",
+    "nom": "Trémentines",
+    "departement": "49",
+    "departementNom": "Maine-et-Loire",
+    "statut": "traversee",
+    "entreeKm": 408.736,
+    "sortieKm": 415.196,
+    "longueurM": 5845.6,
+    "mairie": [
+      -0.7865357,
+      47.1223495
+    ],
+    "mairieKm": 411.557,
+    "mairieDistanceTraceM": 140,
+    "population": 3101,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "49092",
+    "nom": "Chemillé-en-Anjou",
+    "departement": "49",
+    "departementNom": "Maine-et-Loire",
+    "statut": "traversee",
+    "entreeKm": 414.573,
+    "sortieKm": 436.384,
+    "longueurM": 21802.5,
+    "mairie": [
+      -0.7328386,
+      47.2147488
+    ],
+    "mairieKm": 425.818,
+    "mairieDistanceTraceM": 39,
+    "population": 21999,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "49244",
+    "nom": "Mauges-sur-Loire",
+    "departement": "49",
+    "departementNom": "Maine-et-Loire",
+    "statut": "traversee",
+    "entreeKm": 436.384,
+    "sortieKm": 440.373,
+    "longueurM": 3945.3,
+    "mairie": [
+      -0.8588386,
+      47.355843
+    ],
+    "mairieKm": 443.06,
+    "mairieDistanceTraceM": 6470,
+    "population": 18695,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "49063",
+    "nom": "Chalonnes-sur-Loire",
+    "departement": "49",
+    "departementNom": "Maine-et-Loire",
+    "statut": "traversee",
+    "entreeKm": 440.325,
+    "sortieKm": 449.62,
+    "longueurM": 9290,
+    "mairie": [
+      -0.7622514,
+      47.351838
+    ],
+    "mairieKm": 446.04,
+    "mairieDistanceTraceM": 191,
+    "population": 6659,
+    "confiance": "élevée",
+    "isWaypoint": true
+  },
+  {
+    "code": "49283",
+    "nom": "Saint-Georges-sur-Loire",
+    "departement": "49",
+    "departementNom": "Maine-et-Loire",
+    "statut": "traversee",
+    "entreeKm": 449.62,
+    "sortieKm": 450.769,
+    "longueurM": 1149,
+    "mairie": [
+      -0.7610243,
+      47.4082894
+    ],
+    "mairieKm": 449.881,
+    "mairieDistanceTraceM": 4252,
+    "population": 3836,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "49247",
+    "nom": "La Possonnière",
+    "departement": "49",
+    "departementNom": "Maine-et-Loire",
+    "statut": "traversee",
+    "entreeKm": 450.769,
+    "sortieKm": 457.149,
+    "longueurM": 6380,
+    "mairie": [
+      -0.6889561,
+      47.3745804
+    ],
+    "mairieKm": 455.807,
+    "mairieDistanceTraceM": 295,
+    "population": 2501,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "49329",
+    "nom": "Savennières",
+    "departement": "49",
+    "departementNom": "Maine-et-Loire",
+    "statut": "traversee",
+    "entreeKm": 457.149,
+    "sortieKm": 462.706,
+    "longueurM": 5448.2,
+    "mairie": [
+      -0.6570085,
+      47.3830883
+    ],
+    "mairieKm": 458.461,
+    "mairieDistanceTraceM": 150,
+    "population": 1349,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "49035",
+    "nom": "Bouchemaine",
+    "departement": "49",
+    "departementNom": "Maine-et-Loire",
+    "statut": "traversee",
+    "entreeKm": 462.51,
+    "sortieKm": 469.706,
+    "longueurM": 7108.6,
+    "mairie": [
+      -0.6094099,
+      47.4218399
+    ],
+    "mairieKm": 465.66,
+    "mairieDistanceTraceM": 70,
+    "population": 6580,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "49007",
+    "nom": "Angers",
+    "departement": "49",
+    "departementNom": "Maine-et-Loire",
+    "statut": "traversee",
+    "entreeKm": 469.706,
+    "sortieKm": 475.68,
+    "longueurM": 5974.2,
+    "mairie": [
+      -0.5480151,
+      47.4711613
+    ],
+    "mairieKm": 471.713,
+    "mairieDistanceTraceM": 1970,
+    "population": 159022,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "49015",
+    "nom": "Avrillé",
+    "departement": "49",
+    "departementNom": "Maine-et-Loire",
+    "statut": "traversee",
+    "entreeKm": 475.68,
+    "sortieKm": 479.728,
+    "longueurM": 4048.4,
+    "mairie": [
+      -0.5906915,
+      47.5052528
+    ],
+    "mairieKm": 477.444,
+    "mairieDistanceTraceM": 449,
+    "population": 15251,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "49214",
+    "nom": "Montreuil-Juigné",
+    "departement": "49",
+    "departementNom": "Maine-et-Loire",
+    "statut": "traversee",
+    "entreeKm": 479.728,
+    "sortieKm": 485.805,
+    "longueurM": 6076.6,
+    "mairie": [
+      -0.6096764,
+      47.530175
+    ],
+    "mairieKm": 480.739,
+    "mairieDistanceTraceM": 188,
+    "population": 7808,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "49135",
+    "nom": "Feneu",
+    "departement": "49",
+    "departementNom": "Maine-et-Loire",
+    "statut": "traversee",
+    "entreeKm": 485.805,
+    "sortieKm": 486.072,
+    "longueurM": 266.9,
+    "mairie": [
+      -0.5940972,
+      47.5707948
+    ],
+    "mairieKm": 484.786,
+    "mairieDistanceTraceM": 1418,
+    "population": 2212,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "49200",
+    "nom": "Longuenée-en-Anjou",
+    "departement": "49",
+    "departementNom": "Maine-et-Loire",
+    "statut": "traversee",
+    "entreeKm": 486.072,
+    "sortieKm": 491.658,
+    "longueurM": 5586.1,
+    "mairie": [
+      -0.6716493,
+      47.5602351
+    ],
+    "mairieKm": 488.952,
+    "mairieDistanceTraceM": 2125,
+    "population": 6571,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "49155",
+    "nom": "Grez-Neuville",
+    "departement": "49",
+    "departementNom": "Maine-et-Loire",
+    "statut": "traversee",
+    "entreeKm": 491.658,
+    "sortieKm": 494.601,
+    "longueurM": 2943.5,
+    "mairie": [
+      -0.6835981,
+      47.6017451
+    ],
+    "mairieKm": 492.582,
+    "mairieDistanceTraceM": 227,
+    "population": 1447,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "49176",
+    "nom": "Le Lion-d'Angers",
+    "departement": "49",
+    "departementNom": "Maine-et-Loire",
+    "statut": "traversee",
+    "entreeKm": 494.601,
+    "sortieKm": 499.408,
+    "longueurM": 4806.6,
+    "mairie": [
+      -0.7132961,
+      47.6270321
+    ],
+    "mairieKm": 497.332,
+    "mairieDistanceTraceM": 15,
+    "population": 5390,
+    "confiance": "élevée",
+    "isWaypoint": true
+  },
+  {
+    "code": "49217",
+    "nom": "Montreuil-sur-Maine",
+    "departement": "49",
+    "departementNom": "Maine-et-Loire",
+    "statut": "traversee",
+    "entreeKm": 499.408,
+    "sortieKm": 502.376,
+    "longueurM": 2968,
+    "mairie": [
+      -0.6982743,
+      47.6489747
+    ],
+    "mairieKm": 500.335,
+    "mairieDistanceTraceM": 91,
+    "population": 804,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "49064",
+    "nom": "Chambellay",
+    "departement": "49",
+    "departementNom": "Maine-et-Loire",
+    "statut": "traversee",
+    "entreeKm": 502.376,
+    "sortieKm": 507.238,
+    "longueurM": 4862.6,
+    "mairie": [
+      -0.6833815,
+      47.6898518
+    ],
+    "mairieKm": 505.542,
+    "mairieDistanceTraceM": 10,
+    "population": 411,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "49161",
+    "nom": "La Jaille-Yvon",
+    "departement": "49",
+    "departementNom": "Maine-et-Loire",
+    "statut": "traversee",
+    "entreeKm": 507.238,
+    "sortieKm": 511.71,
+    "longueurM": 4472,
+    "mairie": [
+      -0.6714695,
+      47.7223604
+    ],
+    "mairieKm": 509.968,
+    "mairieDistanceTraceM": 233,
+    "population": 343,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "53150",
+    "nom": "Ménil",
+    "departement": "53",
+    "departementNom": "Mayenne",
+    "statut": "traversee",
+    "entreeKm": 511.71,
+    "sortieKm": 523.568,
+    "longueurM": 11858.1,
+    "mairie": [
+      -0.6769184,
+      47.775836
+    ],
+    "mairieKm": 519.645,
+    "mairieDistanceTraceM": 297,
+    "population": 923,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "53062",
+    "nom": "Château-Gontier-sur-Mayenne",
+    "departement": "53",
+    "departementNom": "Mayenne",
+    "statut": "traversee",
+    "entreeKm": 523.568,
+    "sortieKm": 529.21,
+    "longueurM": 5641.8,
+    "mairie": [
+      -0.7070635,
+      47.8260914
+    ],
+    "mairieKm": 526.956,
+    "mairieDistanceTraceM": 278,
+    "population": 16584,
+    "confiance": "élevée",
+    "isWaypoint": true
+  },
+  {
+    "code": "53136",
+    "nom": "La Roche-Neuville",
+    "departement": "53",
+    "departementNom": "Mayenne",
+    "statut": "traversee",
+    "entreeKm": 529.21,
+    "sortieKm": 538.732,
+    "longueurM": 9522.2,
+    "mairie": [
+      -0.7483151,
+      47.8732776
+    ],
+    "mairieKm": 533.121,
+    "mairieDistanceTraceM": 3213,
+    "population": 1240,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "53117",
+    "nom": "Houssay",
+    "departement": "53",
+    "departementNom": "Mayenne",
+    "statut": "traversee",
+    "entreeKm": 538.732,
+    "sortieKm": 544.28,
+    "longueurM": 5479,
+    "mairie": [
+      -0.7356575,
+      47.9146687
+    ],
+    "mairieKm": 539.735,
+    "mairieDistanceTraceM": 532,
+    "population": 493,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "53186",
+    "nom": "Quelaines-Saint-Gault",
+    "departement": "53",
+    "departementNom": "Mayenne",
+    "statut": "traversee",
+    "entreeKm": 543.003,
+    "sortieKm": 552.846,
+    "longueurM": 8634.6,
+    "mairie": [
+      -0.8023479,
+      47.9233211
+    ],
+    "mairieKm": 547.756,
+    "mairieDistanceTraceM": 218,
+    "population": 2152,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "53011",
+    "nom": "Astillé",
+    "departement": "53",
+    "departementNom": "Mayenne",
+    "statut": "traversee",
+    "entreeKm": 552.846,
+    "sortieKm": 559.352,
+    "longueurM": 3986.6,
+    "mairie": [
+      -0.854288,
+      47.9634225
+    ],
+    "mairieKm": 554.372,
+    "mairieDistanceTraceM": 166,
+    "population": 895,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "53082",
+    "nom": "Courbeveille",
+    "departement": "53",
+    "departementNom": "Mayenne",
+    "statut": "traversee",
+    "entreeKm": 555.744,
+    "sortieKm": 558.263,
+    "longueurM": 2519,
+    "mairie": [
+      -0.8877773,
+      47.9923931
+    ],
+    "mairieKm": 556.366,
+    "mairieDistanceTraceM": 2530,
+    "population": 631,
+    "confiance": "élevée",
+    "isWaypoint": false
+  },
+  {
+    "code": "53077",
+    "nom": "Cossé-le-Vivien",
+    "departement": "53",
+    "departementNom": "Mayenne",
+    "statut": "traversee",
+    "entreeKm": 559.352,
+    "sortieKm": 561.304,
+    "longueurM": 1952.6,
+    "mairie": [
+      -0.9128312,
+      47.9445925
+    ],
+    "mairieKm": 561.242,
+    "mairieDistanceTraceM": 149,
+    "population": 3174,
+    "confiance": "élevée",
+    "isWaypoint": false
+  }
+]
