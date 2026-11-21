@@ -15,13 +15,22 @@ export const at = (bar: number, beat = 0) => (bar * 4 + beat) * BEAT;
  * PHOTOS PERSONNELLES (optionnelles) — déposer les fichiers dans public/shorts/photos/
  * puis indiquer leur nom ici (ex. 'papa.jpg'). Laisser null tant qu'aucune photo authentique n'est fournie.
  *  - papa : apparaît derrière l'accroche (idéalement de dos, en marche, sur une route).
- *  - grandMere : apparaît sur « Un pas pour maman. » (portrait, ou mère et fils ensemble).
+ *  - grandMere : apparaît sur « Un pas pour ma maman. » (portrait, ou mère et fils ensemble).
  * Aucune image n'est générée ni inventée : sans photo, le short reste entièrement cartographique.
  */
 export const PHOTOS: {papa: string | null; grandMere: string | null} = {
-	papa: null,
+	// Olivier de dos sur une route au lever du soleil — couverture du dossier de partenariat (900 × 506 px), confirmé par la famille
+	papa: 'olivier-route.jpg',
 	grandMere: null,
 };
+
+/**
+ * Mise en page des photos : « band » = bandeau pleine largeur (pour une photo paysage de petite taille,
+ * agrandie de 1,2 × seulement), « full » = plein écran (photo verticale de bonne résolution).
+ */
+export const PHOTO_LAYOUT: {papa: 'band' | 'full'; grandMere: 'band' | 'full'} = {papa: 'band', grandMere: 'full'};
+/** Position du bandeau (px, 1080 × 1920) : sous le texte, au-dessus de la légende des plateformes. */
+export const PHOTO_BAND = {top: 900, height: 590};
 
 /** Villes repères (waypoints du GPX) retenues pour le montage — noms exacts du GPX. */
 export const MONTAGE_TOWNS = {

@@ -11,3 +11,12 @@ cache
 *.zip
 .DS_Store
 out
+
+# Documents de l'équipe (coordonnées, budget, compte rendu) : hors du dépôt public
+contexte.md
+dossier partenariat.pdf
+*.pptx
+*.docx
+/communes-mairies.csv
+# Photos personnelles : hors du dépôt public (nécessaires pour régénérer les shorts)
+public/shorts/photos/*

@@ -1,7 +1,7 @@
 // Compteur kilométrique et carton de ville repère (positions fixes, une seule marge gauche).
 import React from 'react';
 import {COLORS, FONTS} from '../config/theme';
-import {DISPLAY_TOTAL_KM, WAYPOINT_EVENTS, displayKm, fmtKm} from '../data';
+import {DISPLAY_TOTAL_KM, ETAPE_COUNT, WAYPOINT_EVENTS, displayKm, fmtKm} from '../data';
 import {easeOut} from '../geo/camera';
 import {ROUTE_TOTAL_KM_GPX} from '../geo/route';
 import {SAFE, SHORT_TYPE, UPPER_RIGHT, UPPER_ZONE_END} from './config';
@@ -38,7 +38,7 @@ export const ShortHud: React.FC<{spec: ShortSpec; shot: Shot; t: number; km: num
 		const at = shot.start + (shot.camera.type === 'fly' ? shot.camera.dur - 0.25 : 0.3);
 		town = {kicker: 'Départ', name: 'Noaillan', sub: 'Gironde', at, color: COLORS.accent};
 	} else if (shot.town === 'arrivee') {
-		town = {kicker: 'Arrivée', name: 'Cossé-le-Vivien', sub: 'Mayenne', at: shot.start + 0.15, color: COLORS.red};
+		town = {kicker: `Arrivée · étape ${ETAPE_COUNT}`, name: 'Cossé-le-Vivien', sub: 'Mayenne', at: shot.start + 0.15, color: COLORS.red};
 	} else if (shot.journey) {
 		const towns = shotTowns(shot);
 		for (let i = 0; i < towns.length; i++) {
@@ -46,7 +46,8 @@ export const ShortHud: React.FC<{spec: ShortSpec; shot: Shot; t: number; km: num
 			const until = Math.min(tw.t + 1.7, (towns[i + 1]?.t ?? Infinity) - 0.5);
 			if (t >= tw.t - 0.35 && t < until) {
 				const w = WAYPOINT_EVENTS.find((x) => x.gpxName === tw.name);
-				if (w) town = {kicker: w.commune?.departementNom ?? '', name: w.communeNom, sub: '', at: tw.t - 0.35, color: COLORS.red, until};
+				const etape = WAYPOINT_EVENTS.indexOf(w as (typeof WAYPOINT_EVENTS)[number]) + 1;
+				if (w) town = {kicker: `Étape ${etape} · ${w.commune?.departementNom ?? ''}`, name: w.communeNom, sub: '', at: tw.t - 0.35, color: COLORS.red, until};
 			}
 		}
 	} else if (shot.town && shot.walk) {

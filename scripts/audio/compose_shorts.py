@@ -25,9 +25,9 @@ os.makedirs(OUT, exist_ok=True)
 
 def common_sfx(s, ev, steps_bars=1):
     """Design sonore partagé : pas, comète, vols de caméra, impacts, villes, arrivée, ambiance."""
-    # Les pas : un par temps sur la première mesure, de plus en plus discrets
-    for k in range(4 * steps_bars):
-        s.footstep(k * 0.8 + 0.02, gain=CFG['footstepsGain'] * (1 - 0.12 * k))
+    # Les foulées : une par croche (≈ 150 pas/min, cadence de course) sur la première mesure, de plus en plus discrètes
+    for k in range(8 * steps_bars):
+        s.footstep(k * 0.4 + 0.02, gain=CFG['footstepsGain'] * 0.8 * (1 - 0.07 * k))
     for c in ev['comet']:
         s.whoosh(c['t0'], c['t1'], gain=0.55, rising=True)
     for f in ev['flies']:
@@ -49,11 +49,11 @@ def common_sfx(s, ev, steps_bars=1):
         if t - last >= 0.12:
             s.tick(t, gain=0.9)
             last = t
-    # Deux pas à chaque ville où le marcheur ralentit (et au départ)
+    # Quelques foulées à chaque ville où le coureur ralentit (et au départ)
     for tw in ev['towns']:
         b = round(tw['t'] / 0.4) * 0.4
-        s.footstep(b - 0.8, gain=0.5)
-        s.footstep(b, gain=0.42)
+        for k, g in enumerate((0.42, 0.46, 0.4)):
+            s.footstep(b - 0.8 + 0.4 * k, gain=g)
     if ev['arrival'] is not None:
         s.reverse_swell(ev['arrival'], 2.6)
         s.sub_hit(ev['arrival'], gain=1.0, decay=2.4)
@@ -80,9 +80,11 @@ def principal():
     s.melody(1, [(0, 0, 'F#5', 1), (0, 1, 'E5', 3)], 54)
     # 2 — 6 départements, 128 communes
     s.left_halves(2, 46)
-    s.pl(T(2), 'D6', 56, 1.4)
+    # 10 étapes · 6 départements · 128 communes : trois notes qui montent dans l'accord
+    s.pl(T(2), 'B5', 56, 1.4)
     s.pl(T(2), 43, 56, 2.0)
-    s.pl(T(2, 1), 'B5', 54, 1.6)
+    s.pl(T(2, 1), 'D6', 54, 1.6)
+    s.pl(T(2, 2), 'F#6', 54, 1.6)
     s.melody(2, [(0, 2, 'D5', 2)], 48)
     # 3 — plongée vers Noaillan
     s.left_halves(3, 42)
@@ -123,8 +125,8 @@ def principal():
     for b in range(8, 16):
         s.cello_bar(b)
     common_sfx(s, ev)
-    s.footstep(T(17, 1.5), gain=0.35)
-    s.footstep(T(17, 2.5), gain=0.25)
+    for k, g in enumerate((0.34, 0.3, 0.25, 0.2)):
+        s.footstep(T(17, 1.5) + 0.4 * k, gain=g)
     arc = [(0, -2), (3.2, -2.5), (6.4, -2.5), (9.6, -3), (12.8, -3.5), (25.6, -2.5), (32, -3), (38, -3.5), (41.4, -3.5), (41.6, 3.5), (45, 1.0), (46.4, -1), (54.4, -2.5), (57.6, -3)]
     pad = [(0, 0), (3.2, 0.8), (12.8, 0.9), (41.6, 1.2), (48, 0.8), (57.6, 0.5)]
     strs = [(0, 0), (16, 0.6), (32, 0.9), (41.6, 1.25), (46, 1.0), (52, 0.6), (57.6, 0.3)]

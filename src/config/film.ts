@@ -57,7 +57,12 @@ export const TEXTS = {
 	line1: 'Certaines histoires méritent qu’on aille plus loin.',
 	line2a: '556 kilomètres.',
 	line2b: ['Un défi.', 'Une famille.', 'Une cause.'],
-	title: 'Un pas pour maman',
+	title: 'Un pas pour ma maman',
+	/** coupe à la main du titre quand il doit tenir sur deux lignes (vertical, affiche) */
+	titleLines: ['Un pas pour', 'ma maman'],
+	/** date du défi (dossier de partenariat : « En janvier 2028 ») */
+	date: 'Janvier 2028',
+	etapeLabel: 'Étape',
 	subtitle: '556 km pour la SEP',
 	departLabel: 'Départ',
 	arrivalLabel: 'Arrivée',

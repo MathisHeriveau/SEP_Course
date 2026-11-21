@@ -36,6 +36,8 @@ export const CONTEXT_CITIES = (contextJson as ContextCity[]).filter((c) => !c.on
 /** Communes shown in the film (traversed; optionally also those whose boundary is only followed). */
 export const FILM_COMMUNES = ALL_COMMUNES.filter((c) => c.statut === 'traversee' || SHOW_BOUNDARY_COMMUNES);
 export const TRAVERSED_COUNT = ALL_COMMUNES.filter((c) => c.statut === 'traversee').length;
+/** 10 étapes : les 9 waypoints du GPX sont les fins d'étape (carte « Les 10 étapes GPS » de l'équipe). */
+export const ETAPE_COUNT = (waypointsJson as unknown[]).length + 1;
 export const DEPARTEMENT_COUNT = new Set(ALL_COMMUNES.filter((c) => c.statut === 'traversee').map((c) => c.departement)).size;
 
 // ---------------------------------------------------------------------------

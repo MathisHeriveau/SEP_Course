@@ -5,7 +5,7 @@ import {AbsoluteFill, staticFile, useCurrentFrame, useVideoConfig} from 'remotio
 import {COLORS} from '../config/theme';
 import {PostFx} from '../components/PostFx';
 import {shotAt, shotCamera, walkKmAt} from './camera';
-import {PhotoPlate} from './PhotoPlate';
+import {PhotoLayer} from './PhotoPlate';
 import {ShortHud} from './ShortHud';
 import {ShortMap} from './ShortMap';
 import {ShortTexts} from './ShortTexts';
@@ -34,7 +34,7 @@ export const ShortVideo: React.FC<{id: ShortId; muted?: boolean}> = ({id, muted}
 		<AbsoluteFill style={{backgroundColor: COLORS.black}}>
 			<AbsoluteFill style={{opacity: endFade}}>
 				<ShortMap shot={shot} t={t} km={km} cam={cam} vp={vp} unit={unit} speedBlur={speedBlur} />
-				<PhotoPlate shot={shot} t={t} />
+				<PhotoLayer spec={spec} t={t} unit={unit} />
 				<ShortHud spec={spec} shot={shot} t={t} km={km} unit={unit} />
 				{/* fin du plan précédent : compteur et carton s'effacent au lieu de disparaître d'un coup */}
 				{prevShot && t - shot.start < 0.4 && (

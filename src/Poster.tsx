@@ -4,7 +4,7 @@ import {AbsoluteFill} from 'remotion';
 import {COLORS, FONTS} from './config/theme';
 import {INSTAGRAM_HANDLE, TEXTS} from './config/film';
 import {POSTER} from './config/poster';
-import {COMMUNE_EVENTS, DEPARTEMENT_COUNT, DISPLAY_TOTAL_KM, TRAVERSED_COUNT, displayKm, fmtKm} from './data';
+import {COMMUNE_EVENTS, DEPARTEMENT_COUNT, DISPLAY_TOTAL_KM, ETAPE_COUNT, TRAVERSED_COUNT, displayKm, fmtKm} from './data';
 import {posterCamera} from './geo/poster-camera';
 import {GeoOverlay} from './map/GeoOverlay';
 import {makeProjector} from './map/paths';
@@ -92,12 +92,13 @@ export const Poster: React.FC = () => {
 
 			{/* Bloc titre */}
 			<div style={{position: 'absolute', left: 150 * u * 0.6, top: 150 * u * 0.6, width: width * 0.36, color: COLORS.offWhite}}>
-				<div style={{fontFamily: FONTS.text, fontWeight: 600, fontSize: 9 * u, letterSpacing: '0.34em', textTransform: 'uppercase', color: COLORS.accent}}>De Noaillan à Cossé-le-Vivien</div>
-				<div style={{fontFamily: FONTS.title, fontWeight: 300, fontSize: 40 * u, lineHeight: 1.04, textTransform: 'uppercase', letterSpacing: '0.12em', marginTop: 18 * u}}>{TEXTS.title}</div>
+				<div style={{fontFamily: FONTS.text, fontWeight: 600, fontSize: 9 * u, letterSpacing: '0.34em', textTransform: 'uppercase', color: COLORS.accent}}>De Noaillan à Cossé-le-Vivien · {TEXTS.date}</div>
+				<div style={{fontFamily: FONTS.title, fontWeight: 300, fontSize: 40 * u, lineHeight: 1.04, textTransform: 'uppercase', letterSpacing: '0.12em', marginTop: 18 * u}}>{TEXTS.titleLines.map((l) => <div key={l}>{l}</div>)}</div>
 				<div style={{fontFamily: FONTS.text, fontWeight: 400, fontSize: 13 * u, letterSpacing: '0.26em', textTransform: 'uppercase', color: COLORS.offWhiteDim, marginTop: 14 * u}}>{TEXTS.subtitle}</div>
 				<div style={{width: 60 * u, height: 1 * u, backgroundColor: COLORS.accent, margin: `${26 * u}px 0`}} />
 				{[
 					[fmtKm(DISPLAY_TOTAL_KM), 'kilomètres'],
+					[String(ETAPE_COUNT), 'étapes'],
 					[String(TRAVERSED_COUNT), 'communes traversées'],
 					[String(DEPARTEMENT_COUNT), 'départements'],
 				].map(([v, l]) => (
@@ -129,7 +130,7 @@ const Legend: React.FC<{u: number}> = ({u}) => (
 		<svg width={20 * u} height={10 * u}><circle cx={10 * u} cy={5 * u} r={2.6 * u} fill={COLORS.offWhite} stroke="#000" strokeWidth={0.8 * u} /></svg>
 		<span>Mairie d’une commune traversée</span>
 		<svg width={20 * u} height={10 * u}><circle cx={10 * u} cy={5 * u} r={3.4 * u} fill="#0b0b0b" stroke={COLORS.red} strokeWidth={1.2 * u} /><circle cx={10 * u} cy={5 * u} r={1.4 * u} fill={COLORS.offWhite} /></svg>
-		<span>Ville repère du tracé</span>
+		<span>Fin d’étape</span>
 		<svg width={20 * u} height={10 * u}><rect x={2 * u} y={1 * u} width={16 * u} height={8 * u} fill={COLORS.offWhite} fillOpacity={0.08} stroke={COLORS.offWhite} strokeOpacity={0.35} strokeWidth={0.6 * u} /></svg>
 		<span>Territoire communal traversé</span>
 	</div>

@@ -24,7 +24,7 @@ export type CameraMove =
 	| {type: 'hold'; cam: CamSpec; push?: number}
 	| {type: 'fly'; from: CamSpec; to: CamSpec; dur: number; push?: number}
 	| {type: 'follow'; zoom: [number, number]; headY?: [number, number]; fly?: {from: CamSpec; dur: number}}
-	/** Trajet continu : dézoome quand le marcheur accélère, rezoome à chaque ville. */
+	/** Trajet continu : dézoome quand le coureur accélère, rezoome à chaque ville. */
 	| {type: 'journey'; zoomFast: number; zoomTown: number; zoomStart?: number; zoomEnd?: number; fly?: {from: CamSpec; dur: number}};
 
 /** Point de passage d'un trajet accéléré : la vitesse y est minimale (sans arrêt). */
@@ -35,11 +35,11 @@ export type Shot = {
 	start: number;
 	end: number;
 	camera: CameraMove;
-	/** Position du marcheur (km GPX) pendant le plan */
+	/** Position du coureur (km GPX) pendant le plan */
 	walk?: {from: number; to: number; ease?: 'linear' | 'out' | 'inOut'; delay?: number; dur?: number};
 	/** Trajet accéléré entre villes repères (remplace `walk`) */
 	journey?: {keys: JourneyKey[]; rest?: number};
-	/** Ce qui est éclairé : jusqu'au marcheur, tout le tracé, ou une comète qui parcourt le tracé */
+	/** Ce qui est éclairé : jusqu'au coureur, tout le tracé, ou une comète qui parcourt le tracé */
 	line: 'walk' | 'full' | 'comet';
 	walker?: boolean;
 	ghost?: number;
@@ -51,7 +51,6 @@ export type Shot = {
 	counter?: boolean;
 	arrival?: boolean;
 	dim?: number;
-	photo?: 'papa' | 'grandMere';
 };
 
 export type TextLine = {
@@ -77,10 +76,12 @@ export type ShortSpec = {
 	texts: TextCue[];
 	/** fichier musique (public/) */
 	audio: string;
+	/** photos personnelles (affichées seulement si un fichier est déclaré dans config.ts) */
+	photos?: {who: 'papa' | 'grandMere'; start: number; end: number}[];
 };
 
 // ----------------------------------------------------------------------------- briques
-/** Trajet continu : le marcheur ralentit à chaque ville (atteinte sur un temps de la musique) et accélère entre elles. */
+/** Trajet continu : le coureur ralentit à chaque ville (atteinte sur un temps de la musique) et accélère entre elles. */
 const journeyShot = (start: number, end: number, startKm: number, towns: [string, number][], endKm: number, camera: CameraMove): Shot => ({
 	id: 'voyage',
 	start,
@@ -106,9 +107,11 @@ const principal: ShortSpec = {
 	composition: 'Short-Principal',
 	durationSec: at(18),
 	audio: 'audio/shorts/principal.wav',
+	// la photo d'Olivier accompagne la phrase qui le présente
+	photos: [{who: 'papa', start: at(0, 2.5), end: at(1, 1.75)}, {who: 'grandMere', start: at(16), end: at(18)}],
 	shots: [
 		// ACTE 1 — L'accroche : le parcours entier, comme un fil de lumière parcouru d'un trait
-		{id: 'accroche', start: 0, end: at(1), camera: {type: 'hold', cam: {kind: 'route'}, push: 0.12}, walk: {from: 0, to: TOTAL, ease: 'inOut', delay: 0.15, dur: 2.75}, line: 'comet', ghost: 0.55, photo: 'papa'},
+		{id: 'accroche', start: 0, end: at(1), camera: {type: 'hold', cam: {kind: 'route'}, push: 0.12}, walk: {from: 0, to: TOTAL, ease: 'inOut', delay: 0.15, dur: 2.75}, line: 'comet', ghost: 0.55},
 		// ACTE 2 — La révélation : la France, le départ, l'arrivée
 		{id: 'revelation', start: at(1), end: at(3), camera: {type: 'fly', from: {kind: 'route', dz: 0.12}, to: {kind: 'france'}, dur: 2.4, push: 0.08}, line: 'full', france: 1, departements: true, endpoints: true},
 		// ACTE 3 — Le voyage
@@ -121,7 +124,7 @@ const principal: ShortSpec = {
 		{id: 'approche', start: at(10), end: at(13), camera: {type: 'follow', zoom: [10.9, 12.45], headY: [0.6, 0.54], fly: {from: {kind: 'route'}, dur: 1.8}}, walk: {from: CG + 6.75, to: TOTAL, ease: 'out'}, line: 'walk', walker: true, ghost: 0.45, communes: 3, counter: true},
 		{id: 'arrivee', start: at(13), end: at(14, 2), camera: {type: 'hold', cam: {kind: 'end', zoom: 12.45}, push: 0.22}, walk: {from: TOTAL, to: TOTAL}, line: 'walk', town: 'arrivee', counter: true, arrival: true},
 		// ACTE 5 — Le message
-		{id: 'message', start: at(14, 2), end: at(18), camera: {type: 'fly', from: {kind: 'end', zoom: 12.67}, to: {kind: 'route'}, dur: 2.0, push: 0.1}, line: 'full', dim: 0.6, photo: 'grandMere'},
+		{id: 'message', start: at(14, 2), end: at(18), camera: {type: 'fly', from: {kind: 'end', zoom: 12.67}, to: {kind: 'route'}, dur: 2.0, push: 0.1}, line: 'full', dim: 0.6},
 	],
 	texts: [
 		{id: 'accroche-1', start: 0, end: at(0, 2.5), y: HOOK_MID, enter: 'words', lines: [
@@ -129,14 +132,15 @@ const principal: ShortSpec = {
 			{t: 'la sclérose en plaques.', size: 'title', weight: 500},
 		]},
 		{id: 'accroche-2', start: at(0, 2.5), end: at(1, 3), y: HOOK_TOP, enter: 'words', lines: [
-			{t: 'Son fils a décidé', size: 'title', weight: 400},
-			{t: 'de marcher', size: 'title', weight: 400},
+			{t: 'Son fils, Olivier,', size: 'title', weight: 400},
+			{t: 'a décidé de courir', size: 'title', weight: 400},
 			{t: '556 KM', size: 'display', tone: 'accent', delay: 0.4},
 			{t: 'pour elle.', size: 'title', weight: 600, delay: 1.2},
 		]},
 		{id: 'echelle', start: at(2), end: at(2, 3.7), y: HOOK_TOP, enter: 'land', lines: [
-			{t: '6', size: 'figure', suffix: 'départements'},
-			{t: '128', size: 'figure', suffix: 'communes traversées', delay: 0.8},
+			{t: '10', size: 'figure', suffix: 'étapes'},
+			{t: '6', size: 'figure', suffix: 'départements', delay: 0.8},
+			{t: '128', size: 'figure', suffix: 'communes traversées', delay: 1.6},
 		]},
 		{id: 'un-pas', start: at(3, 0.15), end: at(3, 2.3), y: 520, enter: 'blur', lines: [{t: 'Un pas après l’autre.', size: 'title', weight: 400}]},
 		{id: 'reste', start: at(9, 1.5), end: at(10), y: 520, enter: 'words', lines: [{t: `Plus que ${remainingFrom(CG + 6.75)} km.`, size: 'title', weight: 500}]},
@@ -146,13 +150,14 @@ const principal: ShortSpec = {
 			{t: '**Chaque pas** compte.', size: 'title', weight: 500, delay: 0.8},
 		]},
 		{id: 'final-2', start: at(16), end: at(17), y: 760, enter: 'words', lines: [
-			{t: 'Un pas pour maman.', size: 'title', weight: 500},
+			{t: 'Un pas pour ma maman.', size: 'title', weight: 500},
 			{t: 'Pour la **SEP**.', size: 'title', weight: 500, delay: 0.8},
 		]},
 		{id: 'signature', start: at(17), end: at(18), y: 700, enter: 'blur', lines: [
-			{t: 'Un pas pour maman', size: 'title', weight: 500},
+			{t: 'Un pas pour ma maman', size: 'title', weight: 500},
 			{t: '556 km pour la SEP', size: 'label', tone: 'dim', upper: true},
-			{t: INSTAGRAM, size: 'label', weight: 600, delay: 0.5},
+			{t: 'Départ en janvier 2028', size: 'label', tone: 'dim', delay: 0.3},
+			{t: INSTAGRAM, size: 'label', weight: 600, delay: 0.6},
 			{t: 'Partagez cette aventure.', size: 'label', tone: 'accent', weight: 500, delay: 1.0},
 		]},
 	],
@@ -166,13 +171,15 @@ const s30: ShortSpec = {
 	composition: 'Short-30s',
 	durationSec: at(9, 2),
 	audio: 'audio/shorts/s30.wav',
+	// dès l'image 0 : « 556 KM à pied, pour sa maman. »
+	photos: [{who: 'papa', start: 0, end: at(0, 3)}, {who: 'grandMere', start: at(8, 2), end: at(9, 2)}],
 	shots: [
-		{id: 'accroche', start: 0, end: at(1), camera: {type: 'hold', cam: {kind: 'route'}, push: 0.12}, walk: {from: 0, to: TOTAL, ease: 'inOut', delay: 0.1, dur: 2.8}, line: 'comet', ghost: 0.55, photo: 'papa'},
+		{id: 'accroche', start: 0, end: at(1), camera: {type: 'hold', cam: {kind: 'route'}, push: 0.12}, walk: {from: 0, to: TOTAL, ease: 'inOut', delay: 0.1, dur: 2.8}, line: 'comet', ghost: 0.55},
 		{id: 'revelation', start: at(1), end: at(2), camera: {type: 'fly', from: {kind: 'route', dz: 0.12}, to: {kind: 'france'}, dur: 1.9, push: 0.06}, line: 'full', france: 1, departements: true, endpoints: true},
 		journeyShot(at(2), at(6), 0, [[MONTAGE_TOWNS.s30[0], at(3)], [MONTAGE_TOWNS.s30[1], at(3, 3)], [MONTAGE_TOWNS.s30[2], at(4, 2)], [MONTAGE_TOWNS.s30[3], at(5, 1)]], CG + 6.75, {type: 'journey', zoomFast: 8.8, zoomTown: 10.8, zoomEnd: 11.0, fly: {from: {kind: 'france', dz: 0.06}, dur: 1.4}}),
 		{id: 'approche', start: at(6), end: at(7), camera: {type: 'follow', zoom: [11.0, 12.3], headY: [0.6, 0.54]}, walk: {from: CG + 6.75, to: TOTAL, ease: 'out'}, line: 'walk', walker: true, ghost: 0.45, communes: 2, counter: true},
 		{id: 'arrivee', start: at(7), end: at(7, 3), camera: {type: 'hold', cam: {kind: 'end', zoom: 12.3}, push: 0.15}, walk: {from: TOTAL, to: TOTAL}, line: 'walk', town: 'arrivee', counter: true, arrival: true},
-		{id: 'message', start: at(7, 3), end: at(9, 2), camera: {type: 'fly', from: {kind: 'end', zoom: 12.45}, to: {kind: 'route'}, dur: 1.8, push: 0.08}, line: 'full', dim: 0.6, photo: 'grandMere'},
+		{id: 'message', start: at(7, 3), end: at(9, 2), camera: {type: 'fly', from: {kind: 'end', zoom: 12.45}, to: {kind: 'route'}, dur: 1.8, push: 0.08}, line: 'full', dim: 0.6},
 	],
 	texts: [
 		{id: 'accroche-1', start: 0, end: at(0, 3), y: HOOK_TOP, enter: 'land', lines: [
@@ -185,9 +192,10 @@ const s30: ShortSpec = {
 		]},
 		{id: 'final-1', start: at(7, 3), end: at(8, 2), y: 760, enter: 'blur', lines: [{t: '**Chaque pas** compte.', size: 'title', weight: 500}]},
 		{id: 'signature', start: at(8, 2), end: at(9, 2), y: 700, enter: 'words', lines: [
-			{t: 'Un pas pour maman.', size: 'title', weight: 500},
+			{t: 'Un pas pour ma maman.', size: 'title', weight: 500},
 			{t: 'Pour la **SEP**.', size: 'title', weight: 500, delay: 0.5},
-			{t: INSTAGRAM, size: 'label', weight: 600, delay: 1.1},
+			{t: 'Départ en janvier 2028.', size: 'label', tone: 'dim', delay: 0.9},
+			{t: INSTAGRAM, size: 'label', weight: 600, delay: 1.2},
 			{t: 'Partagez cette aventure.', size: 'label', tone: 'accent', weight: 500, delay: 1.5},
 		]},
 	],
@@ -201,9 +209,10 @@ const teaser: ShortSpec = {
 	composition: 'Teaser-15s',
 	durationSec: at(4, 3),
 	audio: 'audio/shorts/teaser.wav',
+	photos: [{who: 'papa', start: at(0, 3), end: at(1, 2)}, {who: 'grandMere', start: at(3, 3.25), end: at(4, 3)}],
 	shots: [
-		{id: 'trait', start: 0, end: at(3), camera: {type: 'hold', cam: {kind: 'route'}, push: 0.2}, walk: {from: 0, to: TOTAL, ease: 'inOut', delay: at(0, 3), dur: at(3) - at(0, 3)}, line: 'walk', walker: true, ghost: 0.6, endpoints: true, photo: 'papa'},
-		{id: 'arrivee', start: at(3), end: at(4, 3), camera: {type: 'hold', cam: {kind: 'route'}, push: 0.1}, walk: {from: TOTAL, to: TOTAL}, line: 'walk', arrival: true, dim: 0.55, photo: 'grandMere'},
+		{id: 'trait', start: 0, end: at(3), camera: {type: 'hold', cam: {kind: 'route'}, push: 0.2}, walk: {from: 0, to: TOTAL, ease: 'inOut', delay: at(0, 3), dur: at(3) - at(0, 3)}, line: 'walk', walker: true, ghost: 0.6, endpoints: true},
+		{id: 'arrivee', start: at(3), end: at(4, 3), camera: {type: 'hold', cam: {kind: 'route'}, push: 0.1}, walk: {from: TOTAL, to: TOTAL}, line: 'walk', arrival: true, dim: 0.55},
 	],
 	texts: [
 		{id: 'accroche-1', start: 0, end: at(0, 3), y: HOOK_MID, enter: 'words', lines: [
@@ -211,17 +220,18 @@ const teaser: ShortSpec = {
 			{t: 'la sclérose en plaques.', size: 'title', weight: 500},
 		]},
 		{id: 'compteur', start: at(0, 3), end: at(3, 1), y: HOOK_TOP, enter: 'words', lines: [
-			{t: 'Son fils a décidé', size: 'title', weight: 400},
-			{t: 'de marcher', size: 'title', weight: 400},
+			{t: 'Son fils, Olivier,', size: 'title', weight: 400},
+			{t: 'a décidé de courir', size: 'title', weight: 400},
 			{t: '{km} KM', size: 'display', tone: 'accent', live: true, delay: 0.3},
 			{t: 'pour elle.', size: 'title', weight: 600, delay: 0.8},
 		]},
 		{id: 'final-1', start: at(3, 1), end: at(3, 3) + BAR * 0.25, y: 760, enter: 'blur', lines: [{t: '**Chaque pas** compte.', size: 'title', weight: 500}]},
 		{id: 'signature', start: at(3, 3.25), end: at(4, 3), y: 700, enter: 'words', lines: [
-			{t: 'Un pas pour maman.', size: 'title', weight: 500},
+			{t: 'Un pas pour ma maman.', size: 'title', weight: 500},
 			{t: 'Pour la **SEP**.', size: 'title', weight: 500, delay: 0.4},
-			{t: INSTAGRAM, size: 'label', weight: 600, delay: 0.9},
-			{t: 'Partagez cette aventure.', size: 'label', tone: 'accent', weight: 500, delay: 1.2},
+			{t: 'Départ en janvier 2028.', size: 'label', tone: 'dim', delay: 0.7},
+			{t: INSTAGRAM, size: 'label', weight: 600, delay: 1.0},
+			{t: 'Partagez cette aventure.', size: 'label', tone: 'accent', weight: 500, delay: 1.3},
 		]},
 	],
 };

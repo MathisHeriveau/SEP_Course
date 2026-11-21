@@ -27,10 +27,11 @@ export const Thumbnail: React.FC = () => {
 					<br />
 					pour la SEP.
 				</div>
+				<div style={{fontFamily: FONTS.text, fontSize: SHORT_TYPE.label, color: COLORS.accent, letterSpacing: '0.22em', textTransform: 'uppercase', fontWeight: 600, marginTop: 30}}>Janvier 2028</div>
 			</div>
 			{/* Signature : dans la zone utile du recadrage 3:4 des grilles de profil */}
 			<div style={{position: 'absolute', left: 80, bottom: 380, textShadow: '0 0 18px rgba(0,0,0,0.9)'}}>
-				<div style={{fontFamily: FONTS.text, fontSize: SHORT_TYPE.label, color: COLORS.offWhite, letterSpacing: '0.22em', textTransform: 'uppercase', fontWeight: 500}}>Un pas pour maman</div>
+				<div style={{fontFamily: FONTS.text, fontSize: SHORT_TYPE.label, color: COLORS.offWhite, letterSpacing: '0.22em', textTransform: 'uppercase', fontWeight: 500}}>Un pas pour ma maman</div>
 				<div style={{fontFamily: FONTS.text, fontSize: SHORT_TYPE.label, color: COLORS.offWhite, fontWeight: 600, marginTop: 14, letterSpacing: '0.01em'}}>{INSTAGRAM}</div>
 			</div>
 			<PostFx grain={0.02} />

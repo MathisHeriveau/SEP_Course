@@ -1,4 +1,4 @@
-// « Un pas pour maman — 556 km pour la SEP »
+// « Un pas pour ma maman — 556 km pour la SEP »
 // The same component renders the 16:9 film and the 9:16 Instagram version; layout adapts to the frame.
 import React from 'react';
 import {AbsoluteFill, Sequence, useVideoConfig} from 'remotion';

@@ -3,7 +3,7 @@ import React from 'react';
 import {useCurrentFrame} from 'remotion';
 import {COLORS, FONTS, TYPE} from '../config/theme';
 import {TEXTS, TIMELINE} from '../config/film';
-import {DEPARTEMENT_COUNT, DISPLAY_TOTAL_KM, TRAVERSED_COUNT, WAYPOINT_EVENTS, displayKm, fmtCoord, fmtKm} from '../data';
+import {DEPARTEMENT_COUNT, DISPLAY_TOTAL_KM, ETAPE_COUNT, TRAVERSED_COUNT, WAYPOINT_EVENTS, displayKm, fmtCoord, fmtKm} from '../data';
 import {easeOut} from '../geo/camera';
 import {ROUTE_COORDS} from '../geo/route';
 import {envelope, ramp, useLayout} from './layout';
@@ -58,12 +58,12 @@ export const Cards: React.FC = () => {
 	const coordStyle: React.CSSProperties = {fontFamily: FONTS.text, fontSize: 14 * unit, color: COLORS.offWhiteFaint, letterSpacing: '0.14em', fontVariantNumeric: 'tabular-nums'};
 
 	// Villes repères (waypoints du GPX)
-	const wp = WAYPOINT_EVENTS.map((w) => (
+	const wp = WAYPOINT_EVENTS.map((w, i) => (
 		<PlaceCard
 			key={w.gpxName}
 			t={t}
 			window={[w.t - 0.9, w.t + 3.4]}
-			kicker={`km ${fmtKm(displayKm(w.km))}`}
+			kicker={`${TEXTS.etapeLabel} ${i + 1} · km ${fmtKm(displayKm(w.km))}`}
 			kickerColor={COLORS.red}
 			name={w.communeNom}
 			sub={w.commune?.departementNom ?? ''}
@@ -102,7 +102,7 @@ export const Cards: React.FC = () => {
 			<PlaceCard
 				t={t}
 				window={T.departCard}
-				kicker={TEXTS.departLabel}
+				kicker={`${TEXTS.departLabel} · ${TEXTS.etapeLabel} 1`}
 				kickerColor={COLORS.accent}
 				name="Noaillan"
 				sub="Gironde"
@@ -113,7 +113,7 @@ export const Cards: React.FC = () => {
 			<PlaceCard
 				t={t}
 				window={T.arrivalCard}
-				kicker={TEXTS.arrivalLabel}
+				kicker={`${TEXTS.arrivalLabel} · ${TEXTS.etapeLabel} ${ETAPE_COUNT}`}
 				kickerColor={COLORS.red}
 				name="Cossé-le-Vivien"
 				sub="Mayenne"
@@ -131,8 +131,9 @@ export const Cards: React.FC = () => {
 			{statsO > 0 && (
 				<div style={{position: 'absolute', opacity: statsO, textShadow: shadow, ...(portrait ? {left: safe.left, bottom: safe.bottom} : {left: width * 0.53, top: height * 0.33})}}>
 					{stat(fmtKm(DISPLAY_TOTAL_KM), 'kilomètres', T.statsCard[0])}
-					{stat(String(TRAVERSED_COUNT), 'communes traversées', T.statsCard[0] + 0.5)}
-					{stat(String(DEPARTEMENT_COUNT), 'départements', T.statsCard[0] + 1.0)}
+					{stat(String(ETAPE_COUNT), 'étapes', T.statsCard[0] + 0.45)}
+					{stat(String(TRAVERSED_COUNT), 'communes traversées', T.statsCard[0] + 0.9)}
+					{stat(String(DEPARTEMENT_COUNT), 'départements', T.statsCard[0] + 1.35)}
 				</div>
 			)}
 		</>

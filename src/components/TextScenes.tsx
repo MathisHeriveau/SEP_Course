@@ -66,12 +66,15 @@ export const TitleCard: React.FC<{window: readonly [number, number]; withHandle?
 	return (
 		<AbsoluteFill style={{...center, opacity: o}}>
 			<div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-				<div style={{fontFamily: FONTS.title, fontWeight: 300, fontSize: (portrait ? 64 : TYPE.hero) * unit, color: COLORS.offWhite, textTransform: 'uppercase', letterSpacing: `${0.42 - 0.12 * k}em`, marginRight: `-${0.42 - 0.12 * k}em`, lineHeight: 1.1, textAlign: 'center', maxWidth: portrait ? 900 * unit : undefined}}>
-					{TEXTS.title}
+				<div style={{fontFamily: FONTS.title, fontWeight: 300, fontSize: (portrait ? 64 : TYPE.hero) * unit, color: COLORS.offWhite, textTransform: 'uppercase', letterSpacing: `${0.42 - 0.12 * k}em`, marginRight: `-${0.42 - 0.12 * k}em`, lineHeight: 1.1, textAlign: 'center'}}>
+					{portrait ? TEXTS.titleLines.map((l) => <div key={l}>{l}</div>) : TEXTS.title}
 				</div>
 				<div style={{width: 120 * unit * line, height: 1.5 * unit, backgroundColor: COLORS.accent, margin: `${34 * unit}px 0`}} />
 				<div style={{fontFamily: FONTS.text, fontWeight: 400, fontSize: 24 * unit, color: COLORS.offWhiteDim, letterSpacing: '0.3em', marginRight: '-0.3em', textTransform: 'uppercase', opacity: ramp(t, window[0] + 0.9, window[0] + 2.2)}}>
 					{TEXTS.subtitle}
+				</div>
+				<div style={{fontFamily: FONTS.text, fontWeight: 500, fontSize: 18 * unit, color: COLORS.accent, letterSpacing: '0.34em', marginRight: '-0.34em', textTransform: 'uppercase', marginTop: 22 * unit, opacity: ramp(t, window[0] + 1.3, window[0] + 2.5)}}>
+					{TEXTS.date}
 				</div>
 				{withHandle && (
 					<div style={{position: 'absolute', bottom: (portrait ? 300 : 54) * unit, left: 0, right: 0, textAlign: 'center', fontFamily: FONTS.text, fontSize: 12.5 * unit, color: COLORS.offWhiteFaint, letterSpacing: '0.08em', opacity: ramp(t, window[0] + 2.2, window[0] + 3.4), padding: `0 ${60 * unit}px`}}>
